@@ -8,10 +8,10 @@ class Solution {
           }
         }
         int times;
-        int ans = 0;
+       
         int mid = start+(end-start)/2;
 
-        while(start<=end){
+        while(start<end){
         mid = start+(end-start)/2;
            times =0;
         for(int i =0; i<piles.length; i++){
@@ -19,23 +19,24 @@ class Solution {
                 break;
             }
             int pile = piles[i];
-            if(pile %mid == 0){
-                times += pile/mid;
-            }
-            else{
-                times += 1+(pile/mid);
-            }
+            // if(pile %mid == 0){
+            //     times += pile/mid;
+            // }
+            // else{
+            //     times += 1+(pile/mid);
+            // }
+            times += (pile+mid-1)/mid;
        
         }
         if(times>h){
             start = mid +1;
         }
         else{
-            ans = mid;
-            end = mid-1;
+           
+            end = mid;
         }
         }
       
-     return ans;
+     return start;
     }
 }
