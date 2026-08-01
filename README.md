@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/rounak-zecto99/code-forge/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 ## Recursion
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
