@@ -3,10 +3,16 @@ class Solution {
         if(x<0){
             return false;
         }
-    String str = String.valueOf(x);
-    String rev = new StringBuilder(str).reverse().toString();
-
-    return str.equals(rev);
-
+        return x == rev(x);
+     
+    }
+    public int rev(int n ){
+        int ans =0;
+        while(n>0){
+            int e = n%10;
+         ans = (ans* 10 )+ e;
+         n = n/10;
+        }
+        return ans;
     }
 }
