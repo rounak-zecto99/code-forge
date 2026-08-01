@@ -37,4 +37,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/rounak-zecto99/code-forge/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
