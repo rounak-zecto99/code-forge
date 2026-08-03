@@ -7,6 +7,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0004-median-of-two-sorted-arrays) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
+| [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 ## Binary Search
@@ -39,6 +40,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 ## Math
 |  |
@@ -61,4 +63,8 @@
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 <!---LeetCode Topics End-->
