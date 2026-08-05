@@ -67,6 +67,7 @@
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
+| [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 ## Memoization
 |  |
@@ -79,12 +80,14 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 ## Two Pointers
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
+| [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
@@ -108,6 +111,7 @@
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 ## Simulation
