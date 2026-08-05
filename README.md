@@ -9,6 +9,7 @@
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
@@ -20,6 +21,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0004-median-of-two-sorted-arrays) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -83,6 +85,7 @@
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -115,4 +118,16 @@
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
