@@ -136,6 +136,7 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
 ## Pigeonhole Principle
 |  |
 | ------- |
