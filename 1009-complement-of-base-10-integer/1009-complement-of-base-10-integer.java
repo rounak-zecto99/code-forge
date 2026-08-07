@@ -1,15 +1,10 @@
 class Solution {
-    public int bitwiseComplement(int n) {
-        if(n == 0) return 1;
-        // int digit = (int) (Math.log(n)/Math.log(2))+1;
-        int mask =0;
-        int temp = n;
-       while(temp>0){
-        mask = (mask<<1)|1;
-        temp = temp>>1;
-       }
-        
-        
-        return n^mask;
-    }
+  public int bitwiseComplement(int n) {
+    if(n == 0) return 1;
+
+    int mask = Integer.highestOneBit(n);
+    mask = (mask << 1) - 1;
+
+    return n ^ mask;
+}
 }
