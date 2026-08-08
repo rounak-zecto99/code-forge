@@ -18,3 +18,4 @@ class Solution {
       return x * dick(x,n-1);
     }
 }
+
