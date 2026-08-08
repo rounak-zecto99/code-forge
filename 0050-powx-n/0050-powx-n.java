@@ -12,7 +12,7 @@ class Solution {
            if(n == 0){
             return 1;
         }
-      if (n%2==0){
+      if ((n&1)==0){
           return dick(x*x,n/2);
       }
       return x * dick(x,n-1);
