@@ -6,9 +6,9 @@ class Solution {
          for(int i=0; i<nums.length; i++){
              int s = list.size();
              int start =0;
-            if(i>0 && nums[i] == nums[i-1]){
-                start = end+1;
-            }
+            // if(i>0 && nums[i] == nums[i-1]){
+            //     start = end+1;
+            // }
              end = s-1;
            for(int j=start ; j<s; j++){
              List<Integer> row = new ArrayList<>(list.get(j));
