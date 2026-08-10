@@ -15,7 +15,7 @@ class Solution {
 
                   //window is ready to produce answers
                 
-               if(!dq.isEmpty() && i>=k-1 ){
+               if( i>=k-1 ){
                 ans[i+1-k] = nums[dq.peekFirst()];
              }
         
