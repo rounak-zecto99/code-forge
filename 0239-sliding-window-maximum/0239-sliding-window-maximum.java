@@ -2,7 +2,7 @@ class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         ArrayDeque <Integer> dq = new ArrayDeque<>();
         int [] ans = new int[nums.length - k +1];
-        int j =0;
+        
         for(int i=0; i<nums.length; i++){
 
              if(!dq.isEmpty() && i - dq.peekFirst()>=k){
@@ -13,7 +13,7 @@ class Solution {
             }
              dq.addLast(i);
 
-                  //dick is ready to produce answers
+                  
                 
                if( i>=k-1 ){
                 ans[i+1-k] = nums[dq.peekFirst()];
