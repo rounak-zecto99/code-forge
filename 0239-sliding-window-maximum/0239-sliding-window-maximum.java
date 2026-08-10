@@ -8,12 +8,12 @@ class Solution {
              if(!dq.isEmpty() && i - dq.peekFirst()>=k){
                 dq.removeFirst();
              }           
-             while(!dq.isEmpty() && (nums[dq.peekLast()] < nums[i] && (i - dq.peekLast())<k)){
+             while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i]){
                 dq.removeLast();
             }
              dq.addLast(i);
 
-                  //window is ready to produce answers
+                  //dick is ready to produce answers
                 
                if( i>=k-1 ){
                 ans[i+1-k] = nums[dq.peekFirst()];
