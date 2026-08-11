@@ -8,6 +8,7 @@
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -181,6 +182,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rounak-zecto99/code-forge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 ## Bracket Sequences
 |  |
