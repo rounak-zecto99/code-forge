@@ -21,6 +21,7 @@
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 ## Binary Search
 |  |
@@ -33,6 +34,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rounak-zecto99/code-forge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 ## Dynamic Programming
 |  |
@@ -65,6 +67,7 @@
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
+| [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 ## Math
 |  |
@@ -106,6 +109,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
+| [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Sliding Window
 |  |
 | ------- |
