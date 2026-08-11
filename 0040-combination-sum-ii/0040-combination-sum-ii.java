@@ -10,13 +10,15 @@ class Solution {
             list.add(new ArrayList<>(row));
             return;
            }
-           if (index == candidates.length || target < 0){
+           if (index == candidates.length){
             return;
            }
            for(int i=index; i<candidates.length; i++){
             if(i>index && candidates[i] == candidates[i-1]){
                 continue;
             }
+            if(candidates[i] > target)
+                 break;
             row.add(candidates[i]);
              helper(list,row,candidates,target-candidates[i],i+1);
              row.remove(row.size()-1);
