@@ -1,22 +1,33 @@
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
+
         List<List<Integer>> list = new ArrayList<>();
-        list.add(new ArrayList<>());
-        int end = 0;
-        for(int i=0; i<nums.length; i++){
-            int size = list.size();
-            int start =0;
-            if(i>0 && nums[i] == nums[i-1]){
-                start = end +1;
-            }
-            end = size-1;
-            for(int j=start; j<size; j++){
-                List <Integer> row = new ArrayList<>(list.get(j));
-                row.add(nums[i]);
-                list.add(row);
-            }
-        }
+        helper(0, nums, new ArrayList<>(), list);
+
         return list;
+    }
+
+    public void helper(int index, int[] nums, List<Integer> row, List<List<Integer>> list) {
+
+        // every path is a valid subset
+        list.add(new ArrayList<>(row));
+
+        for (int i = index; i < nums.length; i++) {
+
+            // skip duplicates at the same recursion level
+            if (i > index && nums[i] == nums[i - 1]) {
+                continue;
+            }
+
+            // choose
+            row.add(nums[i]);
+
+            // move forward
+            helper(i + 1, nums, row, list);
+
+            // undo choice
+            row.remove(row.size() - 1);
+        }
     }
 }
