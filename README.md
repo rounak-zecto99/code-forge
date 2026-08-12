@@ -21,6 +21,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rounak-zecto99/code-forge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -37,6 +38,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rounak-zecto99/code-forge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
