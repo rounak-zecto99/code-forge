@@ -26,7 +26,7 @@ class Solution {
 
         for(int i=0; i<curr.length(); i++){
             char ch = curr.charAt(i);
-            s.append(ch);
+             s.append(ch);
              helper(list, s , letter, digits, index+1);
              s.deleteCharAt(s.length()-1);
         }
