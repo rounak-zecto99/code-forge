@@ -13,12 +13,12 @@ class Solution {
            "tuv",
            "wxyz"
         };
-         helper(list, "" , letter, digits, 0);
+         helper(list, new StringBuilder() , letter, digits, 0);
          return list;
     }
-    public void helper( List<String> list, String s, String []letter, String digits, int index){
+    public void helper( List<String> list, StringBuilder s, String []letter, String digits, int index){
           if(index == digits.length()){
-            list.add(s);
+            list.add(s.toString());
             return;
           }
 
@@ -26,7 +26,9 @@ class Solution {
 
         for(int i=0; i<curr.length(); i++){
             char ch = curr.charAt(i);
-             helper(list, s+ch , letter, digits, index+1);
+            s.append(ch);
+             helper(list, s , letter, digits, index+1);
+             s.deleteCharAt(s.length()-1);
         }
     }
 }
