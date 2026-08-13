@@ -9,6 +9,7 @@
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
@@ -193,6 +194,7 @@
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
@@ -233,4 +235,8 @@
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
