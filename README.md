@@ -53,6 +53,7 @@
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
+| [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
@@ -145,6 +146,7 @@
 | [0008-string-to-integer-atoi](https://github.com/rounak-zecto99/code-forge/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rounak-zecto99/code-forge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Stack
@@ -201,6 +203,7 @@
 | [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 ## Bracket Sequences
