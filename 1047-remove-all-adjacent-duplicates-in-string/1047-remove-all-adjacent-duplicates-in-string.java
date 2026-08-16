@@ -11,11 +11,6 @@ class Solution {
                 arr[++top] = s.charAt(i);
             }
         }
-        StringBuilder sb = new StringBuilder();
-        for(int a=0; a<top+1; a++){
-         
-          sb.append(arr[a]);
-        }
-        return sb.toString();
+       return new String(arr, 0, top + 1);
     }
 }
