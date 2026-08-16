@@ -160,6 +160,7 @@
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+| [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
@@ -216,6 +217,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rounak-zecto99/code-forge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+| [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 ## Backtracking
@@ -242,6 +244,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
+| [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -294,4 +297,8 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
