@@ -162,6 +162,7 @@
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Stack
 |  |
@@ -174,6 +175,7 @@
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Simulation
 |  |
