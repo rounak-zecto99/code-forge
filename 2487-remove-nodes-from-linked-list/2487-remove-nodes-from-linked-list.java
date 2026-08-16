@@ -16,7 +16,7 @@ class Solution {
         head = reverse(head);
 
         ListNode temp = head;
-        int max = head.val;
+        int max = temp.val;
         while(temp!=null && temp.next!=null){
            if(temp.next.val < max){
             temp.next = temp.next.next;
