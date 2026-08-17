@@ -9,7 +9,7 @@ class Solution {
             hash[s.charAt(i) - 'A']++;
             maxf = Math.max(maxf,hash[s.charAt(i) - 'A']);
 
-            if((i-back+1)-maxf > k){
+            while((i-back+1)-maxf > k){
                 char curr = s.charAt(back++);
                 hash[curr - 'A']--; //we never decrease the freq as reduction wont give us a better answer we have to have a freq thats greater than the current to find a valid answer
             }
