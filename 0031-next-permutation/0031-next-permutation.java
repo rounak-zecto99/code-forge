@@ -4,9 +4,9 @@ class Solution {
         nums[a] = nums[b];
         nums[b] = temp;
     }
-    public void reverse(int[] arr) {
-    int left = 0;
-    int right = arr.length - 1;
+    public void reverse(int[] arr,int left,int right) {
+    // int left = 0;
+    // int right = arr.length - 1;
 
     while (left < right) {
         int temp = arr[left];
@@ -27,7 +27,7 @@ class Solution {
             }
         }
           if(index == -1){
-            reverse(nums);
+            reverse(nums,0, nums.length - 1);
             return;
         }
         for(int j=nums.length-1; j >index; j--){
@@ -36,8 +36,8 @@ class Solution {
                 break;
             }
         }
-       Arrays.sort(nums,index+1,nums.length);
         
+        reverse(nums,index+1, nums.length - 1);
     }
    
 }
