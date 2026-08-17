@@ -1,20 +1,20 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        HashMap <Character, Integer> map = new HashMap<>();
+        int [] hash = new int [26];
         int maxf = 0;
-        int left =0; 
+        int back =0;
         int ans =0;
-        for(int i=0;i<s.length();i++){
 
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0) +1);
-            maxf = Math.max(maxf,map.get(s.charAt(i)));
-            
-            while((i-left+1) - maxf >k){
-                char curr = s.charAt(left++);
-                map.put(curr,map.get(curr)-1);
+        for(int i=0; i<s.length(); i++){
+            hash[s.charAt(i) - 'A']++;
+            maxf = Math.max(maxf,hash[s.charAt(i) - 'A']);
 
+            while((i-back+1)-maxf > k){
+                char curr = s.charAt(back++);
+                hash[curr - 'A']--;
             }
-            ans = Math.max(ans, i - left + 1);
+            ans = Math.max(ans,(i-back+1));
+        
         }
         return ans;
     }
