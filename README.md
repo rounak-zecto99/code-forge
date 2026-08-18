@@ -38,6 +38,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Binary Search
@@ -71,6 +72,7 @@
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -261,6 +263,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Monotonic Queue
 |  |
 | ------- |
