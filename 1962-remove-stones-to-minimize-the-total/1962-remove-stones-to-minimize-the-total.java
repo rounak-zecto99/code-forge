@@ -12,11 +12,11 @@ class Solution {
 
         while (k-- > 0) {
             int x = maxHeap.poll();
-            int newVal = (x + 1) / 2;
+            int newVal = x/2;
 
-            sum -= (x - newVal);
+            sum -= newVal;
 
-            maxHeap.offer(newVal);
+            maxHeap.offer(x - newVal);
         }
 
         return (int) sum;
