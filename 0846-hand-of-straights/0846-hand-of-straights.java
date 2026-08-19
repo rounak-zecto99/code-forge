@@ -1,30 +1,40 @@
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
-        if(hand.length %groupSize !=0)
-        return false;
-    
-    HashMap <Integer,Integer> map = new HashMap<>();
-    PriorityQueue <Integer> heap = new PriorityQueue<>();
 
-    for(int n : hand){
-        map.put(n,map.getOrDefault(n,0)+1);
-    }
-    for(int a:map.keySet()){
-        heap.offer(a);
-    }
-    while(!heap.isEmpty()){
-        int start = heap.peek();
+        if (hand.length % groupSize != 0)
+            return false;
 
-        for(int i=0; i<groupSize; i++){
-            int card = start+i;
-           if(map.getOrDefault(card,0) == 0)
-           return false;
-           map.put(card,map.get(card)-1);
+        HashMap<Integer, Integer> freq = new HashMap<>();
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+
+        for (int num : hand) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
-        while(!heap.isEmpty() && map.get(heap.peek()) == 0){
-            heap.poll();
+
+        for (int num : freq.keySet()) {
+            heap.offer(num);
         }
-    }
-    return true;
+
+        while (!heap.isEmpty()) {
+
+            int start = heap.peek();
+
+            for (int i = 0; i < groupSize; i++) {
+
+                int card = start + i;
+
+                if (freq.getOrDefault(card, 0) == 0)
+                    return false;
+
+                freq.put(card, freq.get(card) - 1);
+            }
+
+            while (!heap.isEmpty() &&
+                   freq.get(heap.peek()) == 0) {
+                heap.poll();
+            }
+        }
+
+        return true;
     }
 }
