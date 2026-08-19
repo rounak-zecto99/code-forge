@@ -4,13 +4,11 @@ public:
         sort(g.begin(), g.end());
         sort(s.begin(), s.end());
 
-        int child = 0, cookie = 0;
+        int child = 0;
 
-        while (child < g.size() && cookie < s.size()) {
-            if (s[cookie] >= g[child])
-                child++;
-
-            cookie++;
+        for (int cookie : s) {
+            if (child < g.size() && cookie >= g[child])
+                ++child;
         }
 
         return child;
