@@ -32,6 +32,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rounak-zecto99/code-forge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -74,6 +75,7 @@
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Prefix Sum
 |  |
@@ -96,6 +98,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
@@ -235,6 +238,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 ## Backtracking
 |  |
