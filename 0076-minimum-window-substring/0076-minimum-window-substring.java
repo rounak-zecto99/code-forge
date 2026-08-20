@@ -1,53 +1,49 @@
 class Solution {
     public String minWindow(String s, String t) {
-        //  int[] freq = new int[128];
-        //  for(int n : t.toCharArray()){
-        //     freq[n-'A']++;
-        //  }
-        HashMap<Character, Integer> need = new HashMap<>();
-        HashMap<Character, Integer> have = new HashMap<>();
 
-        for (char n : t.toCharArray()) {
-            need.put(n, need.getOrDefault(n, 0) + 1);
+        int[] need = new int[128];
+
+        for (char c : t.toCharArray()) {
+            need[c]++;
         }
-        int start = -1;
-        int end = s.length();
+
         int left = 0;
-        int size = 0;
-        int req = t.length();
+        int required = t.length();
+
+        int start = 0;
+        int minLen = Integer.MAX_VALUE;
 
         for (int right = 0; right < s.length(); right++) {
-            char ch = s.charAt(right);
 
-            if (need.containsKey(ch)) {
-                have.put(ch, have.getOrDefault(ch, 0) + 1);
+            char c = s.charAt(right);
 
-                if (have.get(ch) <= need.get(ch))
-                    req--;
+            if (need[c] > 0) {
+                required--;
             }
-            while (req == 0) {
-                if (start == -1 || right - left < end - start) {
+
+            need[c]--;
+
+            while (required == 0) {
+
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
                     start = left;
-                    end = right;
                 }
 
-                char back = s.charAt(left);
+                char remove = s.charAt(left);
 
-                if (!need.containsKey(back)) {
-                    left++;
-                } else if (have.get(back) > need.get(back)) {
-                    have.put(back, have.get(back) - 1);
-                    left++;
-                } else {
-                    break;
+                need[remove]++;
+
+                if (need[remove] > 0) {
+                    required++;
                 }
+
+                left++;
             }
-
         }
-            if (start != -1)
-                return s.substring(start, end + 1);
 
-            return "";
-
-        }
+        return minLen == Integer.MAX_VALUE
+                ? ""
+                : s.substring(start, start + minLen);
     }
+}
