@@ -26,6 +26,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
+| [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
