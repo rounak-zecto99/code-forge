@@ -1,29 +1,35 @@
 class Solution {
     public int minOperations(int[] nums, int x) {
-        int left =0;
-        int size =0;
-        int sum =0;
-        boolean found = false;
-        for(int num: nums){
-            sum+=num;
+
+        int total = 0;
+
+        for (int num : nums) {
+            total += num;
         }
-        if(x>sum)
-        return -1;
-        int target = sum -x;
-        sum=0;
-        for(int i=0; i<nums.length; i++){
-           sum +=nums[i];
-           while(sum>target){
-           sum -= nums[left++];
-           }
-           if(sum == target){
-            found = true;
-            size = Math.max(size,i-left+1);
-           }
+
+        if (x > total) {
+            return -1;
         }
-        if(found){
-            return nums.length - size;
+
+        int target = total - x;
+
+        int left = 0;
+        int windowSum = 0;
+        int maxLen = -1;
+
+        for (int right = 0; right < nums.length; right++) {
+
+            windowSum += nums[right];
+
+            while (windowSum > target) {
+                windowSum -= nums[left++];
+            }
+
+            if (windowSum == target) {
+                maxLen = Math.max(maxLen, right - left + 1);
+            }
         }
-        return -1;
+
+        return maxLen == -1 ? -1 : nums.length - maxLen;
     }
 }
