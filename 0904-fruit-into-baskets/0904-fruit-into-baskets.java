@@ -5,11 +5,13 @@ class Solution {
         int basket = 0;
 
         for(int i=0; i<fruits.length; i++){
-            map.put(fruits[i],i);
+            map.put(fruits[i],map.getOrDefault(fruits[i],0)+1);
 
-            if(map.size()>2){
-                int fruit = fruits[left];
-                left = Math.max(left,map.get(fruit)+1);
+            while(map.size()>2){
+                int fruit = fruits[left++];
+                map.put(fruit , map.get(fruit)-1);
+
+                if(map.get(fruit) == 0)
                 map.remove(fruit);
                 
             }
