@@ -2,6 +2,7 @@ class Solution {
     public boolean isVal(String s, int left, int right, int[][] pal) {
 
         if (left >= right) {
+             pal[left][right] = 1;
             return true;
         }
 
