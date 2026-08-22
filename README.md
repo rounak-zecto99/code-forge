@@ -129,6 +129,7 @@
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Recursion
 |  |
 | ------- |
