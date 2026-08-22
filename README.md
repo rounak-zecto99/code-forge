@@ -11,6 +11,7 @@
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
+| [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
@@ -74,6 +75,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
@@ -87,6 +89,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
