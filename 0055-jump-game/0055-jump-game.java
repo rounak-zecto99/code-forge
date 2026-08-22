@@ -1,27 +1,21 @@
 class Solution {
     public boolean canJump(int[] nums) {
-        Boolean[] dp = new Boolean[nums.length];
-        return helper(nums, 0, dp);
-    }
 
-    public boolean helper(int[] nums, int index, Boolean[] dp) {
+        int farthest = 0;
 
-        if(index >= nums.length - 1) {
-            return true;
-        }
+        for(int i = 0; i < nums.length; i++) {
 
-        if(dp[index] != null) {
-            return dp[index];
-        }
+            if(i > farthest) {
+                return false;
+            }
 
-        for(int i = index + 1; i <= index + nums[index]; i++) {
-            if(helper(nums, i, dp)) {
-                dp[index] = true;
+            farthest = Math.max(farthest, i + nums[i]);
+
+            if(farthest >= nums.length - 1) {
                 return true;
             }
         }
 
-        dp[index] = false;
-        return false;
+        return true;
     }
 }
