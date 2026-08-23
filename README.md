@@ -163,6 +163,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Two Pointers
@@ -172,6 +173,7 @@
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
+| [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
@@ -262,6 +264,7 @@
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 ## Ternary Search
 |  |
@@ -275,6 +278,7 @@
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0076-minimum-window-substring](https://github.com/rounak-zecto99/code-forge/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+| [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
