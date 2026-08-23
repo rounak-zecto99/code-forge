@@ -114,6 +114,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 ## Sorting
 |  |
@@ -121,6 +122,7 @@
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
@@ -165,6 +167,7 @@
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0328-odd-even-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0328-odd-even-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
@@ -177,6 +180,7 @@
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -385,6 +389,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 ## Tournament Sort
 |  |
 | ------- |
