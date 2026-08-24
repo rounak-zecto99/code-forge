@@ -32,7 +32,7 @@ class Solution {
      int carry =0;
      int val = 0;
 
-     while(l1!=null || l2!=null || carry==1){
+     while(l1!=null || l2!=null || carry!=0){
         if(l1!=null && l2!=null){
              val = l1.val + l2.val+carry;
              ListNode next = new ListNode(val%10);
