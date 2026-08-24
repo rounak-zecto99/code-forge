@@ -136,6 +136,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/rounak-zecto99/code-forge/tree/master/0009-palindrome-number) |
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
@@ -146,6 +147,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
@@ -162,6 +164,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
