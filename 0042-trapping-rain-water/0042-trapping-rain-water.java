@@ -4,23 +4,23 @@ class Solution {
         int right = height.length - 1;
 
         int leftmax = 0;
-        int rightmax = right;
+        int rightmax = 0;
 
         int water = 0;
 
         while (left <= right) {
             if (height[left] <= height[right]) {
-                if (height[left] >= height[leftmax]) {
-                    leftmax = left;
+                if (height[left] >= leftmax) {
+                    leftmax = height[left];
                 } else {
-                    water += height[leftmax] - height[left];
+                    water += leftmax - height[left];
                 }
                 left++;
             } else {
-                if (height[right] >= height[rightmax]) {
-                    rightmax = right;
+                if (height[right] >= rightmax) {
+                    rightmax = height[right];
                 } else {
-                    water += height[rightmax] - height[right];
+                    water += rightmax - height[right];
 
                 }
                 right--;
