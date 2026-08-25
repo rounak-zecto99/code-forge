@@ -21,8 +21,9 @@ class Solution {
                 else if(target<newsum){
                     end --;
                 }
-                else{//equals
-                 return newsum;
+                else{
+                    currentSum = newsum;
+                    return newsum;
                 }
              }
         }
