@@ -11,6 +11,7 @@
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
@@ -76,6 +77,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
@@ -181,6 +183,7 @@
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
@@ -239,6 +242,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
@@ -256,6 +260,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
