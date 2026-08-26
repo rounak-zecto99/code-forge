@@ -1,21 +1,22 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int [] hash = new int [26];
+        int [] freq = new int[26];
         int maxf = 0;
         int back =0;
-        int ans =0;
+        int size=0;
 
-        for(int i=0; i<s.length(); i++){
-            hash[s.charAt(i) - 'A']++;
-            maxf = Math.max(maxf,hash[s.charAt(i) - 'A']);
+        for(int i=0; i<s.length();i++){
+            char a = s.charAt(i);
+           freq[a-'A']++;
+           maxf = Math.max(maxf,freq[a-'A']);
 
-            while((i-back+1)-maxf > k){
-                char curr = s.charAt(back++);
-                hash[curr - 'A']--; //we never decrease the freq as reduction wont give us a better answer we have to have a freq thats greater than the current to find a valid answer
-            }
-            ans = Math.max(ans,(i-back+1));
-        
+           while((i-back+1)-maxf > k){
+            char b = s.charAt(back++);
+            freq[b-'A']--;
+           }
+           size = Math.max(size,i-back+1);
         }
-        return ans;
+    return size;
+
     }
 }
