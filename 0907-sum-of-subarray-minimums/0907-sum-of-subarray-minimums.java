@@ -26,9 +26,9 @@ class Solution {
                 stack.pop();
             }
             if (stack.isEmpty()) {
-                nse[i] = n - i;
+                nse[i] = n ;
             } else {
-                nse[i] = stack.peek()-i;
+                nse[i] = stack.peek();
             }
             stack.push(i);
         }
@@ -50,7 +50,7 @@ class Solution {
 
         for (int i = 0; i < arr.length; i++) {
             long prev = i - pse[i];
-            long next = nse[i];
+            long next = nse[i] - i;
 
             long count = (prev * next) % mod;
             ans = (ans + ((long) arr[i] * count) % mod) % mod;
