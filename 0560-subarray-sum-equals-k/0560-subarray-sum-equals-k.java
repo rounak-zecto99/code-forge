@@ -15,11 +15,7 @@ class Solution {
                 subarr += map.get(curr);
             }
 
-            if(map.containsKey(presum)) {
-                map.put(presum, map.get(presum) + 1);
-            } else {
-                map.put(presum, 1);
-            }
+         map.put(presum, map.getOrDefault(presum,0)+1);
         }
 
         return subarr;
