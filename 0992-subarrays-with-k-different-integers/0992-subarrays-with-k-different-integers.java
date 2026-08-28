@@ -10,7 +10,7 @@ class Solution {
             map.put(nums[i], i);
             heap.offer(new int[]{nums[i], i});
 
-            while (!heap.isEmpty() && (!map.containsKey(heap.peek()[0]) || heap.peek()[1] != map.get(heap.peek()[0]))) {
+            while (!map.containsKey(heap.peek()[0]) || heap.peek()[1] != map.get(heap.peek()[0])) {
                 heap.poll();
             }
             int minKey = heap.peek()[0];
@@ -23,7 +23,7 @@ class Solution {
                 heap.poll();
 
             }
-            while (!heap.isEmpty() && (!map.containsKey(heap.peek()[0]) || heap.peek()[1] != map.get(heap.peek()[0]))) {
+            while (!map.containsKey(heap.peek()[0]) || heap.peek()[1] != map.get(heap.peek()[0])) {
                 heap.poll();
             }
             boundary = heap.peek()[1];
