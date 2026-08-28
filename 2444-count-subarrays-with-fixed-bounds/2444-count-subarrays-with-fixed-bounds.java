@@ -2,7 +2,7 @@ class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
         int lastmin = -1;
         int lastmax = -1;
-        int lastbad = -1;
+
 
         long count = 0;
         int left = 0;
@@ -15,8 +15,8 @@ class Solution {
                 lastmax = i;
             }
             if (nums[i] < minK || nums[i] > maxK) {
-                lastbad = i;
-                left = lastbad + 1;
+
+                left = i+ 1;
             }
             
             if (lastmin != -1 && lastmax != -1) {
