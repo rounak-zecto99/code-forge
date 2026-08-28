@@ -4,7 +4,6 @@ class Solution {
         int lastb = -1;
         int lastc = -1;
 
-        int left=0;
         int count=0;
 
         for(int i=0; i<s.length();i++){
@@ -21,8 +20,8 @@ class Solution {
 
             int boundary = Math.min(lasta,Math.min(lastb,lastc));
 
-            if(boundary>=left){
-                count += boundary - left+1;
+            if(boundary>=0){
+                count += boundary+1;
             }
 
         }
