@@ -1,36 +1,23 @@
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        PriorityQueue<int[]> heap = new PriorityQueue<>((a, b) -> Integer.compare(a[1], b[1]));
+        return helper(nums,k) - helper(nums,k-1);
+    }
+    public int helper(int[]nums,int k){
+        HashMap <Integer,Integer> map = new HashMap<>();
+        int count=0;
+        int left =0;
 
-        int left = 0;
-        int count = 0;
+        for(int i=0;i<nums.length;i++){
+            map.put(nums[i],map.getOrDefault(nums[i],0)+1);
 
-        for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], i);
-            heap.offer(new int[]{nums[i], i});
+            while(map.size()>k){
+                int a = nums[left++];
+                map.put(a,map.get(a)-1);
 
-            while (heap.peek()[1] != map.get(heap.peek()[0])) {
-                heap.poll();
+                if(map.get(a) == 0)
+                map.remove(a);
             }
-            int minKey = heap.peek()[0];
-            int boundary = heap.peek()[1];
-
-            if (map.size() > k) {
-
-                map.remove(minKey);
-                left = boundary + 1;
-                heap.poll();
-
-            }
-            while ( heap.peek()[1] != map.get(heap.peek()[0])) {
-                heap.poll();
-            }
-            boundary = heap.peek()[1];
-
-            if (map.size() == k) {
-                count += boundary - left + 1;
-            }
+            count+= i-left+1;
         }
         return count;
     }
