@@ -59,6 +59,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
+| [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -278,6 +279,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Simulation
 |  |
@@ -293,6 +295,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Bit Manipulation
 |  |
