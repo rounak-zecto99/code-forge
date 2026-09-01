@@ -1,34 +1,34 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> list = new ArrayList<>();
-
-        for(int i=0; i<=s.length()-p.length();i++){
-            if(isAnagram(s,p,i)){
-                list.add(i);
-            }
+        List <Integer> list = new ArrayList<>();
+        int []need = new int [26];
+        
+        for(int n: p.toCharArray()){
+            need[n - 'a']++;
         }
+        int left = 0;
+        int req = p.length();
+
+        for(int i=0;i<s.length();i++){
+            int a = s.charAt(i);
+
+            if(need[a-'a']>0)
+            req--;
+
+            need[a-'a']--;
+
+            if(i-left+1>p.length()){
+                int last = s.charAt(left++);
+                 need[last-'a']++;
+
+                 if(need[last-'a']>0)
+                    req++;
+            }
+            if(req == 0){
+                list.add(left);
+            }
+            }         
+
         return list;
-
-    }
-        public boolean isAnagram(String s, String t,int index) {
-        // if(s.length() != t.length())
-        // return false;
-    
-    int [] alphabets = new int [26];
-
-    for(int i =index; i<index+t.length() ;i++){
-        alphabets[s.charAt(i) - 'a']++;
-    }
-    for(int e : t.toCharArray()){
-        alphabets[e - 'a']--;
-    }
-    for(int j : alphabets){
-        if(j!=0)
-        return false;
-    }
-
-    return true;
-
-
     }
 }
