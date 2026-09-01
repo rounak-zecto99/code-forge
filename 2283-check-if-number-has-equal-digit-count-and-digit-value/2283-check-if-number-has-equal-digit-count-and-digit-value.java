@@ -1,0 +1,18 @@
+class Solution {
+    public boolean digitCount(String num) {
+        int [] freq = new int[10];
+        
+        for(int i=0; i<num.length(); i++){
+            freq[i]+=num.charAt(i) - '0';
+        }
+        for(int i=0; i<num.length(); i++){
+            freq[num.charAt(i) - '0']--;
+        }
+        for(int nums:freq){
+            if(nums!=0){
+                return false;
+            }
+        }
+        return true;
+    }
+}
