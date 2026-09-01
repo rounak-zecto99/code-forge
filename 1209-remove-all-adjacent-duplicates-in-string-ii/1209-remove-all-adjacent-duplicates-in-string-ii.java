@@ -1,6 +1,6 @@
 class Solution {
     public String removeDuplicates(String s, int k) {
-        Stack<int[]> stack = new Stack<>();
+        Deque<int[]> stack = new ArrayDeque<>();
 
         for(char ch: s.toCharArray()){
             if(!stack.isEmpty() && stack.peek()[0] == ch){
@@ -19,7 +19,7 @@ class Solution {
             }
         }
         
-        return sb.toString();
+        return sb.reverse().toString();
 
     }
 }
