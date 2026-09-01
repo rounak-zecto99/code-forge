@@ -1,25 +1,40 @@
 class Solution {
     public String removeDuplicates(String s, int k) {
-        Stack<int[]> stack = new Stack<>();
+        Stack <int[]> stack = new Stack<>();
+        boolean dup = false;
 
-        for(char ch: s.toCharArray()){
-            if(!stack.isEmpty() && stack.peek()[0] == ch){
-                stack.peek()[1]++;
-            }else{
-                stack.push(new int[]{ch,1});
+        for(int i=0; i<s.length(); i++){
+           
+            if(stack.isEmpty()){
+                stack.push(new int[]{s.charAt(i),1});
             }
-            if(stack.peek()[1] == k){
-                stack.pop();
+            else{
+                if(stack.peek()[0] == s.charAt(i)){
+                    stack.push(new int[]{s.charAt(i),stack.peek()[1]+1});
+                    if(stack.peek()[1] == k){
+                        dup = true;
+                        for(int j=k;j>0;j--){
+                            stack.pop();
+                        }
+                    }
+                }
+                else{
+                    stack.push(new int[]{s.charAt(i),1});
+                }
             }
         }
+        if(!dup)
+        return s;
+
         StringBuilder sb = new StringBuilder();
-        for(int []ar : stack){
-            for(int i=0; i<ar[1]; i++){
-               sb.append((char)ar[0]);
-            }
-        }
-        
-        return sb.toString();
 
+        while(!stack.isEmpty()){
+            char curr =(char) stack.peek()[0];
+            sb.append(curr);
+        //    System.out.println(curr);
+           stack.pop();
+        }
+        // return s;
+        return sb.reverse().toString();
     }
 }
