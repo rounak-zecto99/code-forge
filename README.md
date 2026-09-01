@@ -63,6 +63,7 @@
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
@@ -153,6 +154,7 @@
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Math
 |  |
@@ -269,6 +271,7 @@
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 ## Stack
 |  |
@@ -349,6 +352,7 @@
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
 ## Backtracking
