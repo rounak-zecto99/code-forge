@@ -145,6 +145,7 @@
 | [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
+| [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
@@ -260,6 +261,7 @@
 | [0132-palindrome-partitioning-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
+| [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
@@ -334,6 +336,7 @@
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
+| [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
