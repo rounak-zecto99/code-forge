@@ -24,7 +24,7 @@ class Solution {
                 }
                 int last = s.charAt(left++);
 
-                need[last]++;  //only goes to 0 or less when we have more than req
+                need[last]++;  //only goes to 0 or more when we dont have more than req
 
                 if(need[last]>0)
                 req++;
