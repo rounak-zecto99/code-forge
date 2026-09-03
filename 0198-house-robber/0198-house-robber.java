@@ -17,11 +17,11 @@ class Solution {
         if(dp[index]!=-1)
         return dp[index];
         
-        int skip1 = nums[index] + helper(nums,index-2,dp);
+        int take = nums[index] + helper(nums,index-2,dp);
         
-        int skip2 = nums[index-1] + helper(nums,index-3,dp);
+        int noTake =helper(nums,index-1,dp);
         
 
-        return dp[index] = Math.max(skip1,skip2);
+        return dp[index] = Math.max(take,noTake);
     }
 }
