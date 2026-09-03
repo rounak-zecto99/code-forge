@@ -1,7 +1,8 @@
 class Solution {
+    int[] stack;
   public void pse(int[] heights, int[] pse) {
     int n = pse.length;
-    int[] stack = new int[n];
+    stack = new int[n];
     int top = -1;
 
     for (int i = 0; i < n; i++) {
@@ -20,7 +21,7 @@ class Solution {
 
 public void nse(int[] heights, int[] nse) {
     int n = nse.length;
-    int[] stack = new int[n];
+     stack = new int[n];
     int top = -1; // -1 represents an empty stack
 
     for (int i = n - 1; i >= 0; i--) {
