@@ -1,39 +1,41 @@
 class Solution {
-    public void pse(int[] heights, int[] pse) {
-        Stack<Integer> stack = new Stack<>();
+  public void pse(int[] heights, int[] pse) {
+    int n = pse.length;
+    int[] stack = new int[n];
+    int top = -1;
 
-        for (int i = 0; i < pse.length; i++) {
-            while (!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
-                stack.pop();
-            }
-            if (stack.isEmpty()) {
-                pse[i] = -1;
-                stack.push(i);
-            } else {
-                pse[i] = stack.peek();
-                stack.push(i);
-            }
+    for (int i = 0; i < n; i++) {
+        // Pop while elements on stack are > current element
+        while (top >= 0 && heights[stack[top]] > heights[i]) {
+            top--;
         }
 
+        // If stack is empty, PSE is -1; otherwise stack[top]
+        pse[i] = (top == -1) ? -1 : stack[top];
+
+        // Push current index onto the stack
+        stack[++top] = i;
     }
+}
 
-    public void nse(int[] heights, int[] nse) {
-        Stack<Integer> stack = new Stack<>();
+public void nse(int[] heights, int[] nse) {
+    int n = nse.length;
+    int[] stack = new int[n];
+    int top = -1; // -1 represents an empty stack
 
-        for (int i = nse.length - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) {
-                stack.pop();
-            }
-            if (stack.isEmpty()) {
-                nse[i] = heights.length;
-                stack.push(i);
-            } else {
-                nse[i] = stack.peek();
-                stack.push(i);
-            }
+    for (int i = n - 1; i >= 0; i--) {
+        // Pop while elements on stack are >= current element
+        while (top >= 0 && heights[stack[top]] >= heights[i]) {
+            top--;
         }
 
+        // If stack is empty, NSE is heights.length; otherwise stack[top]
+        nse[i] = (top == -1) ? n : stack[top];
+
+        // Push current index onto the stack
+        stack[++top] = i;
     }
+}
 
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
