@@ -25,6 +25,7 @@
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
@@ -105,6 +106,7 @@
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
