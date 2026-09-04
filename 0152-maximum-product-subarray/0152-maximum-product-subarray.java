@@ -1,24 +1,30 @@
 class Solution {
-    int best = Integer.MIN_VALUE;
     public int maxProduct(int[] nums) {
-       
-       helper(nums,0);
-       return best;
-    }
-    public int[] helper(int[] nums, int index){
-        if (index == nums.length - 1) {
-            best = Math.max(best, nums[index]);
-       return new int[]{nums[index], nums[index]};
-     }
-     int [] arr = helper(nums,index+1);
-     int max = nums[index]*arr[0];
-     int min = nums[index]*arr[1];
+        int n = nums.length;
 
-     int amax = Math.max(max,Math.max(nums[index],min));
-     int amin = Math.min(max,Math.min(nums[index],min));
-     
-     best = Math.max(best,amax);
-     return new int[]{amax,amin};
+        // dp[i][0] = max product starting at i
+        // dp[i][1] = min product starting at i
+        int[][] dp = new int[n][2];
 
+        // Base case: same as recursion
+        dp[n - 1][0] = nums[n - 1];
+        dp[n - 1][1] = nums[n - 1];
+
+        int best = nums[n - 1];
+
+        // Same as recursive calls returning backwards
+        for (int i = n - 2; i >= 0; i--) {
+
+            int a = nums[i];               // stop here
+            int b = nums[i] * dp[i + 1][0]; // use next max
+            int c = nums[i] * dp[i + 1][1]; // use next min
+
+            dp[i][0] = Math.max(a, Math.max(b, c));
+            dp[i][1] = Math.min(a, Math.min(b, c));
+
+            best = Math.max(best, dp[i][0]);
+        }
+
+        return best;
     }
 }
