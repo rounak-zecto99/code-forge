@@ -1,30 +1,29 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int n = nums.length;
+        int max = nums[0];
+        int min = nums[0];
+        int ans = nums[0];
 
-        // dp[i][0] = max product starting at i
-        // dp[i][1] = min product starting at i
-        int[][] dp = new int[n][2];
+        for (int i = 1; i < nums.length; i++) {
 
-        // Base case: same as recursion
-        dp[n - 1][0] = nums[n - 1];
-        dp[n - 1][1] = nums[n - 1];
+            int current = nums[i];
 
-        int best = nums[n - 1];
+            int newMax = Math.max(
+                current,
+                Math.max(current * max, current * min)
+            );
 
-        // Same as recursive calls returning backwards
-        for (int i = n - 2; i >= 0; i--) {
+            int newMin = Math.min(
+                current,
+                Math.min(current * max, current * min)
+            );
 
-            int a = nums[i];               // stop here
-            int b = nums[i] * dp[i + 1][0]; // use next max
-            int c = nums[i] * dp[i + 1][1]; // use next min
+            max = newMax;
+            min = newMin;
 
-            dp[i][0] = Math.max(a, Math.max(b, c));
-            dp[i][1] = Math.min(a, Math.min(b, c));
-
-            best = Math.max(best, dp[i][0]);
+            ans = Math.max(ans, max);
         }
 
-        return best;
+        return ans;
     }
 }
