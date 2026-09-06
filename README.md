@@ -136,6 +136,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/rounak-zecto99/code-forge/tree/master/0860-lemonade-change) |
+| [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
 ## Prefix Sum
@@ -197,6 +198,7 @@
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
+| [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Recursion
 |  |
@@ -304,6 +306,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -539,6 +542,7 @@
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
+| [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 ## Zero-Sum Game
 |  |
 | ------- |
