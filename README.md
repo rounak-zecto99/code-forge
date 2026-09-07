@@ -17,6 +17,7 @@
 | [0051-n-queens](https://github.com/rounak-zecto99/code-forge/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
@@ -107,6 +108,7 @@
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/rounak-zecto99/code-forge/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -448,6 +450,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 ## Hamiltonian Path
