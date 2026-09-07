@@ -105,6 +105,7 @@
 | [0042-trapping-rain-water](https://github.com/rounak-zecto99/code-forge/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/rounak-zecto99/code-forge/tree/master/0115-distinct-subsequences) |
@@ -187,6 +188,7 @@
 | [0002-add-two-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/rounak-zecto99/code-forge/tree/master/0009-palindrome-number) |
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
@@ -563,4 +565,8 @@
 | ------- |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
