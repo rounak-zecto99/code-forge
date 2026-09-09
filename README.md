@@ -579,4 +579,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/rounak-zecto99/code-forge/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
