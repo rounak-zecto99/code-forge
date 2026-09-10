@@ -1,27 +1,22 @@
 class Solution {
-     Boolean[] dp;
     public boolean wordBreak(String s, List<String> wordDict) {
-        dp = new Boolean[s.length()];
-        Set<String> set = new HashSet<>(wordDict);
-        return helper(s,set,0);
+        Boolean []dp = new Boolean[s.length()+1];
+        return helper(wordDict,0,s,dp);
     }
-    public boolean helper(String s,Set<String> set, int index){
-        if (index == s.length()){
+    public boolean helper(List<String> list, int index,String s,Boolean []dp){
+        if(index == s.length()){
             return true;
         }
-          if(dp[index] != null)
-            return dp[index];
-
-        for(int i=index; i<s.length() ;i++){
-            String part = s.substring(index,i+1);
-            if(set.contains(part)){
-              if(helper(s,set,i+1)){
-                dp[index] = true;
-                return true;
-              }
+        if(dp[index]!=null)
+        return dp[index];
+        
+        for(int i=index ; i<=s.length(); i++){
+            if(list.contains(s.substring(index,i))){
+                if(helper(list,i,s,dp)){
+                    return dp[index] = true;
+                }
             }
         }
-        dp[index] = false;
-        return false;
+        return dp[index]=false;
     }
 }
