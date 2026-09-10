@@ -5,10 +5,12 @@ class Solution {
             return false;
 
         int[] hash = new int[26];
+        char[] a = s.toCharArray();
+        char[] b = t.toCharArray();
 
         for (int i = 0; i < s.length(); i++) {
-            hash[s.charAt(i) - 'a']++;
-            hash[t.charAt(i) - 'a']--;
+            hash[a[i] - 'a']++;
+            hash[b[i] - 'a']--;
         }
         for (int i : hash) {
             if (i != 0)
