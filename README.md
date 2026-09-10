@@ -63,6 +63,7 @@
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/rounak-zecto99/code-forge/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -180,6 +181,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
@@ -364,6 +366,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Pigeonhole Principle
 |  |
@@ -499,6 +502,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/rounak-zecto99/code-forge/tree/master/0992-subarrays-with-k-different-integers) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 ## Quickselect
