@@ -9,10 +9,8 @@ class Solution {
         for(int i=0; i<s.length(); i++){
             char ch = s.charAt(i);
             hash[ch-'a']++;
-        }
-        for(int i=0; i<t.length(); i++){
-            char ch = t.charAt(i);
-            hash[ch-'a']--;
+            char sh = t.charAt(i);
+            hash[sh-'a']--;
         }
         for (int i = 0; i < hash.length; i++) {
             if(hash[i]!=0)
