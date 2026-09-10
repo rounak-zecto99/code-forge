@@ -141,6 +141,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/rounak-zecto99/code-forge/tree/master/0860-lemonade-change) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
@@ -317,6 +318,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
@@ -341,6 +343,7 @@
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rounak-zecto99/code-forge/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
@@ -360,6 +363,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Bit Manipulation
