@@ -6,9 +6,11 @@ class Solution {
 
         int [] hash = new int[26];
 
-        for(int i=0; i<s.length(); i++){
-            hash[s.charAt(i)-'a']++;
-            hash[t.charAt(i)-'a']--;
+        for(int a:s.toCharArray()){
+            hash[a-'a']++;
+        }
+        for(int a :t.toCharArray()){
+            hash[a-'a']--;
         }
         for (int i :hash) {
             if(i!=0)
