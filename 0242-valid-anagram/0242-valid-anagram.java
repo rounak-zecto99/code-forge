@@ -7,13 +7,11 @@ class Solution {
         int [] hash = new int[26];
 
         for(int i=0; i<s.length(); i++){
-            char ch = s.charAt(i);
-            hash[ch-'a']++;
-            char sh = t.charAt(i);
-            hash[sh-'a']--;
+            hash[s.charAt(i)-'a']++;
+            hash[t.charAt(i)-'a']--;
         }
-        for (int i = 0; i < hash.length; i++) {
-            if(hash[i]!=0)
+        for (int i :hash) {
+            if(i!=0)
                 return false;
         }
         return true;
