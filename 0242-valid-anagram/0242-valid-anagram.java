@@ -1,21 +1,23 @@
 class Solution {
-    public static boolean isAnagram(String s, String t) {
+    public boolean isAnagram(String s, String t) {
+        if(s.length() != t.length())
+        return false;
+    
+    int [] alphabets = new int [26];
 
-        if (s.length() != t.length())
-            return false;
+    for(int i : s.toCharArray()){
+        alphabets[i - 'a']++;
+    }
+    for(int e : t.toCharArray()){
+        alphabets[e - 'a']--;
+    }
+    for(int j : alphabets){
+        if(j!=0)
+        return false;
+    }
 
-        int[] hash = new int[26];
-        char[] a = s.toCharArray();
-        char[] b = t.toCharArray();
+    return true;
 
-        for (int i = 0; i < s.length(); i++) {
-            hash[a[i] - 'a']++;
-            hash[b[i] - 'a']--;
-        }
-        for (int i : hash) {
-            if (i != 0)
-                return false;
-        }
-        return true;
+
     }
 }
