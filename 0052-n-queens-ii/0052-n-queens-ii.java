@@ -1,28 +1,34 @@
 class Solution {
     public int totalNQueens(int n) {
-        return helper(n, 0, 0, 0);
-    }
+        // int [] queens = new int[n];
+        int queens = 0;
+        boolean[] column = new boolean[n];
+        boolean[] diag1 = new boolean[2*n-1];
+        boolean[] diag2 = new boolean[2*n-1];
 
-    private int helper(int n, int cols, int diag1, int diag2) {
-        if (cols == (1 << n) - 1) {
+        return helper(column,diag1,diag2,queens,0);
+    }
+    public int helper(boolean[] column,boolean[] diag1,boolean[] diag2,int queens,int row){
+        if(row == column.length){
             return 1;
         }
-
-        int available = ((1 << n) - 1) & ~(cols | diag1 | diag2);
         int ways = 0;
 
-        while (available != 0) {
-            int bit = available & -available;
-            available -= bit;
+        for(int col=0; col<column.length; col++){
+            if(column[col]||diag1[row + col]||diag2[row - col + column.length -1])
+            continue;
+            column[col] = true;
+            diag1[row + col] = true;
+            diag2[row - col + column.length -1] = true;
 
-            ways += helper(
-                n,
-                cols | bit,
-                (diag1 | bit) << 1,
-                (diag2 | bit) >> 1
-            );
+            queens++;
+            ways+= helper(column,diag1,diag2,queens,row+1);
+            
+            queens--;
+            column[col] = false;
+            diag1[row + col] = false;
+            diag2[row - col + column.length -1] = false;
         }
-
         return ways;
     }
 }
