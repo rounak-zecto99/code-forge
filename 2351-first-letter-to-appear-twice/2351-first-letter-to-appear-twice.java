@@ -1,11 +1,14 @@
 class Solution {
     public char repeatedCharacter(String s) {
-        int [] hash = new int[26];
+        int mask = 0;
 
-        for(char a :s.toCharArray()){
-            if(hash[a-'a']!=0)
-            return a;
-            hash[a-'a']++;
+        for (char c : s.toCharArray()) {
+            int bit = 1 << (c - 'a');
+
+            if ((mask & bit) != 0)
+                return c;
+
+            mask |= bit;
         }
         return ' ';
     }
