@@ -1,51 +1,30 @@
 class Solution {
     public int totalNumbers(int[] digits) {
         Arrays.sort(digits);
-
-        int n = digits.length;
-        Integer[][] dp = new Integer[1 << n][4];
-
-        return helper(digits, 0, 0, dp);
+      boolean []used = new boolean [digits.length];
+      return helper(digits,0,used);  
     }
-
-    private int helper(int[] digits, int mask, int len, Integer[][] dp) {
-
-        if (len == 3)
-            return 1;
-
-        if (dp[mask][len] != null)
-            return dp[mask][len];
-
-        int count = 0;
-
-        for (int i = 0; i < digits.length; i++) {
-
-            // already used
-            if ((mask & (1 << i)) != 0)
-                continue;
-
-            // leading zero
-            if (len == 0 && digits[i] == 0)
-                continue;
-
-            // third digit must be even
-            if (len == 2 && digits[i] % 2 != 0)
-                continue;
-
-            // duplicate handling
-            if (i > 0 &&
-                digits[i] == digits[i - 1] &&
-                (mask & (1 << (i - 1))) == 0)
-                continue;
-
-            count += helper(
-                digits,
-                mask | (1 << i),
-                len + 1,
-                dp
-            );
+    public int helper(int[]digits,int num, boolean[]used){
+        if(num>=100){
+            return num%2==0?1:0;
         }
+        int count = 0;
+        for(int i = 0; i<digits.length; i++){
+            if(used[i])
+            continue;
+            
+            if(num == 0 && digits[i] == 0)
+            continue;
 
-        return dp[mask][len] = count;
+            if(i>0 && digits[i] == digits[i-1] && !used[i-1])
+             continue;
+
+            used[i] = true;
+
+            count+= helper(digits,num*10+digits[i],used);
+
+            used[i] = false;
+        }
+        return count;
     }
 }
