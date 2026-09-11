@@ -3,11 +3,8 @@ class Solution {
         int mask = 0;
 
         for (char c : s.toCharArray()) {
-            int bit = 1 << (c - 'a');
-
-            if ((mask & bit) != 0)
-                return c;
-
+            int bit = 1 << c - 'a';
+            if ((mask & bit) != 0) return c;
             mask |= bit;
         }
         return ' ';
