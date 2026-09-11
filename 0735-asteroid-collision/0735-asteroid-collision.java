@@ -8,22 +8,15 @@ class Solution {
                 ans[++top] = nums;
             } else {
                 int curr = -1 * nums;
-                while (top != -1 && ans[top] > 0) {  //if curr top is positive
-                    if (Math.abs(ans[top]) < curr) {
+                while (top != -1 && ans[top] > 0 && ans[top] < curr ) {  //top is positive
                         top--;
-                    } else {
-                        break;
-                    }
                 }
                 if (top != -1 && ans[top] > 0) {  //if curr top is positive
-                    if (ans[top] > curr) {
-                        continue;
-                    }
                     if (ans[top] == curr) {
-                        top--;
-
+                         top--;
                     }
-                } else {
+                }
+                 else {
                     ans[++top] = nums;
                 }
             }
