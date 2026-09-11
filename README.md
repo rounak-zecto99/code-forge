@@ -328,6 +328,7 @@
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
+| [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 ## Stack
 |  |
 | ------- |
@@ -377,6 +378,7 @@
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Pigeonhole Principle
 |  |
@@ -419,6 +421,7 @@
 | [2062-count-vowel-substrings-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
+| [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
 ## Backtracking
@@ -518,6 +521,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
+| [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 ## Quickselect
 |  |
 | ------- |
