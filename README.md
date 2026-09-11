@@ -603,6 +603,7 @@
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/rounak-zecto99/code-forge/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0620-not-boring-movies](https://github.com/rounak-zecto99/code-forge/tree/master/0620-not-boring-movies) |
 | [1280-students-and-examinations](https://github.com/rounak-zecto99/code-forge/tree/master/1280-students-and-examinations) |
+| [1757-recyclable-and-low-fat-products](https://github.com/rounak-zecto99/code-forge/tree/master/1757-recyclable-and-low-fat-products) |
 ## Enumeration
 |  |
 | ------- |
