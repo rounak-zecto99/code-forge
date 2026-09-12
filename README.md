@@ -26,6 +26,7 @@
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/rounak-zecto99/code-forge/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -382,6 +383,7 @@
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/rounak-zecto99/code-forge/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0137-single-number-ii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
