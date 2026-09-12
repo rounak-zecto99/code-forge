@@ -391,6 +391,7 @@
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/rounak-zecto99/code-forge/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
