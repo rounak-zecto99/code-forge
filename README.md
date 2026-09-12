@@ -49,6 +49,7 @@
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rounak-zecto99/code-forge/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/rounak-zecto99/code-forge/tree/master/0860-lemonade-change) |
@@ -486,6 +487,7 @@
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
+| [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 ## Hamiltonian Path
 |  |
