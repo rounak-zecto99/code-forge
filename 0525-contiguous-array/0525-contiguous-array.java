@@ -1,26 +1,35 @@
 class Solution {
     public int findMaxLength(int[] nums) {
-        HashMap <Integer,Integer> map = new HashMap<>();
-        map.put(0,-1);
+        int n = nums.length;
+
+        int[] first = new int[2 * n + 1];
+
+        // -2 means this prefix sum has never been seen
+        Arrays.fill(first, -2);
+
+        // prefix sum 0 exists before the array
+        first[n] = -1;
 
         int presum = 0;
-        int maxlength = 0;
+        int maxLength = 0;
 
-        for(int i=0; i<nums.length; i++){
-            if((nums[i]&1) == 1){
+        for (int i = 0; i < n; i++) {
+
+            if (nums[i] == 1) {
                 presum++;
-            }
-            else{
+            } else {
                 presum--;
             }
-            if(map.containsKey(presum)){
-                int length = i - map.get(presum);
-                maxlength = Math.max(maxlength,length);
-            }
-            else{
-                map.put(presum,i);
+
+            int index = presum + n;
+
+            if (first[index] != -2) {
+                maxLength = Math.max(maxLength, i - first[index]);
+            } else {
+                first[index] = i;
             }
         }
-        return maxlength;
+
+        return maxLength;
     }
 }
