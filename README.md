@@ -36,6 +36,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
+| [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
@@ -385,6 +386,7 @@
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/rounak-zecto99/code-forge/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0137-single-number-ii) |
+| [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
