@@ -1,25 +1,35 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        HashMap <Integer,Integer> map = new HashMap<>();
-        for(int num:nums){
-            map.put(num,map.getOrDefault(num,0)+1);
-        }
-        PriorityQueue<int[]> heap = new PriorityQueue<>((a,b) ->
-        Integer.compare(a[1],b[1]));
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        for(var a : map.entrySet()){
-            heap.offer(new int[]{a.getKey(),a.getValue()});
+        for (int num : nums)
+            map.put(num, map.getOrDefault(num, 0) + 1);
 
-            if(heap.size()>k){
-                heap.poll();
-            }           
+        List<Integer>[] bucket = new List[nums.length + 1];
+
+        for (var e : map.entrySet()) {
+            int freq = e.getValue();
+
+            if (bucket[freq] == null)
+                bucket[freq] = new ArrayList<>();
+
+            bucket[freq].add(e.getKey());
         }
-        int [] ans = new int[k];
-        int j = k-1;
-        for(int i=j;i>=0;i--){
-            ans[i] = heap.peek()[0];
-            heap.poll();
+
+        int[] ans = new int[k];
+        int j = 0;
+
+        for (int freq = nums.length; freq >= 1 && j < k; freq--) {
+            if (bucket[freq] != null) {
+                for (int num : bucket[freq]) {
+                    ans[j++] = num;
+
+                    if (j == k)
+                        break;
+                }
+            }
         }
+
         return ans;
     }
 }
