@@ -1,16 +1,16 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List <List<Integer>> list = new ArrayList<>();
-        helper(list,new ArrayList<>() ,nums,0); 
-        return list;
-    }
-    public void helper(List<List<Integer>> list,List<Integer> row, int[] nums,int index){
-            list.add(new ArrayList<>(row));
+        List<List<Integer>> list = new ArrayList<>();
+        int n = 1 << nums.length;
 
-            for(int i= index; i<nums.length; i++){
-                row.add(nums[i]);
-                 helper(list,row,nums,i+1);
-                 row.remove(row.size()-1);
+        for (int i = 0; i < n; i++) {
+            List<Integer> subset = new ArrayList<>();
+            for (int j = 0; j < nums.length; j++) {
+                if ((i & (1 << j)) != 0)
+                    subset.add(nums[j]);
             }
+            list.add(subset);
+        }
+        return list;
     }
 }
