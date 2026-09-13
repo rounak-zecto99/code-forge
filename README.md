@@ -18,6 +18,7 @@
 | [0055-jump-game](https://github.com/rounak-zecto99/code-forge/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/rounak-zecto99/code-forge/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
@@ -417,6 +418,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rounak-zecto99/code-forge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/rounak-zecto99/code-forge/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
@@ -500,6 +502,7 @@
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0835-image-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0835-image-overlap) |
