@@ -8,11 +8,11 @@ class Solution {
                 int last = nums[left++];
                 map.remove(last);
             }
-            int count = map.getOrDefault(nums[right], 0) + 1;
-            if (count > 1)
-                return true;
+            
+            if(map.containsKey(nums[right]))
+            return true;
 
-            map.put(nums[right], count);
+            map.put(nums[right], right);
 
         }
         return false;
