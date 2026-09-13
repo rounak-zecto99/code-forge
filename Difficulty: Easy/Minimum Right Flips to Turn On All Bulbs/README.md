@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/faulty-wiring-and-bulbs2939/1">Minimum Right Flips to Turn On All Bulbs</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18.6667px;">Given a binary array <strong>arr[]</strong>, where <strong>0</strong> represents a bulb that is <strong>off</strong> and <strong>1</strong> represents a bulb that is <strong>on</strong>, find the minimum number of switches required to turn on all the bulbs.</span></p><p><span style="font-size: 18.6667px;">Pressing the switch of the<strong> ith</strong> bulb toggles the state of that bulb and every bulb to its right.</span></p><p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [0, 0, 0, 0]
+<strong>Output:</strong> 1
+<strong>Explanation</strong>: Initially: [0, 0, 0, 0]
+Press the switch of the first bulb. All bulbs are toggled: [0, 0, 0, 0] -&gt; [1, 1, 1, 1]
+All bulbs are now on, so the answer is 1.<br></span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 0, 0, 1]<br><strong>Output:</strong> 2<br><strong>Explanation: </strong>Initially: [1, 0, 0, 1]
+Press the switch of the second bulb: [1, 0, 0, 1] -&gt; [1, 1, 1, 0]
+Press the switch of the fourth bulb: [1, 1, 1, 0] -&gt; [1, 1, 1, 1]
+All bulbs are now on, so the answer is 2.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Binary Representation</code>&nbsp;
