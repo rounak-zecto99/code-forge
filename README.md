@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/rounak-zecto99/code-forge/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/rounak-zecto99/code-forge/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
@@ -322,6 +323,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/rounak-zecto99/code-forge/tree/master/0008-string-to-integer-atoi) |
+| [0014-longest-common-prefix](https://github.com/rounak-zecto99/code-forge/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rounak-zecto99/code-forge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
@@ -550,6 +552,7 @@
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/rounak-zecto99/code-forge/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 ## Brute-Force Search
 |  |
