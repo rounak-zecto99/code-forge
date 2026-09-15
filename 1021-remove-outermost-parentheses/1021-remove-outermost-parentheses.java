@@ -8,14 +8,11 @@ class Solution {
             if (ch == '(') {
                 depth++;
 
-                if (depth > 1) {
+                if (depth > 1)
                     sb.append(ch);
-                }
-
             } else {
-                if (depth > 1) {
+                if (depth > 1)
                     sb.append(ch);
-                }
 
                 depth--;
             }
