@@ -4,24 +4,23 @@ class Solution {
         int lastb = -1;
         int lastc = -1;
 
-        int count=0;
+        int boundary = -1;
+        int count = 0;
 
-        for(int i=0; i<s.length();i++){
-            char ch = s.charAt(i);
-
-            if(ch == 'a')
+        for(int i=0; i<s.length(); i++){
+            if(s.charAt(i) == 'a')
             lasta = i;
 
-            if(ch == 'b')
+            if(s.charAt(i) == 'b')
             lastb = i;
 
-            if(ch == 'c')
+            if(s.charAt(i) == 'c')
             lastc = i;
 
-            int boundary = Math.min(lasta,Math.min(lastb,lastc));
+            boundary = Math.min(lasta,Math.min(lastb,lastc));
 
             if(boundary>=0){
-                count += boundary+1;
+                count += boundary +1;
             }
 
         }
