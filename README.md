@@ -28,6 +28,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/rounak-zecto99/code-forge/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/rounak-zecto99/code-forge/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
@@ -462,6 +463,7 @@
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/rounak-zecto99/code-forge/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
@@ -733,4 +735,8 @@
 | ------- |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
