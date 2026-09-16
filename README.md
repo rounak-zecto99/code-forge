@@ -40,6 +40,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
 | [0219-contains-duplicate-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
@@ -200,6 +201,7 @@
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
@@ -456,6 +458,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
@@ -584,6 +587,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
@@ -719,4 +723,5 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
