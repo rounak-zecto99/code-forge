@@ -232,6 +232,7 @@
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
+| [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0836-rectangle-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
@@ -298,6 +299,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
+| [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -361,6 +363,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
+| [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0796-rotate-string](https://github.com/rounak-zecto99/code-forge/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [1021-remove-outermost-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1021-remove-outermost-parentheses) |
