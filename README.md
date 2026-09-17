@@ -56,6 +56,7 @@
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/rounak-zecto99/code-forge/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0605-can-place-flowers](https://github.com/rounak-zecto99/code-forge/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
@@ -165,6 +166,7 @@
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0605-can-place-flowers](https://github.com/rounak-zecto99/code-forge/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/rounak-zecto99/code-forge/tree/master/0860-lemonade-change) |
