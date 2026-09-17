@@ -26,8 +26,8 @@ class Solution {
         int col = pos % 9;
 
         if (board[row][col] != '.')  return helper(board, rows, columns, grid, pos + 1);
-        for (int i = 1; i <= 9; i++) {
-            int curr = i;
+        for (int curr = 1; curr <= 9; curr++) {
+            // int curr = i;
             if (rows[row][curr] || columns[col][curr] || grid[row / 3][col / 3][curr]) {
                 continue;
             }
