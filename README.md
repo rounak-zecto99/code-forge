@@ -94,6 +94,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
@@ -257,6 +258,7 @@
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2894-divisible-and-non-divisible-sums-difference) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
@@ -759,4 +761,16 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
