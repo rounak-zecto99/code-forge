@@ -106,6 +106,7 @@
 | [2348-number-of-zero-filled-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
+| [2855-minimum-right-shifts-to-sort-the-array](https://github.com/rounak-zecto99/code-forge/tree/master/2855-minimum-right-shifts-to-sort-the-array) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
