@@ -96,6 +96,7 @@
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
@@ -234,6 +235,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Math
@@ -511,6 +513,7 @@
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2062-count-vowel-substrings-of-a-string) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
@@ -561,6 +564,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Monotonic Queue
 |  |
 | ------- |
