@@ -1,78 +1,48 @@
 class Solution {
     public String largestPalindromic(String num) {
-        int[] hash = new int[10];
+        int[] freq = new int[10];
 
-        for (char a : num.toCharArray()) {
-            hash[a - '0']++;
+        for (char c : num.toCharArray()) {
+            freq[c - '0']++;
         }
 
-        // First we fill mid
-        Deque<Character> mid = new ArrayDeque<>();
-        StringBuilder first = new StringBuilder();
-        Deque<Character> sec = new ArrayDeque<>();
-        boolean zero = true;
+        StringBuilder left = new StringBuilder();
 
-        for (int i = 9; i > 0; i--) {
-            if (hash[i] > 0) {
-                zero = false;
-                int freq = hash[i];
+        // Build the left half
+        for (int d = 9; d >= 0; d--) {
+            int pairs = freq[d] / 2;
 
-                if (freq % 2 != 0) {
-                    if (mid.isEmpty()) {
-                        mid.addFirst((char) ('0' + i));
-                        freq--;
-                    }
-
-                    for (int j = 1; j <= freq / 2; j++) {
-                        first.append((char) ('0' + i));
-                    }
-
-                    for (int j = 1; j <= freq / 2; j++) {
-                        sec.addFirst((char) ('0' + i));
-                    }
-                } else {
-                    for (int j = 1; j <= freq / 2; j++) {
-                        first.append((char) ('0' + i));
-                    }
-
-                    for (int j = 1; j <= freq / 2; j++) {
-                        sec.addFirst((char) ('0' + i));
-                    }
-                }
-            }
-        }
-        if(zero)
-        return "0";
-
-        if (hash[0] > 0 && !sec.isEmpty()) {
-            int fr = hash[0];
-
-            if(mid.isEmpty()){
-                for (int j = 1; j <= fr; j++) {
-                mid.addFirst('0');
-            }
-            
-            }
-            else{
-
-            for (int j = 1; j <= fr / 2; j++) {
-                mid.addFirst('0');
+            // Don't put zero at the beginning
+            if (d == 0 && left.length() == 0) {
+                pairs = 0;
             }
 
-            for (int j = 1; j <= fr / 2; j++) {
-                mid.addLast('0');
+            for (int i = 0; i < pairs; i++) {
+                left.append((char) ('0' + d));
+            }
+
+            freq[d] -= pairs * 2;
+        }
+
+        // Find the largest remaining digit for the middle
+        char middle = 0;
+
+        for (int d = 9; d >= 0; d--) {
+            if (freq[d] > 0) {
+                middle = (char) ('0' + d);
+                break;
             }
         }
+
+        // No non-zero pair exists
+        if (left.length() == 0) {
+            return middle == 0 ? "0" : String.valueOf(middle);
         }
 
-        while (!mid.isEmpty()) {
-            first.append(mid.removeFirst());
-        }
+        String right = left.reverse().toString();
 
-        while (!sec.isEmpty()) {
-            first.append(sec.removeFirst());
-        }
-
-        return first.toString();
+        return left.reverse().toString()
+                + (middle == 0 ? "" : String.valueOf(middle))
+                + right;
     }
 }
