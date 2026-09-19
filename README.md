@@ -49,6 +49,7 @@
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
@@ -157,6 +158,7 @@
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
+| [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
@@ -792,4 +794,16 @@
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
