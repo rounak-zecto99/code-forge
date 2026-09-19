@@ -4,11 +4,7 @@ class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
         int [][]dp = new int[n][amount+1];
-        // int ans = helper(coins,amount,n-1);
-
-        // if (ans >= INF) {
-        //  return -1;
-        // }
+        
         for(int T=0; T<=amount; T++){
             if(T%coins[0] == 0){
                 dp[0][T] = T/coins[0];
