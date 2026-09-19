@@ -39,6 +39,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
@@ -253,6 +254,7 @@
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -323,6 +325,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
