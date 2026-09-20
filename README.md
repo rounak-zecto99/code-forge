@@ -48,6 +48,7 @@
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
+| [0283-move-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
@@ -331,6 +332,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
