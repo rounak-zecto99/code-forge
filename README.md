@@ -52,6 +52,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
@@ -124,6 +125,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -234,6 +236,7 @@
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
@@ -334,6 +337,7 @@
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -513,6 +517,7 @@
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
