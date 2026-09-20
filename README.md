@@ -417,6 +417,7 @@
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
 | [3146-permutation-difference-between-two-strings](https://github.com/rounak-zecto99/code-forge/tree/master/3146-permutation-difference-between-two-strings) |
+| [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
 ## Stack
 |  |
 | ------- |
@@ -446,6 +447,7 @@
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
+| [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
