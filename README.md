@@ -54,6 +54,7 @@
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
@@ -163,6 +164,7 @@
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -358,6 +360,7 @@
 | [0219-contains-duplicate-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
