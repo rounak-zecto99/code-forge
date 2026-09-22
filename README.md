@@ -442,6 +442,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
@@ -656,6 +657,7 @@
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 ## Trie
 |  |
 | ------- |
@@ -700,6 +702,7 @@
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Design
 |  |
@@ -715,6 +718,7 @@
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
