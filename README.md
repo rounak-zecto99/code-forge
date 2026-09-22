@@ -661,6 +661,7 @@
 | [0110-balanced-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 ## Trie
 |  |
 | ------- |
@@ -710,6 +711,7 @@
 | [0110-balanced-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Design
 |  |
@@ -730,6 +732,7 @@
 | [0110-balanced-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -875,4 +878,8 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
