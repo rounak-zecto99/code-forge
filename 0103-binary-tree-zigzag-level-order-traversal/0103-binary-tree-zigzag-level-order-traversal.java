@@ -2,14 +2,14 @@ class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 
         List<List<Integer>> ans = new ArrayList<>();
-        Deque<TreeNode> q = new ArrayDeque<>();
 
         if (root == null)
             return ans;
 
-        q.addLast(root);
+        Queue<TreeNode> q = new ArrayDeque<>();
+        q.offer(root);
 
-        boolean right = false;
+        boolean reverse = false;
 
         while (!q.isEmpty()) {
 
@@ -18,32 +18,23 @@ class Solution {
 
             for (int i = 0; i < size; i++) {
 
-                TreeNode curr;
-
-                if (right) {
-                    curr = q.removeLast();
-
-                    if (curr.right != null)
-                        q.addFirst(curr.right);
-
-                    if (curr.left != null)
-                        q.addFirst(curr.left);
-
-                } else {
-                    curr = q.removeFirst();
-
-                    if (curr.left != null)
-                        q.addLast(curr.left);
-
-                    if (curr.right != null)
-                        q.addLast(curr.right);
-                }
+                TreeNode curr = q.poll();
 
                 list.add(curr.val);
+
+                if (curr.left != null)
+                    q.offer(curr.left);
+
+                if (curr.right != null)
+                    q.offer(curr.right);
             }
 
+            if (reverse)
+                Collections.reverse(list);
+
             ans.add(list);
-            right = !right;
+
+            reverse = !reverse;
         }
 
         return ans;
