@@ -1,11 +1,11 @@
 class Solution {
 
     static class Tuple {
-        int node;
+        TreeNode node;
         int row;
         int col;
 
-        Tuple(int col, int row, int node) {
+        Tuple(TreeNode node, int row, int col) {
             this.node = node;
             this.row = row;
             this.col = col;
@@ -13,46 +13,47 @@ class Solution {
     }
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
-        List<Tuple> nodes = new ArrayList<>();
 
-        dfs(root, 0, 0, nodes);
+        TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map
+            = new TreeMap<>();
 
-        // col -> row -> value
-        nodes.sort((a, b) -> {
-            if (a.col != b.col)
-                return Integer.compare(a.col, b.col);
+        Queue<Tuple> q = new ArrayDeque<>();
+        q.offer(new Tuple(root, 0, 0));
 
-            if (a.row != b.row)
-                return Integer.compare(a.row, b.row);
+        while (!q.isEmpty()) {
 
-            return Integer.compare(a.node, b.node);
-        });
+            Tuple curr = q.poll();
 
-        List<List<Integer>> result = new ArrayList<>();
-        int prevCol = Integer.MIN_VALUE;
+            TreeNode node = curr.node;
+            int row = curr.row;
+            int col = curr.col;
 
-        for (Tuple node : nodes) {
-            int col = node.col;
-            int val = node.node;
+            map
+                .computeIfAbsent(col, k -> new TreeMap<>())
+                .computeIfAbsent(row, k -> new PriorityQueue<>())
+                .offer(node.val);
 
-            if (col != prevCol) {
-                result.add(new ArrayList<>());
-                prevCol = col;
-            }
+            if (node.left != null)
+                q.offer(new Tuple(node.left, row + 1, col - 1));
 
-            result.get(result.size() - 1).add(val);
+            if (node.right != null)
+                q.offer(new Tuple(node.right, row + 1, col + 1));
         }
 
-        return result;
-    }
+        List<List<Integer>> ans = new ArrayList<>();
 
-    private void dfs(TreeNode node, int row, int col, List<Tuple> nodes) {
-        if (node == null)
-            return;
+        for (TreeMap<Integer, PriorityQueue<Integer>> rows : map.values()) {
 
-        nodes.add(new Tuple(col, row, node.val));
+            List<Integer> column = new ArrayList<>();
 
-        dfs(node.left, row + 1, col - 1, nodes);
-        dfs(node.right, row + 1, col + 1, nodes);
+            for (PriorityQueue<Integer> values : rows.values()) {
+                while (!values.isEmpty())
+                    column.add(values.poll());
+            }
+
+            ans.add(column);
+        }
+
+        return ans;
     }
 }
