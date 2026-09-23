@@ -248,6 +248,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
@@ -546,6 +547,7 @@
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0930-binary-subarrays-with-sum) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/rounak-zecto99/code-forge/tree/master/0992-subarrays-with-k-different-integers) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
@@ -665,6 +667,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Trie
 |  |
 | ------- |
@@ -719,6 +722,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Design
 |  |
 | ------- |
@@ -743,6 +747,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Data Stream
 |  |
 | ------- |
@@ -865,6 +870,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Knapsack Problem
 |  |
 | ------- |
