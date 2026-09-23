@@ -408,6 +408,7 @@
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -582,6 +583,7 @@
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -667,6 +669,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Trie
@@ -722,6 +725,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -748,6 +752,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
