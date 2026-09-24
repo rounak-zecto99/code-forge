@@ -20,7 +20,6 @@ class Solution {
     }
 
     void dfs(TreeNode node, int distance, int k) {
-
         if (node == null || visited.contains(node))
             return;
 
