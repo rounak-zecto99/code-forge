@@ -1,67 +1,46 @@
 class Solution {
 
-    void markParent(TreeNode root, HashMap<TreeNode, TreeNode> parent) {
-        Queue<TreeNode> q = new ArrayDeque<>();
-        q.offer(root);
+    HashMap<TreeNode, TreeNode> parent = new HashMap<>();
+    Set<TreeNode> visited = new HashSet<>();
+    List<Integer> ans = new ArrayList<>();
 
-        while (!q.isEmpty()) {
-            TreeNode curr = q.poll();
+    void markParent(TreeNode root) {
+        if (root == null)
+            return;
 
-            if (curr.left != null) {
-                parent.put(curr.left, curr);
-                q.offer(curr.left);
-            }
-
-            if (curr.right != null) {
-                parent.put(curr.right, curr);
-                q.offer(curr.right);
-            }
+        if (root.left != null) {
+            parent.put(root.left, root);
+            markParent(root.left);
         }
+
+        if (root.right != null) {
+            parent.put(root.right, root);
+            markParent(root.right);
+        }
+    }
+
+    void dfs(TreeNode node, int distance, int k) {
+
+        if (node == null || visited.contains(node))
+            return;
+
+        visited.add(node);
+
+        if (distance == k) {
+            ans.add(node.val);
+            return;
+        }
+
+        dfs(node.left, distance + 1, k);
+        dfs(node.right, distance + 1, k);
+        dfs(parent.get(node), distance + 1, k);
     }
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
 
-        HashMap<TreeNode, TreeNode> parent = new HashMap<>();
-        markParent(root, parent);
+        markParent(root);
 
-        Queue<TreeNode> q = new ArrayDeque<>();
-        Set<TreeNode> visited = new HashSet<>();
-
-        q.offer(target);
-        visited.add(target);
-
-        int distance = 0;
-
-        while (!q.isEmpty()) {
-
-            int size = q.size();
-
-            if (distance == k)
-                break;
-
-            for (int i = 0; i < size; i++) {
-
-                TreeNode curr = q.poll();
-
-                if (curr.left != null && visited.add(curr.left))
-                    q.offer(curr.left);
-
-                if (curr.right != null && visited.add(curr.right))
-                    q.offer(curr.right);
-
-                TreeNode p = parent.get(curr);
-
-                if (p != null && visited.add(p))
-                    q.offer(p);
-            }
-
-            distance++;
-        }
-
-        List<Integer> ans = new ArrayList<>();
-
-        while (!q.isEmpty())
-            ans.add(q.poll().val);
+        dfs(target, 0, k);
 
         return ans;
     }
