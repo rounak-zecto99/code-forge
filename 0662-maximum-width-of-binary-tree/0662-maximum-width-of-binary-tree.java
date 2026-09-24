@@ -1,55 +1,44 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    static class pair{
-        int index;
+    static class Pair {
+        long index;
         TreeNode node;
 
-        pair(int index, TreeNode node){
+        Pair(long index, TreeNode node) {
             this.index = index;
             this.node = node;
         }
     }
-    public int widthOfBinaryTree(TreeNode root) {
-        if (root == null)
-            return 0;
-        ArrayDeque<pair> q = new ArrayDeque<>();
 
-        q.offer(new pair(1,root));
+    public int widthOfBinaryTree(TreeNode root) {
+        if (root == null) return 0;
+
+        ArrayDeque<Pair> q = new ArrayDeque<>();
+        q.offer(new Pair(0, root));
+
         int max = 0;
 
         while (!q.isEmpty()) {
             int size = q.size();
-            int width = q.peekLast().index - q.peekFirst().index + 1;
 
-            max = Math.max(width,max);
+            long first = q.peekFirst().index;
+            long last = q.peekLast().index;
 
+            max = Math.max(max, (int)(last - first + 1));
+
+            // Normalize indices for this level
             for (int i = 0; i < size; i++) {
-                pair cur = q.poll();
-                TreeNode curr = cur.node;
-                int index = cur.index;
-                
-                if (curr.left != null)
-                    q.offer(new pair(2*index,curr.left));
+                Pair cur = q.poll();
 
-                if (curr.right != null)
-                    q.offer(new pair(2*index+1,curr.right));
+                long index = cur.index - first;
+
+                if (cur.node.left != null)
+                    q.offer(new Pair(2 * index, cur.node.left));
+
+                if (cur.node.right != null)
+                    q.offer(new Pair(2 * index + 1, cur.node.right));
             }
-
         }
+
         return max;
     }
 }
