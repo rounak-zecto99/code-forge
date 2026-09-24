@@ -1,47 +1,41 @@
 class Solution {
-    static int[] squares;
-    static int INF = 1000_000_000;
-    static {
-        squares = new int[100];
 
-        for (int i = 1; i <= 100; i++) {
-            squares[i - 1] = i * i;
-        }
-    }
+    static int INF = 1_000_000_000;
 
     public int numSquares(int n) {
-        int[][]dp = new int[100][n+1];
 
-        for(int [] ar:dp){
-        Arrays.fill(ar,-1);
+        int max = (int)Math.sqrt(n);
+
+        int[] squares = new int[max];
+
+        for (int i = 1; i <= max; i++) {
+            squares[i - 1] = i * i;
         }
 
-        int ans = helper(n,99,dp);
+        int[][] dp = new int[max][n + 1];
 
-        if(ans == Integer.MAX_VALUE)
-        return -1;
+        for (int[] row : dp)
+            Arrays.fill(row, -1);
 
-        return ans;
+        return helper(n, max - 1, squares, dp);
     }
 
-    public int helper(int n,int index, int[][] dp) {
-        if(index == 0){
-            if(n%squares[0] == 0){
-                return n/squares[0];
-            }
-            else{
-                return INF;
-            }
-        }
-        if(dp[index][n] != -1)
-        return dp[index][n];
+    public int helper(int n, int index, int[] squares, int[][] dp) {
 
-        int notTake = helper(n,index-1,dp);
-        int Take = INF;
+        if (index == 0)
+            return n;
 
-        if(squares[index]<=n){
-            Take = 1+helper(n-squares[index],index,dp);
+        if (dp[index][n] != -1)
+            return dp[index][n];
+
+        int notTake = helper(n, index - 1, squares, dp);
+
+        int take = INF;
+
+        if (squares[index] <= n) {
+            take = 1 + helper(n - squares[index], index, squares, dp);
         }
-        return dp[index][n] = Math.min(notTake,Take);
+
+        return dp[index][n] = Math.min(take, notTake);
     }
 }
