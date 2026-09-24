@@ -1,34 +1,28 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 class Solution {
-    void mark_p(HashMap<TreeNode, TreeNode> map, TreeNode root) {
+
+    void markParent(TreeNode root, HashMap<TreeNode, TreeNode> parent) {
         Queue<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
 
         while (!q.isEmpty()) {
-            TreeNode current = q.poll();
+            TreeNode curr = q.poll();
 
-            if (current.left != null) {
-                map.put(current.left, current);
-                q.offer(current.left);
+            if (curr.left != null) {
+                parent.put(curr.left, curr);
+                q.offer(curr.left);
             }
-            if (current.right != null) {
-                map.put(current.right, current);
-                q.offer(current.right);
+
+            if (curr.right != null) {
+                parent.put(curr.right, curr);
+                q.offer(curr.right);
             }
         }
     }
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        HashMap<TreeNode, TreeNode> map = new HashMap<>();
-        mark_p(map, root);
+
+        HashMap<TreeNode, TreeNode> parent = new HashMap<>();
+        markParent(root, parent);
 
         Queue<TreeNode> q = new ArrayDeque<>();
         Set<TreeNode> visited = new HashSet<>();
@@ -39,36 +33,36 @@ class Solution {
         int distance = 0;
 
         while (!q.isEmpty()) {
+
             int size = q.size();
 
             if (distance == k)
                 break;
 
             for (int i = 0; i < size; i++) {
+
                 TreeNode curr = q.poll();
 
-                if (curr.left != null && !visited.contains(curr.left)) {
-                    visited.add(curr.left);
+                if (curr.left != null && visited.add(curr.left))
                     q.offer(curr.left);
-                }
 
-                if (curr.right != null && !visited.contains(curr.right)) {
-                    visited.add(curr.right);
+                if (curr.right != null && visited.add(curr.right))
                     q.offer(curr.right);
-                }
-                TreeNode parent = map.get(curr);
 
-                if (parent != null && !visited.contains(parent)) {
-                    visited.add(parent);
-                    q.offer(parent);
-                }
+                TreeNode p = parent.get(curr);
+
+                if (p != null && visited.add(p))
+                    q.offer(p);
             }
+
             distance++;
         }
+
         List<Integer> ans = new ArrayList<>();
-        while (!q.isEmpty()) {
+
+        while (!q.isEmpty())
             ans.add(q.poll().val);
-        }
+
         return ans;
     }
 }
