@@ -163,6 +163,7 @@
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
@@ -268,6 +269,7 @@
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
+| [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -878,15 +880,18 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Knapsack Problem
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 ## Complete Knapsack
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 ## Rolling Hash
 |  |
