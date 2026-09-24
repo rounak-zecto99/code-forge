@@ -20,10 +20,11 @@ class Solution {
     }
 
     void dfs(TreeNode node, int distance, int k) {
-        if (node == null || visited.contains(node))
+
+        if (node == null || !visited.add(node))
             return;
 
-        visited.add(node);
+        // visited.add(node);
 
         if (distance == k) {
             ans.add(node.val);
