@@ -16,14 +16,14 @@
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return helper(preorder,
-            inorder,
-            0,
-            preorder.length - 1,
-            0,
-            inorder.length - 1
-        );
+                inorder,
+                0,
+                preorder.length - 1,
+                0,
+                inorder.length - 1);
     }
-    public TreeNode helper(int[] preorder, int[] inorder,int prestart,int preend, int instart, int inend) {
+
+    public TreeNode helper(int[] preorder, int[] inorder, int prestart, int preend, int instart, int inend) {
         if (prestart > preend || instart > inend) {
             return null;
         }
@@ -39,9 +39,9 @@ class Solution {
 
         int leftSize = i - instart;
 
-        root.left  = helper(preorder,inorder, prestart+1, prestart+leftSize,instart,i-1);
+        root.left = helper(preorder, inorder, prestart + 1, prestart + leftSize, instart, i - 1);
 
-        root.right = helper(preorder,inorder,prestart + leftSize + 1,preend,i + 1,inend);
+        root.right = helper(preorder, inorder, prestart + leftSize + 1, preend, i + 1, inend);
 
         return root;
     }
