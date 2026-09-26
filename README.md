@@ -302,6 +302,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0206-reverse-linked-list) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
@@ -327,6 +328,7 @@
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
+| [0206-reverse-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0328-odd-even-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
