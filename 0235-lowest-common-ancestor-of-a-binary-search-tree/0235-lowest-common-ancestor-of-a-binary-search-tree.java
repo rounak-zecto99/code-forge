@@ -1,14 +1,19 @@
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null || root == p || root == q)
-            return root;
+        int small = Math.min(p.val,q.val);
+        int large = Math.max(p.val,q.val);
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-
-        if (left != null && right != null) {
-            return root;
+        while(root != null){
+            if(root.val>large){
+                root = root.left;
+            }
+            else if(root.val < small){
+                root = root.right;
+            }
+            else{
+                return root;
+            }
         }
-        return left == null ? right : left;
+        return null;
     }
 }
