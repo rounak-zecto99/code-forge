@@ -1,23 +1,14 @@
 class Solution {
-    long prev = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
-        return helper(root);
+        return helper(root,Long.MAX_VALUE,Long.MIN_VALUE);
     }
-    public boolean helper(TreeNode root){
+    public boolean helper(TreeNode root, long max, long min){
         if(root == null)
         return true;
 
-        boolean flag = helper(root.left);
-
-        if(!flag)
+        if(root.val>=max || root.val<=min)
         return false;
 
-        if(prev>=root.val)
-        return false;
-        else
-        prev = root.val;
-
-        flag = helper(root.right);
-        return flag;
+        return helper(root.left,root.val,min) &&  helper(root.right,max,root.val); 
     }
 }
