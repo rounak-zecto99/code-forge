@@ -28,33 +28,31 @@ class Solution {
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         Queue<tuple> q = new ArrayDeque<>();
-        TreeMap<Integer , TreeMap<Integer,PriorityQueue<Integer>>> map = new TreeMap<>();
-        q.offer(new tuple(0,0,root));
+        TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
+        q.offer(new tuple(0, 0, root));
 
-        while(!q.isEmpty()){
+        while (!q.isEmpty()) {
             tuple a = q.poll();
             int col = a.col;
             int row = a.row;
             TreeNode cur = a.node;
 
-            map.
-                computeIfAbsent(col,k -> new TreeMap<>()).
-                computeIfAbsent(row,k -> new PriorityQueue<>()).
-                offer(cur.val);
+            map.computeIfAbsent(col, k -> new TreeMap<>()).computeIfAbsent(row, k -> new PriorityQueue<>())
+                    .offer(cur.val);
 
-            if(cur.left!=null){
-                q.offer(new tuple(col-1,row+1,cur.left));
+            if (cur.left != null) {
+                q.offer(new tuple(col - 1, row + 1, cur.left));
             }
-            if(cur.right!=null){
-                q.offer(new tuple(col+1,row+1,cur.right));
+            if (cur.right != null) {
+                q.offer(new tuple(col + 1, row + 1, cur.right));
             }
         }
-        List<List<Integer>> list = new LinkedList<>();
+        List<List<Integer>> list = new ArrayList<>();
 
-        for(TreeMap<Integer,PriorityQueue<Integer>> row: map.values()){
-            List<Integer> ans = new LinkedList<>();
-            for(PriorityQueue<Integer> values:row.values()){
-                while(!values.isEmpty()){
+        for (TreeMap<Integer, PriorityQueue<Integer>> row : map.values()) {
+            List<Integer> ans = new ArrayList<>();
+            for (PriorityQueue<Integer> values : row.values()) {
+                while (!values.isEmpty()) {
                     ans.add(values.poll());
                 }
             }
