@@ -460,6 +460,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
@@ -756,6 +757,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -775,12 +777,14 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/rounak-zecto99/code-forge/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0700-search-in-a-binary-search-tree) |
@@ -803,6 +807,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -988,4 +993,8 @@
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
