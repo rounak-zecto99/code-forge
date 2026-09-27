@@ -1,63 +1,59 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    static class tuple {
-        int col;
-        int row;
-        TreeNode node;
 
-        tuple(int col, int row, TreeNode node) {
-            this.col = col;
-            this.row = row;
+    static class Tuple {
+        TreeNode node;
+        int row;
+        int col;
+
+        Tuple(TreeNode node, int row, int col) {
             this.node = node;
+            this.row = row;
+            this.col = col;
         }
     }
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
-        Queue<tuple> q = new ArrayDeque<>();
-        TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
-        q.offer(new tuple(0, 0, root));
+
+        TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map
+            = new TreeMap<>();
+
+        Queue<Tuple> q = new ArrayDeque<>();
+        q.offer(new Tuple(root, 0, 0));
 
         while (!q.isEmpty()) {
-            tuple a = q.poll();
-            int col = a.col;
-            int row = a.row;
-            TreeNode cur = a.node;
 
-            map.computeIfAbsent(col, k -> new TreeMap<>()).computeIfAbsent(row, k -> new PriorityQueue<>())
-                    .offer(cur.val);
+            Tuple curr = q.poll();
 
-            if (cur.left != null) {
-                q.offer(new tuple(col - 1, row + 1, cur.left));
-            }
-            if (cur.right != null) {
-                q.offer(new tuple(col + 1, row + 1, cur.right));
-            }
+            TreeNode node = curr.node;
+            int row = curr.row;
+            int col = curr.col;
+
+            map
+                .computeIfAbsent(col, k -> new TreeMap<>())
+                .computeIfAbsent(row, k -> new PriorityQueue<>())
+                .offer(node.val);
+
+            if (node.left != null)
+                q.offer(new Tuple(node.left, row + 1, col - 1));
+
+            if (node.right != null)
+                q.offer(new Tuple(node.right, row + 1, col + 1));
         }
-        List<List<Integer>> list = new ArrayList<>();
 
-        for (TreeMap<Integer, PriorityQueue<Integer>> row : map.values()) {
-            List<Integer> ans = new ArrayList<>();
-            for (PriorityQueue<Integer> values : row.values()) {
-                while (!values.isEmpty()) {
-                    ans.add(values.poll());
-                }
+        List<List<Integer>> ans = new ArrayList<>();
+
+        for (TreeMap<Integer, PriorityQueue<Integer>> rows : map.values()) {
+
+            List<Integer> column = new ArrayList<>();
+
+            for (PriorityQueue<Integer> values : rows.values()) {
+                while (!values.isEmpty())
+                    column.add(values.poll());
             }
-            list.add(ans);
+
+            ans.add(column);
         }
-        return list;
+
+        return ans;
     }
 }
