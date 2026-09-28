@@ -1,39 +1,35 @@
 class Solution {
-    int INF = Integer.MAX_VALUE;
     public int minFallingPathSum(int[][] matrix) {
-        int n = matrix.length - 1;
-        int [][] dp = new int[n+1][n+1];
+        int n = matrix.length;
+        int[][] dp = new int[n][n];
 
-        for(int []ar : dp)
-        Arrays.fill(ar,-2);
+        for (int[] row : dp)
+            Arrays.fill(row, Integer.MAX_VALUE);
 
-        int min = INF;
+        int ans = Integer.MAX_VALUE;
 
-        for (int col = matrix.length - 1; col >= 0; col--) {
-            min = Math.min(min, helper(matrix, n, col,dp));
+        for (int col = 0; col < n; col++) {
+            ans = Math.min(ans, helper(matrix, n - 1, col, dp));
         }
-        return min;
+
+        return ans;
     }
 
-    public int helper(int[][] matrix, int row, int col,int[][]dp) {
-        if (row == 0) {
-            return matrix[row][col];
-        }
-        if(dp[row][col] != -2)
-        return dp[row][col];
+    private int helper(int[][] matrix, int row, int col, int[][] dp) {
+        if (row == 0)
+            return matrix[0][col];
 
-        int path1 = INF;
-        int path2 = INF;
-        int path3 = INF;
+        if (dp[row][col] != Integer.MAX_VALUE)
+            return dp[row][col];
 
-        if (col > 0) {
-            path1 = helper(matrix, row - 1, col - 1,dp);
-        }
-        if (col < matrix.length - 1) {
-            path2 = helper(matrix, row - 1, col + 1,dp);
-        }
-        path3 = helper(matrix, row - 1, col,dp);
+        int min = helper(matrix, row - 1, col, dp);
 
-        return dp[row][col] = matrix[row][col] + Math.min(path1, Math.min(path2, path3));
+        if (col > 0)
+            min = Math.min(min, helper(matrix, row - 1, col - 1, dp));
+
+        if (col < matrix.length - 1)
+            min = Math.min(min, helper(matrix, row - 1, col + 1, dp));
+
+        return dp[row][col] = matrix[row][col] + min;
     }
 }
