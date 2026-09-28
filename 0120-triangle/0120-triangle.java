@@ -3,7 +3,7 @@ class Solution {
 
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        
+
         int lastRow = triangle.get(n - 1).size();
         int[][] dp = new int[n][lastRow];
 
@@ -14,9 +14,7 @@ class Solution {
     }
 
     int helper(List<List<Integer>> triangle, int row, int col, int[][] dp) {
-        if (col < 0 || col >= triangle.get(row).size()) {
-            return INF;
-        }
+        
         if (row == triangle.size() - 1) {
             return triangle.get(row).get(col);
         }
