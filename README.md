@@ -82,6 +82,7 @@
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [0930-binary-subarrays-with-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0930-binary-subarrays-with-sum) |
+| [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0992-subarrays-with-k-different-integers](https://github.com/rounak-zecto99/code-forge/tree/master/0992-subarrays-with-k-different-integers) |
@@ -177,6 +178,7 @@
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
+| [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
@@ -657,6 +659,7 @@
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0835-image-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0835-image-overlap) |
+| [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 ## Hamiltonian Path
 |  |
