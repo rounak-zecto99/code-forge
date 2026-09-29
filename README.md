@@ -113,6 +113,7 @@
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -188,6 +189,7 @@
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Greedy
 |  |
@@ -624,6 +626,7 @@
 | [0022-generate-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0022-generate-parentheses) |
 | [1021-remove-outermost-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Queue
 |  |
 | ------- |
@@ -666,6 +669,7 @@
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Hamiltonian Path
 |  |
 | ------- |
