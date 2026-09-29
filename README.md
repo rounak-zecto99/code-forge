@@ -98,6 +98,7 @@
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/rounak-zecto99/code-forge/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/rounak-zecto99/code-forge/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -185,6 +186,7 @@
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
+| [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Greedy
@@ -663,6 +665,7 @@
 | [0835-image-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0835-image-overlap) |
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
+| [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 ## Hamiltonian Path
 |  |
 | ------- |
