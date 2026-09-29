@@ -16,9 +16,9 @@ class Solution {
             if(hash[s.charAt(i) - 'a']<k){
                 int next = i+1;
 
-                while(next<=right && hash[s.charAt(next) - 'a']<k){
-                    next++;
-                }
+                // while(next<=right && hash[s.charAt(next) - 'a']<k){
+                //     next++;
+                // }
                 int left1 = solve(s,left,i-1,k);
                 int right2 = solve(s,next,right,k);
 
