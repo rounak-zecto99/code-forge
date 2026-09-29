@@ -1,74 +1,53 @@
 class Solution {
-
     public boolean hasValidPath(char[][] grid) {
+        int row = grid.length;
+        int col = grid[0].length;
 
-        int m = grid.length;
-        int n = grid[0].length;
-
-        // A valid parentheses string must have even length
-        if (((m + n - 1) & 1) != 0)
+        if (grid[row - 1][col - 1] == '(')
             return false;
 
-        // First character must be '('
-        if (grid[0][0] == ')')
+         if (((row + col - 1) & 1) != 0)
             return false;
 
-        // Last character must be ')'
-        if (grid[m - 1][n - 1] == '(')
-            return false;
+        Boolean [][][] dp = new Boolean[row][col][row+col-1];
 
-        Boolean[][][] dp = new Boolean[m][n][m + n];
+        return helper(grid, 0, 0, 0, dp);
 
-        return dfs(grid, 0, 0, 0, dp);
     }
 
-    private boolean dfs(
-            char[][] grid,
-            int r,
-            int c,
-            int balance,
-            Boolean[][][] dp) {
+    boolean helper(char[][] grid, int row, int col, int stack, Boolean [][][] dp) {
+        if (row == grid.length - 1 && col == grid[0].length - 1) {
+            if (stack == 0)
+                return false;
 
-        // Current cell
-        if (grid[r][c] == '(')
-            balance++;
-        else
-            balance--;
+            --stack;
 
-        // Invalid prefix
-        if (balance < 0)
-            return false;
-
-        // Not enough cells remaining to close all '('
-        int remaining =
-                (grid.length - 1 - r) +
-                (grid[0].length - 1 - c);
-
-        if (balance > remaining)
-            return false;
-
-        // Reached destination
-        if (r == grid.length - 1 &&
-            c == grid[0].length - 1) {
-
-            return balance == 0;
+            return stack == 0;
         }
 
-        if (dp[r][c][balance] != null)
-            return dp[r][c][balance];
+        char cur = grid[row][col];
 
-        boolean ans = false;
-
-        // Down
-        if (r + 1 < grid.length) {
-            ans |= dfs(grid, r + 1, c, balance, dp);
+        if (cur == ')') {
+            if (stack == 0) {
+                return dp[row][col][stack] = false;
+            } else {
+                --stack;
+            }
+        } else {
+            ++stack;
         }
 
-        // Right
-        if (!ans && c + 1 < grid[0].length) {
-            ans |= dfs(grid, r, c + 1, balance, dp);
+        if(dp[row][col][stack] != null)
+        return dp[row][col][stack];
+
+        if (row < grid.length - 1 && helper(grid, row + 1, col, stack,dp)) {
+            return dp[row][col][stack] = true;
         }
 
-        return dp[r][c][balance] = ans;
+        if (col < grid[0].length - 1 && helper(grid, row, col + 1, stack, dp)) {
+            return dp[row][col][stack] = true;
+        }
+
+        return dp[row][col][stack] = false;
     }
 }
