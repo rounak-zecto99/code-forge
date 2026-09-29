@@ -3,16 +3,19 @@ class Solution {
         Arrays.sort(g);
         Arrays.sort(s);
 
-        int child = 0;
-        int cookie = 0;
+        int j = 0;
+        int i = 0;
 
-        while (child < g.length && cookie < s.length) {
-            if (s[cookie] >= g[child]) {
-                child++;
+        while (i < s.length && j < g.length){
+            if(g[j] <= s[i]){
+                i++;
+                j++;
             }
-            cookie++;
+            else{
+                i++;
+            }
         }
-
-        return child;
+        return j;
+        
     }
 }
