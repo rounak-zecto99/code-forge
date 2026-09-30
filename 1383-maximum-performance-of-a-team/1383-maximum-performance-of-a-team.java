@@ -1,31 +1,35 @@
 class Solution {
-    int MOD = 1000_000_007;
+    static final long MOD = 1_000_000_007L;
 
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
 
-        int [][] eng = new int [n][2];
+        int[][] eng = new int[n][2];
 
-        for(int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             eng[i][0] = efficiency[i];
             eng[i][1] = speed[i];
         }
-        Arrays.sort(eng,(a,b) -> Integer.compare(b[0],a[0]));
+
+        Arrays.sort(eng, (a, b) -> Integer.compare(b[0], a[0]));
+
         PriorityQueue<Integer> heap = new PriorityQueue<>();
 
-        long max = 0, speedsum=0;
+        long speedsum = 0;
+        long max = 0;
 
-        for(int j=0; j<n; j++){
-            speedsum = speedsum + eng[j][1];
+        for (int i = 0; i < n; i++) {
 
-            if(heap.size() == k){
-                int minspeed = heap.poll();
-                speedsum -= minspeed;
+            speedsum += eng[i][1];
+            heap.offer(eng[i][1]);
+
+            if (heap.size() > k) {
+                speedsum -= heap.poll();
             }
-            heap.offer(eng[j][1]);
 
-            long perf = speedsum*eng[j][0];
-            max = Math.max(max,perf);
+            long performance = speedsum * eng[i][0];
+            max = Math.max(max, performance);
         }
-        return(int) (max%MOD);
+
+        return (int) (max % MOD);
     }
 }
