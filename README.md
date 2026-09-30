@@ -97,6 +97,7 @@
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/rounak-zecto99/code-forge/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/rounak-zecto99/code-forge/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -208,6 +209,7 @@
 | [0860-lemonade-change](https://github.com/rounak-zecto99/code-forge/tree/master/0860-lemonade-change) |
 | [0984-string-without-aaa-or-bbb](https://github.com/rounak-zecto99/code-forge/tree/master/0984-string-without-aaa-or-bbb) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
@@ -266,6 +268,7 @@
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -646,6 +649,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Monotonic Queue
