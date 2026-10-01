@@ -71,6 +71,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/rounak-zecto99/code-forge/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
@@ -185,6 +186,7 @@
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
@@ -335,6 +337,7 @@
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 ## Linked List
 |  |
@@ -537,6 +540,7 @@
 | [0222-count-complete-tree-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0222-count-complete-tree-nodes) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [1009-complement-of-base-10-integer](https://github.com/rounak-zecto99/code-forge/tree/master/1009-complement-of-base-10-integer) |
@@ -633,6 +637,7 @@
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -875,6 +880,7 @@
 ## Bitmask
 |  |
 | ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0996-number-of-squareful-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0996-number-of-squareful-arrays) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Minimax
