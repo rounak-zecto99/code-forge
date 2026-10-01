@@ -59,6 +59,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
+| [0416-partition-equal-subset-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
@@ -180,6 +181,7 @@
 | [0337-house-robber-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
+| [0416-partition-equal-subset-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -1001,6 +1003,7 @@
 | ------- |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0416-partition-equal-subset-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
@@ -1042,4 +1045,8 @@
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
