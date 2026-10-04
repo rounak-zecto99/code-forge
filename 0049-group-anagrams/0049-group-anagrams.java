@@ -1,44 +1,21 @@
 class Solution {
-    boolean isAna(String s , String t){
-        if(s.length() != t.length())
-        return false;
-
-        int [] hash = new int[26];
-
-        for(int i= 0; i<s.length(); i++){
-            hash[s.charAt(i) - 'a']++;
-            hash[t.charAt(i) - 'a']--;
-        }
-        for(int a : hash){
-            if(a!=0)
-            return false;
-        }
-        return true;
-    }
     public List<List<String>> groupAnagrams(String[] strs) {
-        // Arrays.sort(strs);
-        // System.out.println(Arrays.toString(strs));
-        List<List<String>> list = new ArrayList<>();
-        boolean [] added = new boolean[strs.length];
-        
-        for(int i=0; i<strs.length; i++){
-            if(added[i])
-            continue;
 
-            List<String> row = new ArrayList<>();
-            added[i] = true;
-            row.add(strs[i]);
+        Map<String, List<String>> map = new HashMap<>();
 
-            for(int j=i+1; j<strs.length; j++){
-                if(added[j])
-                 continue;
-                if(strs[i].length() == strs[j].length() && isAna(strs[i] , strs[j])){
-                    added[j] = true;
-                    row.add(strs[j]);
-                }
+        for (String s : strs) {
+
+            int[] count = new int[26];
+
+            for (char c : s.toCharArray()) {
+                count[c - 'a']++;
             }
-            list.add(row);
+
+            String key = Arrays.toString(count);
+
+            map.computeIfAbsent(key, k -> new ArrayList<>()).add(s);
         }
-        return list;
+
+        return new ArrayList<>(map.values());
     }
 }
