@@ -1,17 +1,30 @@
 class Solution {
-    int min = Integer.MAX_VALUE;
     public int minDepth(TreeNode root) {
-
-        helper(root,1);
-        return min ==  Integer.MAX_VALUE ? 0:min;
-    }
-    void helper(TreeNode root, int taken){
         if(root == null)
-        return;
-        if(root.left == null && root.right == null){
-            min = Math.min(min,taken);
+        return 0;
+
+        Queue<TreeNode> q = new ArrayDeque<>();
+        q.offer(root);
+        int depth = 1;
+
+        while(!q.isEmpty()){
+            int size = q.size();
+
+            for(int i=0 ; i<size; i++){
+                TreeNode cur = q.poll();
+
+                if(cur.left == null && cur.right == null){
+                    return depth;
+                }
+                if(cur.left != null){
+                    q.offer(cur.left);
+                }
+                if(cur.right != null){
+                    q.offer(cur.right);
+                }
+            }
+            depth++;
         }
-        helper(root.left, taken + 1);
-        helper(root.right, taken +1);
+        return 4;
     }
 }
