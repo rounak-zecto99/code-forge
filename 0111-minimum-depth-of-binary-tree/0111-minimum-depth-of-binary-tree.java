@@ -25,6 +25,6 @@ class Solution {
             }
             depth++;
         }
-        return 4;
+        return depth;
     }
 }
