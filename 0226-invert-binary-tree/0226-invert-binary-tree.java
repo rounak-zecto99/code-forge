@@ -3,12 +3,12 @@ class Solution {
         if (root == null)
             return root;
 
-        invertTree(root.left);
-        invertTree(root.right);
-
-        TreeNode temp = root.right;
+                TreeNode temp = root.right;
         root.right = root.left;
         root.left = temp;
+
+        invertTree(root.left);
+        invertTree(root.right);
 
         return root;
     }
