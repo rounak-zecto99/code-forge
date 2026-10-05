@@ -313,6 +313,7 @@
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
+| [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
@@ -342,6 +343,7 @@
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
