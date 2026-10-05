@@ -14,32 +14,32 @@ class Solution {
                 dp[index][coin] = dp[index - 1][coin];
 
                 if (coin >= coins[index])
-                dp[index][coin] += dp[index][coin - coins[index]];
+                    dp[index][coin] += dp[index][coin - coins[index]];
             }
         }
-        return dp[n-1][amount];
+        return dp[n - 1][amount];
 
         // return helper(coins, amount, coins.length - 1);
     }
 
-    int helper(int[] coins, int balance, int index) {
+    // int helper(int[] coins, int balance, int index) {
 
-        if (balance == 0)
-            return 1;
+    //     if (balance == 0)
+    //         return 1;
 
-        if (index == 0) {
-            if (balance % coins[0] == 0)
-                return 1;
+    //     if (index == 0) {
+    //         if (balance % coins[0] == 0)
+    //             return 1;
 
-            return 0;
-        }
-        int ways = 0;
+    //         return 0;
+    //     }
+    //     int ways = 0;
 
-        ways += helper(coins, balance, index - 1);
+    //     ways += helper(coins, balance, index - 1);
 
-        if (balance >= coins[index])
-            ways += helper(coins, balance - coins[index], index);
+    //     if (balance >= coins[index])
+    //         ways += helper(coins, balance - coins[index], index);
 
-        return ways;
-    }
+    //     return ways;
+    // }
 }
