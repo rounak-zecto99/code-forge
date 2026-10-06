@@ -371,6 +371,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0206-reverse-linked-list) |
@@ -607,6 +608,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/rounak-zecto99/code-forge/tree/master/0169-majority-element) |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
@@ -860,6 +862,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1114,4 +1117,8 @@
 |  |
 | ------- |
 | [0878-nth-magical-number](https://github.com/rounak-zecto99/code-forge/tree/master/0878-nth-magical-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
