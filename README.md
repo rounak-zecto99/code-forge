@@ -379,6 +379,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/rounak-zecto99/code-forge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rounak-zecto99/code-forge/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/rounak-zecto99/code-forge/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
@@ -624,6 +625,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/rounak-zecto99/code-forge/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/rounak-zecto99/code-forge/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/rounak-zecto99/code-forge/tree/master/0146-lru-cache) |
