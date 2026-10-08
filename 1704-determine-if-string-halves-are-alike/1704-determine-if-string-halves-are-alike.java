@@ -8,17 +8,19 @@ class Solution {
         int count = 0;
 
         while (i < len && j < (len << 1)) {
-            if(isVowel(s.charAt(i++)+""))
+            if(isVowel(s.charAt(i++)))
             count++;
 
-            if(isVowel(s.charAt(j++)+""))
+            if(isVowel(s.charAt(j++)))
             count--;
         }
         return count == 0;
     }
 
-    public boolean isVowel(String ch) {
-        String vowel = "aeiouAEIOU";
-        return vowel.contains(ch);
+    public boolean isVowel(char ch) {
+        if(ch =='a' || ch == 'e'|| ch == 'i' ||ch == 'o'||ch== 'u'||ch =='A'||ch == 'E'||ch =='I'||ch == 'O'||ch == 'U')
+        return true;
+
+        return false;
     }
 }
