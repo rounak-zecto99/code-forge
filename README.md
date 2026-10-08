@@ -521,6 +521,7 @@
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1704-determine-if-string-halves-are-alike](https://github.com/rounak-zecto99/code-forge/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2062-count-vowel-substrings-of-a-string) |
@@ -846,6 +847,7 @@
 | [0992-subarrays-with-k-different-integers](https://github.com/rounak-zecto99/code-forge/tree/master/0992-subarrays-with-k-different-integers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
+| [1704-determine-if-string-halves-are-alike](https://github.com/rounak-zecto99/code-forge/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
