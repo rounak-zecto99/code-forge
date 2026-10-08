@@ -728,6 +728,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
+| [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
 ## Heap (Priority Queue)
 |  |
@@ -916,6 +917,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -980,6 +982,7 @@
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
 ## Bitmask
 |  |
 | ------- |
