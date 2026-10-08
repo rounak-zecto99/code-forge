@@ -7,7 +7,7 @@ class Solution {
 
         int count = 0;
 
-        while (i < len && j < (len << 1)) {
+        while (i < len ) {
             if(isVowel(s.charAt(i++)))
             count++;
 
