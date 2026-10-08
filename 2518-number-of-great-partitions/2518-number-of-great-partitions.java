@@ -2,47 +2,47 @@ class Solution {
     static final int MOD = 1_000_000_007;
 
     public int countPartitions(int[] nums, int k) {
-        long totalSum = 0;
-        long totalWays = 1;
+        long total = 0;
 
-        // dp[s] = number of subsets with sum exactly s,
-        // only for s < k
+        for (int x : nums) {
+            total += x;
+        }
+
+        if (total < 2L * k) {
+            return 0;
+        }
+
+        // dp[s] = number of subsets with sum s
         long[] dp = new long[k];
         dp[0] = 1;
 
         for (int x : nums) {
-            totalSum += x;
-
-            // 0/1 subset sum: iterate backwards
-            for (int sum = k - 1 - x; sum >= 0; sum--) {
-                dp[sum + x] = (dp[sum + x] + dp[sum]) % MOD;
+            for (int s = k - 1; s >= x; s--) {
+                dp[s] = (dp[s] + dp[s - x]) % MOD;
             }
-
-            // Every element can either belong to subset A or B
-            totalWays = (totalWays * 2) % MOD;
         }
 
-        // Remove invalid partitions
-        for (int sum = 0; sum < k; sum++) {
+        // Number of subsets having sum < k
+        long invalid = 0;
 
-            // If this subset has sum < k,
-            // the other subset has sum >= k, assuming totalSum >= 2k.
-            //
-            // If the other subset also has sum < k,
-            // this subset was counted from BOTH sides.
-            if (totalSum - sum < k) {
-                totalWays -= dp[sum];
-            } else {
-                totalWays -= 2 * dp[sum];
-            }
-
-            totalWays %= MOD;
+        for (int s = 0; s < k; s++) {
+            invalid = (invalid + dp[s]) % MOD;
         }
 
-        if (totalWays < 0) {
-            totalWays += MOD;
+        // Total ways to assign each element to either group
+        long totalWays = 1;
+
+        for (int i = 0; i < nums.length; i++) {
+            totalWays = totalWays * 2 % MOD;
         }
 
-        return (int) totalWays;
+        // Remove cases where either group has sum < k
+        long answer = (totalWays - 2 * invalid) % MOD;
+
+        if (answer < 0) {
+            answer += MOD;
+        }
+
+        return (int) answer;
     }
 }
