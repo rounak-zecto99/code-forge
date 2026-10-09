@@ -48,6 +48,7 @@
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
@@ -767,6 +768,7 @@
 | [0064-minimum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0835-image-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0835-image-overlap) |
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
@@ -814,6 +816,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rounak-zecto99/code-forge/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -1088,6 +1091,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 ## Number Theory
 |  |
@@ -1113,6 +1117,7 @@
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
