@@ -56,7 +56,7 @@ class Solution {
             int col = cur.col;
 
             if (row > 0 && grid[row - 1][col] == 1) {
-                grid[row - 1][col] = 2;
+                grid[row - 1][col] = 0;
                 q.offer(new Tuple(row - 1, col));
             }
 
