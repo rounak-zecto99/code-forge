@@ -29,7 +29,7 @@ class Solution {
         }
         vis = new boolean[n];
         int count = 0;
-        System.out.println(list);
+        // System.out.println(list);
 
         for (int i = 0; i < n; i++) {
             if (!vis[i]) {
