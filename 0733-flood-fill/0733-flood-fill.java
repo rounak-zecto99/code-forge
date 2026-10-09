@@ -1,10 +1,11 @@
+
 class Tuple {
     int row;
     int col;
 
     Tuple(int r, int c) {
-        this.row = r;
-        this.col = c;
+        row = r;
+        col = c;
     }
 }
 
@@ -19,33 +20,35 @@ class Solution {
         int n = image[0].length;
 
         Queue<Tuple> q = new ArrayDeque<>();
-        image[sr][sc] = color;
         q.offer(new Tuple(sr, sc));
+
+        // Mark when enqueuing
+        image[sr][sc] = color;
+
+        int[][] dirs = {
+            {-1, 0},
+            {1, 0},
+            {0, -1},
+            {0, 1}
+        };
 
         while (!q.isEmpty()) {
             Tuple cur = q.poll();
 
-            int row = cur.row;
-            int col = cur.col;
+            for (int[] d : dirs) {
+                int row = cur.row + d[0];
+                int col = cur.col + d[1];
 
-            if (row > 0 && image[row - 1][col] == reqColor) {
-                image[row - 1][col] = color;
-                q.offer(new Tuple(row - 1, col));
-            }
+                if (row >= 0 && row < m &&
+                    col >= 0 && col < n &&
+                    image[row][col] == reqColor) {
 
-            if (row + 1 < m && image[row + 1][col] == reqColor) {
-                image[row + 1][col] = color;
-                q.offer(new Tuple(row + 1, col));
-            }
-            if (col > 0 && image[row][col - 1] == reqColor) {
-                image[row][col - 1] = color;
-                q.offer(new Tuple(row, col - 1));
-            }
-            if (col + 1 < n && image[row][col + 1] == reqColor) {
-                image[row][col + 1] = color;
-                q.offer(new Tuple(row, col + 1));
+                    image[row][col] = color;
+                    q.offer(new Tuple(row, col));
+                }
             }
         }
+
         return image;
     }
 }
