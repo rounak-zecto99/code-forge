@@ -74,6 +74,7 @@
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
+| [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rounak-zecto99/code-forge/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/rounak-zecto99/code-forge/tree/master/0605-can-place-flowers) |
@@ -212,6 +213,7 @@
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
@@ -771,6 +773,7 @@
 | [0073-set-matrix-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/rounak-zecto99/code-forge/tree/master/0733-flood-fill) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
 | [0835-image-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0835-image-overlap) |
@@ -1129,6 +1132,7 @@
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rounak-zecto99/code-forge/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0662-maximum-width-of-binary-tree) |
