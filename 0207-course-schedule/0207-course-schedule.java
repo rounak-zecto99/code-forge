@@ -7,10 +7,8 @@ class Solution {
         path[node] = true;
 
         for (int i : list.get(node)) {
-            if (!vis[i]) {
-                if (dfs(i, list)) {
-                    return true;
-                }
+            if (!vis[i] && dfs(i, list)) {
+                return true;
             } else if (path[i]) {
                 return true;
             }
