@@ -103,6 +103,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1031-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1031-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1049-last-stone-weight-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1049-last-stone-weight-ii) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
@@ -776,6 +777,7 @@
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Hamiltonian Path
@@ -835,6 +837,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Trie
@@ -1096,6 +1099,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 ## Number Theory
 |  |
 | ------- |
@@ -1133,6 +1137,7 @@
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Knapsack Problem
