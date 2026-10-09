@@ -125,6 +125,7 @@
 | [1539-kth-missing-positive-number](https://github.com/rounak-zecto99/code-forge/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -782,6 +783,7 @@
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
+| [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Hamiltonian Path
 |  |
@@ -1143,6 +1145,7 @@
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Knapsack Problem
 |  |
