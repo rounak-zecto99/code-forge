@@ -338,6 +338,7 @@
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/rounak-zecto99/code-forge/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
+| [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
@@ -509,6 +510,7 @@
 | [0165-compare-version-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0165-compare-version-numbers) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
+| [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -560,6 +562,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
+| [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
