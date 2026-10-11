@@ -4,9 +4,8 @@ import java.util.*;
 class Solution {
     public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
         int n = nums1.length;
-        int max = 0;
-
         int[] diff = new int[n];
+        int max = 0;
 
         for (int i = 0; i < n; i++) {
             diff[i] = Math.abs(nums1[i] - nums2[i]);
@@ -14,49 +13,43 @@ class Solution {
         }
 
         long k = (long) k1 + k2;
+        int left = 0, right = max;
 
-        long total = 0;
-        for (int d : diff) {
-            total += d;
-        }
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            long ops = 0;
 
-        // If we can eliminate every difference
-        if (k >= total) {
-            return 0;
-        }
-
-        int[] freq = new int[max + 1];
-
-        for (int d : diff) {
-            freq[d]++;
-        }
-
-        // Reduce differences from largest to smallest
-        for (int d = max; d > 0 && k > 0; d--) {
-            if (freq[d] == 0) {
-                continue;
+            for (int d : diff) {
+                if (d > mid) {
+                    ops += d - mid;
+                }
             }
 
-            long count = freq[d];
-            long cost = count;
-
-            if (k >= cost) {
-                // Reduce every difference d to d - 1
-                freq[d - 1] += freq[d];
-                k -= cost;
-                freq[d] = 0;
+            if (ops <= k) {
+                right = mid;
             } else {
-                // Reduce only k of these differences by 1
-                freq[d] -= (int) k;
-                freq[d - 1] += (int) k;
-                k = 0;
+                left = mid + 1;
             }
         }
 
+        int threshold = left;
+        long remaining = k;
         long ans = 0;
 
-        for (int d = 1; d <= max; d++) {
-            ans += (long) d * d * freq[d];
+        for (int d : diff) {
+            if (d > threshold) {
+                remaining -= d - threshold;
+            }
+        }
+
+        for(int d : diff){
+            long a = Math.min(threshold,d);
+
+            if(remaining > 0 && a == threshold && a > 0){
+                a--;
+                remaining--;
+            }
+            ans += a*a;
         }
 
         return ans;
