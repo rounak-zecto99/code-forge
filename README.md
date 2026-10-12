@@ -83,6 +83,7 @@
 | [0605-can-place-flowers](https://github.com/rounak-zecto99/code-forge/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0622-design-circular-queue](https://github.com/rounak-zecto99/code-forge/tree/master/0622-design-circular-queue) |
+| [0628-maximum-product-of-three-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0628-maximum-product-of-three-numbers) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/rounak-zecto99/code-forge/tree/master/0733-flood-fill) |
@@ -330,6 +331,7 @@
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
+| [0628-maximum-product-of-three-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0628-maximum-product-of-three-numbers) |
 | [0726-number-of-atoms](https://github.com/rounak-zecto99/code-forge/tree/master/0726-number-of-atoms) |
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -367,6 +369,7 @@
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0628-maximum-product-of-three-numbers) |
 | [0836-rectangle-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0878-nth-magical-number](https://github.com/rounak-zecto99/code-forge/tree/master/0878-nth-magical-number) |
