@@ -219,6 +219,7 @@
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
+| [0516-longest-palindromic-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/0647-palindromic-substrings) |
@@ -533,6 +534,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
+| [0516-longest-palindromic-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0647-palindromic-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/0647-palindromic-substrings) |
 | [0726-number-of-atoms](https://github.com/rounak-zecto99/code-forge/tree/master/0726-number-of-atoms) |
