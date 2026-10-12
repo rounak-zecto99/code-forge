@@ -1,14 +1,32 @@
 class Solution {
     public int minCost(int[] startPos, int[] homePos, int[] rowCosts, int[] colCosts) {
-        int res = 0, i = startPos[0], j = startPos[1], x = homePos[0], y = homePos[1];
-        while (i != x) {
-            i += (x - i) / Math.abs(x - i);
-            res += rowCosts[i];
+        int sr = startPos[0];
+        int sc = startPos[1];
+        int m = rowCosts.length;
+
+        int fr = homePos[0];
+        int fc = homePos[1];
+        int n = colCosts.length;
+
+        int cost = 0;
+
+        while (sr > fr) {
+            cost += rowCosts[sr - 1];
+            sr = sr - 1;
         }
-        while (j != y) {
-            j += (y - j) / Math.abs(y - j);
-            res += colCosts[j];
+        while (sr < fr) {
+            cost += rowCosts[sr + 1];
+            sr = sr + 1;
         }
-        return res;
+        while (sc > fc) {
+            cost += colCosts[sc - 1];
+            sc = sc - 1;
+        }
+        while (sc < fc) {
+            cost += colCosts[sc + 1];
+            sc = sc + 1;
+        }
+
+        return cost;
     }
 }
