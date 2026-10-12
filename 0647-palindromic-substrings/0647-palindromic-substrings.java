@@ -1,29 +1,22 @@
 class Solution {
     public int countSubstrings(String s) {
-        char [] ch = s.toCharArray();
-        int n = ch.length;
-
-        int ans = 0;
-
-        Boolean [][] dp = new Boolean[n][n];
+        int n = s.length();
+        int count = 0;
 
         for(int i=0; i<n; i++){
-            for(int j=i; j<n; j++){
-                if(isPall(ch,i,j,dp)){
-                    ans++;
-                }
-            }
+            count += helper(s,i,i);
+            count += helper(s,i,i+1);
         }
-        return ans;
+        return count;
     }
-    boolean isPall (char [] ch,int start, int end, Boolean [][] dp){
-        if(start >= end)
-        return  true;
+    public int helper(String s , int left, int right){
+        int counter = 0;
 
-        if(dp[start][end] != null)
-        return dp[start][end];
-
-        return dp[start][end] = ch[start++] == ch[end--] && isPall(ch,start,end,dp);
+        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
+            counter++;
+            left--;
+            right++;
+        }
+        return counter;
     }
-
 }
