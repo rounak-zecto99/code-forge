@@ -6,13 +6,16 @@ class Solution {
         }
         Arrays.sort(nums);
 
-        long ans = 0;
-        for (int i = 0; i < n / 2; i++) {
-            ans -= nums[i];
+        long max = 0;
+        int left = 0;
+        int right = nums.length-1;
+
+        while(left<right){
+            max += nums[right--] - nums[left++];
         }
-        for (int i = n / 2; i < n; i++) {
-            ans += nums[i];
-        }
-        return ans;
+        if((nums.length & 1) == 1)
+        max += nums[right];
+
+        return max;
     }
 }
