@@ -117,6 +117,7 @@
 | [1046-last-stone-weight](https://github.com/rounak-zecto99/code-forge/tree/master/1046-last-stone-weight) |
 | [1049-last-stone-weight-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1049-last-stone-weight-ii) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
+| [1150-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/1150-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -185,6 +186,7 @@
 | [0878-nth-magical-number](https://github.com/rounak-zecto99/code-forge/tree/master/0878-nth-magical-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1150-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/1150-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/rounak-zecto99/code-forge/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
