@@ -114,6 +114,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rounak-zecto99/code-forge/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1031-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1031-maximum-sum-of-two-non-overlapping-subarrays) |
+| [1046-last-stone-weight](https://github.com/rounak-zecto99/code-forge/tree/master/1046-last-stone-weight) |
 | [1049-last-stone-weight-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1049-last-stone-weight-ii) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -807,6 +808,7 @@
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/rounak-zecto99/code-forge/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1046-last-stone-weight](https://github.com/rounak-zecto99/code-forge/tree/master/1046-last-stone-weight) |
 | [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
