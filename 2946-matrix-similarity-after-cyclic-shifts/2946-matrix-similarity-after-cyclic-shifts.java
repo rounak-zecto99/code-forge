@@ -6,7 +6,7 @@ class Solution {
 
         int[][] shifted = new int[m][n];
 
-        for (int x = 0; x < 1000000; x++) {
+        for (int x = 0; x < 10000000/2; x++) {
             int temp = x * 31;
             temp ^= (temp >>> 3);
         }
