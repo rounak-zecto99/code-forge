@@ -1,37 +1,24 @@
 class Solution {
-    List<List<Integer>> list;
+    List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> findLeaves(TreeNode root) {
-        list = new ArrayList<>();
-        TreeNode dummy = new TreeNode(-1);
-        dummy.left = root;
-
-        while (dummy.left != null) {
-            List<Integer> row = new ArrayList<>();
-            dfs(dummy, row);
-            list.add(row);
-        }
-
-        return list;
+        height(root);
+        return result;
     }
 
-    int dfs(TreeNode root, List<Integer> row) {
-        if (root == null)
-            return 0;
+    private int height(TreeNode node) {
+        if (node == null) return -1;
 
-        if (root.left == null && root.right == null) {
-            row.add(root.val);
-            return -1;
+        int left = height(node.left);
+        int right = height(node.right);
+
+        int h = 1 + Math.max(left, right);
+
+        if (result.size() == h) {
+            result.add(new ArrayList<>());
         }
-        int left = dfs(root.left, row);
-        if (left == -1)
-            root.left = null;
 
-        int right = dfs(root.right, row);
-
-        if (right == -1)
-            root.right = null;
-
-        return 0;
+        result.get(h).add(node.val);
+        return h;
     }
 }
