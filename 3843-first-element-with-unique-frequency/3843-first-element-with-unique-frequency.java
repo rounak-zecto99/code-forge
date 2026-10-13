@@ -1,20 +1,20 @@
 class Solution {
     public int firstUniqueFreq(int[] nums) {
-        int[] elementFreq = new int[100001];
-        int[] freqCount = new int[nums.length + 1];
+        Map<Integer, Integer> elementFreq = new LinkedHashMap<>();
+        Map<Integer, Integer> freqCount = new HashMap<>();
 
         for (int num : nums) {
-            elementFreq[num]++;
+            elementFreq.put(num, elementFreq.getOrDefault(num, 0) + 1);
         }
 
-        for (int frequency : elementFreq) {
-            if (frequency > 0) {
-                freqCount[frequency]++;
-            }
+        for (int frequency : elementFreq.values()) {
+            freqCount.put(frequency, freqCount.getOrDefault(frequency, 0) + 1);
         }
 
-        for (int num : nums) {
-            if (freqCount[elementFreq[num]] == 1) {
+        for (int num : elementFreq.keySet()) {
+            int frequency = elementFreq.get(num);
+
+            if (freqCount.get(frequency) == 1) {
                 return num;
             }
         }
