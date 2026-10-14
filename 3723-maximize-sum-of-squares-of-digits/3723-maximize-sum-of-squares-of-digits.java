@@ -10,6 +10,8 @@ class Solution {
             sum -= digit;
         }
 
+        if (sum > 0) return "";
+
         return ans.toString();
     }
 }
