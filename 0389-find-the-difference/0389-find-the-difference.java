@@ -4,13 +4,13 @@ class Solution {
         if(t.length() > s.length()){
             return findTheDifference(t,s);
         }
-        int a  = s.charAt(0);
+        int extra  = s.charAt(0);
 
         for(int i=0; i<t.length(); i++){
-            a = a ^ t.charAt(i);
-            a = a ^ s.charAt(i+1);
+            extra = extra ^ t.charAt(i);
+            extra = extra ^ s.charAt(i+1);
         }
 
-        return (char) a;
+        return (char) extra;
     }
 }
