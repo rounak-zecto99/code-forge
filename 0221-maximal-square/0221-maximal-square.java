@@ -3,30 +3,42 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        int[] dp = new int[n + 1];
+        int[] heights = new int[n];
         int max = 0;
-        int prev = 0;
 
-        for (int i = 1; i <= m; i++) {
-            prev = 0;
+        for (int r = 0; r < m; r++) {
 
-            for (int j = 1; j <= n; j++) {
-                int temp = dp[j];
-
-                if (matrix[i - 1][j - 1] == '1') {
-                    dp[j] = 1 + Math.min(
-                        prev,
-                        Math.min(dp[j - 1], dp[j])
-                    );
-                    max = Math.max(max, dp[j]);
+            // Update histogram heights for this row
+            for (int c = 0; c < n; c++) {
+                if (matrix[r][c] == '1') {
+                    heights[c]++;
                 } else {
-                    dp[j] = 0;
+                    heights[c] = 0;
+                }
+            }
+
+            // Monotonic stack
+            int[] stack = new int[n];
+            int top = -1;
+
+            for (int i = 0; i <= n; i++) {
+                int cur = (i == n) ? 0 : heights[i];
+
+                while (top != -1 && heights[stack[top]] >= cur) {
+                    int height = heights[stack[top--]];
+                    int prevSmaller = (top == -1) ? -1 : stack[top];
+                    int width = i - prevSmaller - 1;
+
+                    int side = Math.min(height, width);
+                    max = Math.max(max, side * side);
                 }
 
-                prev = temp;
+                if (i < n) {
+                    stack[++top] = i;
+                }
             }
         }
 
-        return max * max;
+        return max;
     }
 }
