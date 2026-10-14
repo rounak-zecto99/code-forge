@@ -642,6 +642,7 @@
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0856-score-of-parentheses) |
+| [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rounak-zecto99/code-forge/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -675,6 +676,7 @@
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -1051,6 +1053,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0622-design-circular-queue](https://github.com/rounak-zecto99/code-forge/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
 ## Binary Search Tree
 |  |
@@ -1119,6 +1122,7 @@
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
 ## Bitmask
 |  |
