@@ -230,6 +230,7 @@
 | [0152-maximum-product-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/rounak-zecto99/code-forge/tree/master/0221-maximal-square) |
+| [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
@@ -395,6 +396,7 @@
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/rounak-zecto99/code-forge/tree/master/0263-ugly-number) |
+| [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
@@ -748,6 +750,7 @@
 | [0219-contains-duplicate-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
+| [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
@@ -843,6 +846,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0253-meeting-rooms-ii) |
+| [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
