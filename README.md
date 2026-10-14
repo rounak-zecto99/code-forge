@@ -53,6 +53,7 @@
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/rounak-zecto99/code-forge/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
@@ -389,6 +390,7 @@
 | [0070-climbing-stairs](https://github.com/rounak-zecto99/code-forge/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/rounak-zecto99/code-forge/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
@@ -1197,6 +1199,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/rounak-zecto99/code-forge/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
@@ -1234,6 +1237,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Euclidean Algorithm
@@ -1389,4 +1393,16 @@
 |  |
 | ------- |
 | [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
