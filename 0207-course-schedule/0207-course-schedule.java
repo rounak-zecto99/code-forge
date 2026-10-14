@@ -1,46 +1,40 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int n = numCourses;
-        int[] inDegree = new int[n];
+        int[] inDegree = new int[numCourses];
 
-        List<List<Integer>> list = new ArrayList<>();
+        List<List<Integer>> adj = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            list.add(new ArrayList<>());
+        for (int i = 0; i < numCourses; i++) {
+            adj.add(new ArrayList<>());
         }
 
-        for (int[] ar : prerequisites) {
-            int end = ar[0];
-            int start = ar[1];
-            list.get(start).add(end);
+        for (int[] p : prerequisites) {
+            int course = p[0];
+            int prerequisite = p[1];
+
+            adj.get(prerequisite).add(course);
+            inDegree[course]++;
         }
 
-        for (List<Integer> l : list) {
-            for (int i : l) {
-                inDegree[i]++;
+        Queue<Integer> q = new ArrayDeque<>();
+
+        for (int i = 0; i < numCourses; i++) {
+            if (inDegree[i] == 0) {
+                q.offer(i);
             }
         }
 
         int total = 0;
 
-        Queue<Integer> q = new ArrayDeque<>();
-
-        for (int i = 0; i < n; i++) {
-            if (inDegree[i] == 0)
-                q.offer(i);
-        }
-
-        // System.out.println(Arrays.toString(inDegree));
-
-        while (!q.isEmpty()) {  //Kahns Algo
+        while (!q.isEmpty()) {
             int node = q.poll();
-            ++total;
+            total++;
 
-            for (int i : list.get(node)) {
-                inDegree[i]--;
+            for (int neighbor : adj.get(node)) {
+                inDegree[neighbor]--;
 
-                if (inDegree[i] == 0) {
-                    q.offer(i);
+                if (inDegree[neighbor] == 0) {
+                    q.offer(neighbor);
                 }
             }
         }
