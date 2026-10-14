@@ -586,6 +586,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
+| [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
 | [0516-longest-palindromic-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0647-palindromic-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/0647-palindromic-substrings) |
@@ -1207,6 +1208,7 @@
 ## String Matching
 |  |
 | ------- |
+| [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
 | [0796-rotate-string](https://github.com/rounak-zecto99/code-forge/tree/master/0796-rotate-string) |
 ## Geometry
 |  |
@@ -1302,6 +1304,7 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
+| [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
 ## Boyer–Moore String-Search Algorithm
 |  |
 | ------- |
@@ -1382,4 +1385,8 @@
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/rounak-zecto99/code-forge/tree/master/0785-is-graph-bipartite) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
 <!---LeetCode Topics End-->
