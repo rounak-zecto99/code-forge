@@ -6,14 +6,10 @@ class Solution {
             return "";
 
         while (sum != 0) {
-            for (int i = 9; i >= 0; i--) {
-                if (i <= sum) {
-                    sum -= i;
-                    ans.append(i);
-                    --num;
-                    break;
-                }
-            }
+            int i = Math.min(9,sum);
+            ans.append(i);
+            sum -= i;
+            --num;
         }
         for (int i = 0; i < num; i++) {
             ans.append('0');
