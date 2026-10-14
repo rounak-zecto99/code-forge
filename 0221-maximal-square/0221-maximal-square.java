@@ -18,7 +18,7 @@ class Solution {
             }
         }
 
-        System.out.println(Arrays.deepToString(dp));
+        // System.out.println(Arrays.deepToString(dp));
         int max = 0;
 
         for (int[] arr : dp) {
