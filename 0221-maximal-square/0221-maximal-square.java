@@ -1,52 +1,32 @@
 class Solution {
     public int maximalSquare(char[][] matrix) {
-
         int m = matrix.length;
         int n = matrix[0].length;
 
-        int[][] dp = new int[m][n];
-
-        for (int i = 0; i < n; i++) {
-            dp[0][i] = (matrix[0][i] - '0');
-        }
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 1; j < m; j++) {
-                if (matrix[j][i] == '1') {
-                    dp[j][i] = (matrix[j][i] - '0') + dp[j - 1][i];
-                }
-            }
-        }
-
-        // System.out.println(Arrays.deepToString(dp));
+        int[] dp = new int[n + 1];
         int max = 0;
+        int prev = 0;
 
-        for (int[] arr : dp) {
-            int[] stack = new int[n];
-            int top = -1;
+        for (int i = 1; i <= m; i++) {
+            prev = 0;
 
-            for (int i = 0; i <= n; i++) {
-                int cur = i == n ? 0 : arr[i];
+            for (int j = 1; j <= n; j++) {
+                int temp = dp[j];
 
-                while (top != -1 && arr[stack[top]] >= cur) {
-                    int num = arr[stack[top--]];
-                    int back = (top == -1) ? -1 : stack[top];
-                    if ((i - back - 1) >= num) {
-                        int area = num * num;
-                        max = Math.max(max, area);
-                    }
+                if (matrix[i - 1][j - 1] == '1') {
+                    dp[j] = 1 + Math.min(
+                        prev,
+                        Math.min(dp[j - 1], dp[j])
+                    );
+                    max = Math.max(max, dp[j]);
+                } else {
+                    dp[j] = 0;
                 }
-                stack[++top] = i;
+
+                prev = temp;
             }
         }
-        return max;
+
+        return max * max;
     }
 }
-// [[1, 0, 0, 1, 1, 0, 1, 1], 
-// [2, 0, 0, 0, 0, 1, 0, 0], 
-// [0, 1, 1, 1, 0, 0, 1, 1], 
-// [0, 0, 0, 2, 0, 0, 0, 2], 
-// [0, 0, 0, 0, 0, 1, 1, 3], 
-// [1, 1, 1, 1, 1, 2, 2, 4], 
-// [2, 0, 0, 2, 0, 3, 3, 0], 
-// [0, 1, 1, 0, 1, 4, 4, 0]]
