@@ -1,45 +1,50 @@
 class Solution {
-    boolean[] vis;
-    boolean[] path;
-
-    boolean dfs(int node, List<List<Integer>> list) {
-        vis[node] = true;
-        path[node] = true;
-
-        for (int i : list.get(node)) {
-            if (!vis[i] && dfs(i, list)) {
-                return true;
-            } else if (path[i]) {
-                return true;
-            }
-        }
-        path[node] = false;
-        return false;
-    }
-
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> list = new ArrayList<>();
-        int n = prerequisites.length;
+        int n = numCourses;
+        int[] inDegree = new int[n];
 
-        for (int i = 0; i < numCourses; i++) {
+        List<List<Integer>> list = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
             list.add(new ArrayList<>());
         }
 
-        for (int i = 0; i < n; i++) {
-            int a = prerequisites[i][0];
-            int b = prerequisites[i][1];
-
-            list.get(b).add(a);
+        for (int[] ar : prerequisites) {
+            int end = ar[0];
+            int start = ar[1];
+            list.get(start).add(end);
         }
 
-        vis = new boolean[numCourses];
-        path = new boolean[numCourses];
-
-        for (int i = 0; i < numCourses; i++) {
-            if (!vis[i] && dfs(i, list)) {
-                return false;
+        for (List<Integer> l : list) {
+            for (int i : l) {
+                inDegree[i]++;
             }
         }
-        return true;
+
+        int total = 0;
+
+        Queue<Integer> q = new ArrayDeque<>();
+
+        for (int i = 0; i < n; i++) {
+            if (inDegree[i] == 0)
+                q.offer(i);
+        }
+
+        // System.out.println(Arrays.toString(inDegree));
+
+        while (!q.isEmpty()) {  //Kahns Algo
+            int node = q.poll();
+            ++total;
+
+            for (int i : list.get(node)) {
+                inDegree[i]--;
+
+                if (inDegree[i] == 0) {
+                    q.offer(i);
+                }
+            }
+        }
+
+        return total == numCourses;
     }
 }
