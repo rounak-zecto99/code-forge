@@ -399,6 +399,7 @@
 | [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
+| [0319-bulb-switcher](https://github.com/rounak-zecto99/code-forge/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -1165,6 +1166,7 @@
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
+| [0319-bulb-switcher](https://github.com/rounak-zecto99/code-forge/tree/master/0319-bulb-switcher) |
 | [1025-divisor-game](https://github.com/rounak-zecto99/code-forge/tree/master/1025-divisor-game) |
 ## Nim Game
 |  |
