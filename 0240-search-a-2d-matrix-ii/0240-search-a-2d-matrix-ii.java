@@ -6,17 +6,16 @@ class Solution {
         int row = 0;
         int col = n - 1;
 
-        while(row < m && col >= 0){
-            if(matrix[row][col] == target){
+        while (row < m && col >= 0) {
+            if (matrix[row][col] == target) {
                 return true;
-            }
-            else if(matrix[row][col] > target){
-                col--;
-            }
-            else{
-                row++;
+            } else if (matrix[row][col] > target) {
+                col--;  // Too large: eliminate this column
+            } else {
+                row++;  // Too small: eliminate this row
             }
         }
+
         return false;
     }
 }
