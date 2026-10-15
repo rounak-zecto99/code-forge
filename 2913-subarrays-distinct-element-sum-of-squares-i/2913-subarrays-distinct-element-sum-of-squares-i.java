@@ -13,15 +13,27 @@ class Solution {
     }
 
     int check(List<Integer> nums, int start, int end) {
-        boolean[] track = new boolean[101];
+        // boolean[] track = new boolean[101];
+        long a = 0L;
+        long b = 0L;
+
         int counter = 0;
 
         for (int i = start; i <= end; i++) {
             int num = nums.get(i);
-            if (!track[num]) {
-                counter++;
+            if (num < 62) {
+                if(((1L<<num) & a) == 0){
+                    counter++;
+                }
+                a |= 1L << num;
             }
-            track[num] = true;
+            else{
+                num = num - 62;
+                if(((1L<<num) & b) == 0){
+                    counter++;
+                }
+                b |= 1L << num;
+            }
         }
         return counter;
     }
