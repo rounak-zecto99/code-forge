@@ -1,30 +1,16 @@
 class Solution {
-    int n;
-    long[] dp;
-
-    long solve(int ind, int[] nums, int k) {
-        if (ind > n - 3) {
-            return 0;
-        }
-
-        if (dp[ind] != -1) {
-            return dp[ind];
-        }
-
-        long op1 = Math.max(0, k - nums[ind]) + solve(ind + 1, nums, k);
-
-        long op2 = Math.max(0, k - nums[ind + 1]) + solve(ind + 2, nums, k);
-
-        long op3 = Math.max(0, k - nums[ind + 2]) + solve(ind + 3, nums, k);
-
-        return dp[ind] = Math.min(op1, Math.min(op2, op3));
-    }
-
     public long minIncrementOperations(int[] nums, int k) {
-        n = nums.length;
-        dp = new long[n];
-        Arrays.fill(dp, -1);
+        int n = nums.length;
+        long[] dp = new long[n];
 
-        return solve(0, nums, k);
+        dp[0] = Math.max(0, k - nums[0]);
+        dp[1] = Math.max(0, k - nums[1]);
+        dp[2] = Math.max(0, k - nums[2]);
+
+        for (int i = 3; i < n; i++) {
+            long cost = Math.max(0, k - nums[i]);
+            dp[i] = cost + Math.min(dp[i - 1], Math.min(dp[i - 2], dp[i - 3]));
+        }
+        return Math.min(dp[n - 1], Math.min(dp[n - 2], dp[n - 3]));
     }
 }
