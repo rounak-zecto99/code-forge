@@ -142,6 +142,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
+| [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -417,6 +418,7 @@
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
+| [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [1780-check-if-number-is-a-sum-of-powers-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/1780-check-if-number-is-a-sum-of-powers-of-three) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
@@ -665,6 +667,7 @@
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/rounak-zecto99/code-forge/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Simulation
@@ -693,6 +696,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Bit Manipulation
@@ -862,6 +866,7 @@
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/rounak-zecto99/code-forge/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1046-last-stone-weight](https://github.com/rounak-zecto99/code-forge/tree/master/1046-last-stone-weight) |
 | [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
+| [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
