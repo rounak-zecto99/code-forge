@@ -1,16 +1,12 @@
 class Solution {
-    public long minIncrementOperations(int[] nums, int k) {
-        int n = nums.length;
-        long[] dp = new long[n];
-
-        dp[0] = Math.max(0, k - nums[0]);
-        dp[1] = Math.max(0, k - nums[1]);
-        dp[2] = Math.max(0, k - nums[2]);
-
-        for (int i = 3; i < n; i++) {
-            long cost = Math.max(0, k - nums[i]);
-            dp[i] = cost + Math.min(dp[i - 1], Math.min(dp[i - 2], dp[i - 3]));
+    public long minIncrementOperations(int[] A, int k) {
+        long dp1 = 0, dp2 = 0, dp3 = 0, dp;
+        for (int a: A) {
+            dp = Math.min(dp1, Math.min(dp2, dp3)) + Math.max(k - a, 0);
+            dp1 = dp2;
+            dp2 = dp3;
+            dp3 = dp;
         }
-        return Math.min(dp[n - 1], Math.min(dp[n - 2], dp[n - 3]));
+        return Math.min(dp1, Math.min(dp2, dp3));
     }
 }
