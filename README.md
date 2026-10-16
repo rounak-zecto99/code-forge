@@ -405,6 +405,7 @@
 | [0096-unique-binary-search-trees](https://github.com/rounak-zecto99/code-forge/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/rounak-zecto99/code-forge/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
+| [0224-basic-calculator](https://github.com/rounak-zecto99/code-forge/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
@@ -451,6 +452,7 @@
 | [0050-powx-n](https://github.com/rounak-zecto99/code-forge/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/rounak-zecto99/code-forge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/rounak-zecto99/code-forge/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/rounak-zecto99/code-forge/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0394-decode-string](https://github.com/rounak-zecto99/code-forge/tree/master/0394-decode-string) |
@@ -593,6 +595,7 @@
 | [0165-compare-version-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0165-compare-version-numbers) |
 | [0179-largest-number](https://github.com/rounak-zecto99/code-forge/tree/master/0179-largest-number) |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
+| [0224-basic-calculator](https://github.com/rounak-zecto99/code-forge/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
@@ -653,6 +656,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/rounak-zecto99/code-forge/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rounak-zecto99/code-forge/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/rounak-zecto99/code-forge/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0394-decode-string](https://github.com/rounak-zecto99/code-forge/tree/master/0394-decode-string) |
