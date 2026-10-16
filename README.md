@@ -419,6 +419,7 @@
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0628-maximum-product-of-three-numbers) |
+| [0772-basic-calculator-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0772-basic-calculator-iii) |
 | [0836-rectangle-overlap](https://github.com/rounak-zecto99/code-forge/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0878-nth-magical-number](https://github.com/rounak-zecto99/code-forge/tree/master/0878-nth-magical-number) |
@@ -458,6 +459,7 @@
 | [0394-decode-string](https://github.com/rounak-zecto99/code-forge/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
+| [0772-basic-calculator-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0772-basic-calculator-iii) |
 | [1922-count-good-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1922-count-good-numbers) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
@@ -614,6 +616,7 @@
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0647-palindromic-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/0647-palindromic-substrings) |
 | [0726-number-of-atoms](https://github.com/rounak-zecto99/code-forge/tree/master/0726-number-of-atoms) |
+| [0772-basic-calculator-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0772-basic-calculator-iii) |
 | [0796-rotate-string](https://github.com/rounak-zecto99/code-forge/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0856-score-of-parentheses) |
@@ -667,6 +670,7 @@
 | [0726-number-of-atoms](https://github.com/rounak-zecto99/code-forge/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/rounak-zecto99/code-forge/tree/master/0739-daily-temperatures) |
+| [0772-basic-calculator-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0772-basic-calculator-iii) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [0853-car-fleet](https://github.com/rounak-zecto99/code-forge/tree/master/0853-car-fleet) |
 | [0856-score-of-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/0856-score-of-parentheses) |
