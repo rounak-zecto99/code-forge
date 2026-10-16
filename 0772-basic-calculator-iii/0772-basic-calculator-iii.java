@@ -24,8 +24,7 @@ class Solution {
                 num = evaluate(s);
             }
 
-            if (ch == ')' || i == s.length()
-                    || (ch != ' ' && !Character.isDigit(ch) && ch != '(')) {
+            if (ch == ')' || i == s.length() || !Character.isDigit(ch)) {
 
                 if (sign == '+') {
                     stack.push(num);
