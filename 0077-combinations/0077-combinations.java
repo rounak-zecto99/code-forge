@@ -7,7 +7,7 @@ class Solution {
         this.n = n;
         this.k = k;
 
-        helper(new ArrayList<>(),);
+        helper(new ArrayList<>(),1);
         return list;
     }
     void helper(List<Integer> row,int index){
