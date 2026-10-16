@@ -3,9 +3,7 @@ class Solution {
         int left = 0;
         for(int right = 1; right<nums.length; right++){
             if(nums[left] != nums[right]){
-                int temp = nums[++left];
-                nums[left] = nums[right];
-                nums[right] = temp;
+                nums[++left] = nums[right];
             }
         }
         return ++left;
