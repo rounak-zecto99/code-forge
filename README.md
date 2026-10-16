@@ -628,6 +628,7 @@
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2068-check-whether-two-strings-are-almost-equivalent](https://github.com/rounak-zecto99/code-forge/tree/master/2068-check-whether-two-strings-are-almost-equivalent) |
+| [2211-count-collisions-on-a-road](https://github.com/rounak-zecto99/code-forge/tree/master/2211-count-collisions-on-a-road) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -676,6 +677,7 @@
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rounak-zecto99/code-forge/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
+| [2211-count-collisions-on-a-road](https://github.com/rounak-zecto99/code-forge/tree/master/2211-count-collisions-on-a-road) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rounak-zecto99/code-forge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Simulation
 |  |
@@ -684,6 +686,7 @@
 | [0735-asteroid-collision](https://github.com/rounak-zecto99/code-forge/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/rounak-zecto99/code-forge/tree/master/0844-backspace-string-compare) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2211-count-collisions-on-a-road](https://github.com/rounak-zecto99/code-forge/tree/master/2211-count-collisions-on-a-road) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
 ## Monotonic Stack
