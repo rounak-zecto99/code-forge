@@ -11,6 +11,7 @@
 | [0016-3sum-closest](https://github.com/rounak-zecto99/code-forge/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rounak-zecto99/code-forge/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/rounak-zecto99/code-forge/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rounak-zecto99/code-forge/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0039-combination-sum) |
@@ -182,6 +183,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rounak-zecto99/code-forge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
