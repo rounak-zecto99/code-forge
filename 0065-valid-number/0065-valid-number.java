@@ -19,7 +19,7 @@ class Solution {
                 seenExponent = true;
                 seenDigit = false;
             } else if (curr == '.') {
-                if (seenExponent || seenDot) {
+                if (seenDot || seenExponent) {
                     return false;
                 }
                 seenDot = true;
@@ -27,6 +27,7 @@ class Solution {
                 return false;
             }
         }
+
         return seenDigit;
     }
 }
