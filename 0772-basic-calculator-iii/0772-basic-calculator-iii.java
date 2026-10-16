@@ -1,79 +1,55 @@
+import java.util.*;
+
 class Solution {
+    private int i;
+
     public int calculate(String s) {
-        int n = s.length();
+        i = 0;
+        return evaluate(s);
+    }
 
-        int[][] stack = new int[n + 1][n + 1];
-        int[] top = new int[n + 1];
-        char[] bracketSign = new char[n + 1];
-
-        Arrays.fill(top, -1);
-
-        int level = 0;
+    private int evaluate(String s) {
+        Deque<Integer> stack = new ArrayDeque<>();
         int num = 0;
         char sign = '+';
 
-        for (int i = 0; i < n; i++) {
-            char ch = s.charAt(i);
+        while (i < s.length()) {
+            char ch = s.charAt(i++);
 
             if (Character.isDigit(ch)) {
                 num = num * 10 + (ch - '0');
             }
 
-            if (ch == '+' || ch == '-' || ch == '*' || ch == '/'
-                    || i == n - 1
-                    || (i + 1 < n && s.charAt(i + 1) == ')')) {
-
-                if (sign == '+') {
-                    stack[level][++top[level]] = num;
-                } else if (sign == '-') {
-                    stack[level][++top[level]] = -num;
-                } else if (sign == '*') {
-                    stack[level][top[level]] *= num;
-                } else if (sign == '/') {
-                    stack[level][top[level]] /= num;
-                }
-
-                sign = ch;
-                num = 0;
-            }
-
             if (ch == '(') {
-                bracketSign[level + 1] = sign;
-                level++;
-                top[level] = -1;
-                sign = '+';
-                num = 0;
-            } else if (ch == ')') {
-                int value = 0;
+                num = evaluate(s);
+            }
 
-                while (top[level] >= 0) {
-                    value += stack[level][top[level]--];
-                }
-
-                level--;
-                sign = bracketSign[level + 1];
+            if (ch == ')' || i == s.length()
+                    || (ch != ' ' && !Character.isDigit(ch) && ch != '(')) {
 
                 if (sign == '+') {
-                    stack[level][++top[level]] = value;
+                    stack.push(num);
                 } else if (sign == '-') {
-                    stack[level][++top[level]] = -value;
+                    stack.push(-num);
                 } else if (sign == '*') {
-                    stack[level][top[level]] *= value;
+                    stack.push(stack.pop() * num);
                 } else if (sign == '/') {
-                    stack[level][top[level]] /= value;
+                    stack.push(stack.pop() / num);
                 }
 
-                sign = ' ';
                 num = 0;
+                sign = ch;
+            }
+
+            if (ch == ')') {
+                break;
             }
         }
 
-        int ans = 0;
-
-        while (top[0] >= 0) {
-            ans += stack[0][top[0]--];
+        int result = 0;
+        while (!stack.isEmpty()) {
+            result += stack.pop();
         }
-
-        return ans;
+        return result;
     }
 }
