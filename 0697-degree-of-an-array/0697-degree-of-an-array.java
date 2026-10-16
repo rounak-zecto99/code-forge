@@ -1,15 +1,24 @@
 class Solution {
-        public int findShortestSubArray(int[] A) {
-        Map<Integer, Integer> count = new HashMap<>(), first = new HashMap<>();
-        int res = 0, degree = 0;
-        for (int i = 0; i < A.length; ++i) {
-            first.putIfAbsent(A[i], i);
-            count.put(A[i], count.getOrDefault(A[i], 0) + 1);
-            if (count.get(A[i]) > degree) {
-                degree = count.get(A[i]);
-                res = i - first.get(A[i]) + 1;
-            } else if (count.get(A[i]) == degree)
-                res = Math.min(res, i - first.get(A[i]) + 1);
+ public int findShortestSubArray(int[] nums) {
+        if (nums.length == 0 || nums == null) return 0;
+        Map<Integer, int[]> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++){
+           if (!map.containsKey(nums[i])){
+               map.put(nums[i], new int[]{1, i, i});  // the first element in array is degree, second is first index of this key, third is last index of this key
+           } else {
+               int[] temp = map.get(nums[i]);
+               temp[0]++;
+               temp[2] = i;
+           }
+        }
+        int degree = Integer.MIN_VALUE, res = Integer.MAX_VALUE;
+        for (int[] value : map.values()){
+            if (value[0] > degree){
+                degree = value[0];
+                res = value[2] - value[1] + 1;
+            } else if (value[0] == degree){
+                res = Math.min( value[2] - value[1] + 1, res);
+            } 
         }
         return res;
     }
