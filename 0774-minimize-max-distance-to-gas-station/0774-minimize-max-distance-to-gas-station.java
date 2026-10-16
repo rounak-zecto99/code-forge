@@ -1,7 +1,7 @@
 class Solution {
     public double minmaxGasDist(int[] stations, int k) {
         double start = 0;
-        double end = 1;
+        double end = 0;
 
         for (int i = 1; i < stations.length; i++) {
             end = Math.max(end, stations[i] - stations[i - 1]);
@@ -13,15 +13,16 @@ class Solution {
 
             for (int i = 1; i < stations.length; i++) {
                 double gap = stations[i] - stations[i - 1];
-
                 placed += (int) Math.ceil(gap / mid) - 1;
             }
+
             if (placed > k) {
                 start = mid;
             } else {
                 end = mid;
             }
         }
+
         return end;
     }
 }
