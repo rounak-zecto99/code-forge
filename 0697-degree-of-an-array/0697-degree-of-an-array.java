@@ -11,17 +11,23 @@ class Solution {
             }
             hash[n][2] = i + 1;
         }
-        int ans = 0;
+
+        int degree = 0;
         int len = Integer.MAX_VALUE;
 
-        for (int x : nums) {
-            if (hash[x][0] > ans) {
-                ans = Math.max(ans, hash[x][0]);
-                len = hash[x][2] - hash[x][1] + 1;
-            } else if (hash[x][0] == ans) {
-                len = Math.min(len, hash[x][2] - hash[x][1] + 1);
+        for (int[] x : hash) {
+            if (x[0] == 0) continue;
+
+            int currLen = x[2] - x[1] + 1;
+
+            if (x[0] > degree) {
+                degree = x[0];
+                len = currLen;
+            } else if (x[0] == degree) {
+                len = Math.min(len, currLen);
             }
         }
+
         return len;
     }
 }
