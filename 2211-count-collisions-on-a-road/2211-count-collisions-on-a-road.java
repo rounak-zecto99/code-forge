@@ -1,36 +1,23 @@
 class Solution {
     public int countCollisions(String directions) {
         int collision = 0;
-        int n = directions.length();
 
-        Character[] stack = new Character[n];
-        int top = -1;
+        int left = 0;
+        int right = directions.length() - 1;
 
-        for (char ch : directions.toCharArray()) {
-            if (ch == 'R') {
-                stack[++top] = ch;
-                continue;
-            } else if (ch == 'L') {
-                if (top != -1 && stack[top] == 'R') {
-                    collision += 2;
-                    top--;
+        while (left <= right && directions.charAt(left) == 'L') {
+            left++;
+        }
 
-                    while (top != -1 && stack[top] == 'R') {
-                        collision++;
-                        top--;
-                    }
+        while (right >= 0 && directions.charAt(right) == 'R') {
+            right--;
+        }
 
-                    stack[++top] = 'S';
-                } else if (top != -1) {
-                    collision++;
-                }
-            } else {
-                while (top != -1 && stack[top] == 'R') {
-                    collision++;
-                    top--;
-                }
-                stack[++top] = 'S';
-            }
+        for (int i = left; i <= right; i++) {
+            char ch = directions.charAt(i);
+
+            if (ch != 'S')
+                collision++;
         }
         return collision;
     }
