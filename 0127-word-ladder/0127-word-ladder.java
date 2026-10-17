@@ -1,48 +1,69 @@
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+    public int ladderLength(
+        String beginWord,
+        String endWord,
+        List<String> wordList
+    ) {
+        Set<String> dict = new HashSet<>(wordList);
 
-        Set<String> words = new HashSet<>(wordList);
+        // The transformation is impossible if endWord is unavailable.
+        if (!dict.contains(endWord)) {
+            return 0;
+        }
 
-        if (!words.contains(endWord)) return 0;
+        Set<String> front = new HashSet<>();
+        Set<String> back = new HashSet<>();
 
-        Queue<String> q = new ArrayDeque<>();
-        q.offer(beginWord);
+        front.add(beginWord);
+        back.add(endWord);
 
-        words.remove(beginWord);
+        dict.remove(beginWord);
+        dict.remove(endWord);
 
-        int distance = 1;
+        int length = 1;
 
-        while (!q.isEmpty()) {
-            int size = q.size();
+        while (!front.isEmpty() && !back.isEmpty()) {
 
-            for (int i = 0; i < size; i++) {
-                String cur = q.poll();
+            // Always expand the smaller frontier.
+            if (front.size() > back.size()) {
+                Set<String> temp = front;
+                front = back;
+                back = temp;
+            }
 
-                if (cur.equals(endWord)) {
-                    return distance;
-                }
+            Set<String> next = new HashSet<>();
 
-                char[] chars = cur.toCharArray();
+            for (String word : front) {
+                char[] chars = word.toCharArray();
 
-                for (int j = 0; j < chars.length; j++) {
-                    char original = chars[j];
+                for (int i = 0; i < chars.length; i++) {
+                    char original = chars[i];
 
-                    for (char ch = 'a'; ch <= 'z'; ch++) {
-                        if (ch == original) continue;
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == original) {
+                            continue;
+                        }
 
-                        chars[j] = ch;
-                        String s = new String(chars);
+                        chars[i] = c;
+                        String candidate = new String(chars);
 
-                        if (words.remove(s)) {
-                            q.offer(s);
+                        // The two searches have met.
+                        if (back.contains(candidate)) {
+                            return length + 1;
+                        }
+
+                        // Discover each dictionary word only once.
+                        if (dict.remove(candidate)) {
+                            next.add(candidate);
                         }
                     }
 
-                    chars[j] = original;
+                    chars[i] = original;
                 }
             }
 
-            distance++;
+            front = next;
+            length++;
         }
 
         return 0;
