@@ -70,6 +70,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0253-meeting-rooms-ii) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0280-wiggle-sort](https://github.com/rounak-zecto99/code-forge/tree/master/0280-wiggle-sort) |
 | [0283-move-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
@@ -617,6 +618,7 @@
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0387-first-unique-character-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0387-first-unique-character-in-a-string) |
@@ -998,6 +1000,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0337-house-robber-iii) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0366-find-leaves-of-binary-tree) |
@@ -1325,6 +1328,7 @@
 | [0207-course-schedule](https://github.com/rounak-zecto99/code-forge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0226-invert-binary-tree) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
@@ -1425,6 +1429,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/rounak-zecto99/code-forge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/rounak-zecto99/code-forge/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
@@ -1433,11 +1438,13 @@
 | ------- |
 | [0207-course-schedule](https://github.com/rounak-zecto99/code-forge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/rounak-zecto99/code-forge/tree/master/0207-course-schedule) |
+| [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 ## Kosaraju's Algorithm
 |  |
 | ------- |
