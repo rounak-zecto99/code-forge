@@ -85,6 +85,7 @@
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
+| [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
@@ -206,6 +207,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
+| [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0774-minimize-max-distance-to-gas-station](https://github.com/rounak-zecto99/code-forge/tree/master/0774-minimize-max-distance-to-gas-station) |
@@ -685,6 +687,7 @@
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0394-decode-string](https://github.com/rounak-zecto99/code-forge/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -728,6 +731,7 @@
 | [0085-maximal-rectangle](https://github.com/rounak-zecto99/code-forge/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/rounak-zecto99/code-forge/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -968,6 +972,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Algorithm X
 |  |
