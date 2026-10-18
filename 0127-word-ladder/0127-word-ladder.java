@@ -1,15 +1,10 @@
 class Solution {
-    public int ladderLength(
-        String beginWord,
-        String endWord,
-        List<String> wordList
-    ) {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+
         Set<String> dict = new HashSet<>(wordList);
 
-        // The transformation is impossible if endWord is unavailable.
-        if (!dict.contains(endWord)) {
+        if (!dict.contains(endWord))
             return 0;
-        }
 
         Set<String> front = new HashSet<>();
         Set<String> back = new HashSet<>();
@@ -24,48 +19,40 @@ class Solution {
 
         while (!front.isEmpty() && !back.isEmpty()) {
 
-            // Always expand the smaller frontier.
             if (front.size() > back.size()) {
                 Set<String> temp = front;
                 front = back;
                 back = temp;
             }
-
             Set<String> next = new HashSet<>();
 
             for (String word : front) {
-                char[] chars = word.toCharArray();
+                char[] ar = word.toCharArray();
 
-                for (int i = 0; i < chars.length; i++) {
-                    char original = chars[i];
+                for (int i = 0; i < ar.length; i++) {
+                    char original = ar[i];
 
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if (c == original) {
+                    for (char ch = 'a'; ch <= 'z'; ch++) {
+                        if (ch == original) {
                             continue;
                         }
+                        ar[i] = ch;
+                        String candi = new String(ar);
 
-                        chars[i] = c;
-                        String candidate = new String(chars);
-
-                        // The two searches have met.
-                        if (back.contains(candidate)) {
+                        if (back.contains(candi)) {
                             return length + 1;
                         }
 
-                        // Discover each dictionary word only once.
-                        if (dict.remove(candidate)) {
-                            next.add(candidate);
+                        if (dict.remove(candi)) {
+                            next.add(candi);
                         }
                     }
-
-                    chars[i] = original;
+                    ar[i] = original;
                 }
             }
-
             front = next;
             length++;
         }
-
         return 0;
     }
 }
