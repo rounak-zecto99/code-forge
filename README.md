@@ -632,6 +632,7 @@
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
+| [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
 | [0459-repeated-substring-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0459-repeated-substring-pattern) |
@@ -813,6 +814,7 @@
 | [0389-find-the-difference](https://github.com/rounak-zecto99/code-forge/tree/master/0389-find-the-difference) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
+| [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
@@ -1343,6 +1345,7 @@
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+| [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0559-maximum-depth-of-n-ary-tree) |
@@ -1497,4 +1500,5 @@
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
+| [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->
