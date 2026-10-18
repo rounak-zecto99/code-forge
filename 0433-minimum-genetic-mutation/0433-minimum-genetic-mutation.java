@@ -11,27 +11,19 @@ class Solution {
         if (!samples.contains(endGene))
             return -1;
 
-        Set<String> front = new HashSet<>();
-        Set<String> back = new HashSet<>();
+        Queue<String> mutated = new ArrayDeque<>();
 
-        front.add(startGene);
-        back.add(endGene);
-
+        mutated.offer(startGene);
         samples.remove(startGene);
-        samples.remove(endGene);
 
         int length = 1;
 
-        while (!front.isEmpty() && !back.isEmpty()) {
+        while (!mutated.isEmpty()) {
 
-            if (front.size() > back.size()) {
-                Set<String> temp = front;
-                front = back;
-                back = temp;
-            }
-            Set<String> next = new HashSet<>();
+            int size = mutated.size();
 
-            for (String start : front) {
+            for (int j = 0; j < size; j++) {
+                String start = mutated.poll();
                 char[] curGene = start.toCharArray();
 
                 for (int i = 0; i < curGene.length; i++) {
@@ -41,12 +33,12 @@ class Solution {
                         curGene[i] = mutate;
                         String mGene = new String(curGene);
 
-                        if (back.contains(mGene)) {
+                        if (mGene.equals(endGene)) {
                             return length;
                         }
 
                         if (samples.remove(mGene)) {
-                            next.add(mGene);
+                            mutated.offer(mGene);
                         }
 
                     }
@@ -54,7 +46,6 @@ class Solution {
                 }
             }
             length++;
-            front = next;
         }
         return -1;
     }
