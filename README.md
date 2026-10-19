@@ -69,6 +69,7 @@
 | [0229-majority-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/rounak-zecto99/code-forge/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0240-search-a-2d-matrix-ii) |
+| [0243-shortest-word-distance](https://github.com/rounak-zecto99/code-forge/tree/master/0243-shortest-word-distance) |
 | [0253-meeting-rooms-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0253-meeting-rooms-ii) |
 | [0260-single-number-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0260-single-number-iii) |
 | [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
@@ -630,6 +631,7 @@
 | [0224-basic-calculator](https://github.com/rounak-zecto99/code-forge/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/rounak-zecto99/code-forge/tree/master/0242-valid-anagram) |
+| [0243-shortest-word-distance](https://github.com/rounak-zecto99/code-forge/tree/master/0243-shortest-word-distance) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
 | [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
