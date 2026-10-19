@@ -657,6 +657,7 @@
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rounak-zecto99/code-forge/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/rounak-zecto99/code-forge/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
@@ -1038,6 +1039,7 @@
 | [0968-binary-tree-cameras](https://github.com/rounak-zecto99/code-forge/tree/master/0968-binary-tree-cameras) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
+| [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Trie
@@ -1368,6 +1370,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
+| [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1511,4 +1514,8 @@
 | [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
+## Interactive
+|  |
+| ------- |
+| [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
 <!---LeetCode Topics End-->
