@@ -614,6 +614,7 @@
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/rounak-zecto99/code-forge/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/rounak-zecto99/code-forge/tree/master/0125-valid-palindrome) |
+| [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0132-palindrome-partitioning-ii) |
@@ -798,6 +799,7 @@
 | [0076-minimum-window-substring](https://github.com/rounak-zecto99/code-forge/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/rounak-zecto99/code-forge/tree/master/0138-copy-list-with-random-pointer) |
@@ -875,6 +877,7 @@
 | [0078-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/rounak-zecto99/code-forge/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
+| [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/rounak-zecto99/code-forge/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/rounak-zecto99/code-forge/tree/master/0257-binary-tree-paths) |
@@ -1338,6 +1341,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/rounak-zecto99/code-forge/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
@@ -1502,6 +1506,7 @@
 ## Bidirectional Search
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/rounak-zecto99/code-forge/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->
