@@ -158,6 +158,7 @@
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rounak-zecto99/code-forge/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2137-pour-water-between-buckets-to-make-water-levels-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2137-pour-water-between-buckets-to-make-water-levels-equal) |
@@ -226,6 +227,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rounak-zecto99/code-forge/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2137-pour-water-between-buckets-to-make-water-levels-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2137-pour-water-between-buckets-to-make-water-levels-equal) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
@@ -400,6 +402,7 @@
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/rounak-zecto99/code-forge/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rounak-zecto99/code-forge/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
