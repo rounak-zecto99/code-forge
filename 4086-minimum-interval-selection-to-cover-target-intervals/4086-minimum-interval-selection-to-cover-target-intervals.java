@@ -1,5 +1,8 @@
+import java.util.Arrays;
+
 class Solution {
     public int minSelection(int[][] a, int[][] t) {
+        if (t.length == 0) return 0;
 
         Arrays.sort(t, (x, y) -> Integer.compare(x[0], y[0]));
         Arrays.sort(a, (x, y) -> Integer.compare(x[0], y[0]));
@@ -14,8 +17,7 @@ class Solution {
             }
         }
 
-        int i = 0;
-        int j = 0;
+        int i = 0, j = 0;
         int p = t[0][0];
         int ans = 0;
 
@@ -27,9 +29,7 @@ class Solution {
                 i++;
             }
 
-            if (farthest < p) {
-                return -1;
-            }
+            if (farthest < p) return -1;
 
             ans++;
 
@@ -41,6 +41,7 @@ class Solution {
                 p = Math.max(farthest, t[j][0]);
             }
         }
+
         return ans;
     }
 }
