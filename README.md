@@ -44,6 +44,7 @@
 | [0090-subsets-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0118-pascals-triangle](https://github.com/rounak-zecto99/code-forge/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/rounak-zecto99/code-forge/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/rounak-zecto99/code-forge/tree/master/0128-longest-consecutive-sequence) |
@@ -249,6 +250,7 @@
 | [0085-maximal-rectangle](https://github.com/rounak-zecto99/code-forge/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/rounak-zecto99/code-forge/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/rounak-zecto99/code-forge/tree/master/0115-distinct-subsequences) |
+| [0118-pascals-triangle](https://github.com/rounak-zecto99/code-forge/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/rounak-zecto99/code-forge/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rounak-zecto99/code-forge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0124-binary-tree-maximum-path-sum) |
