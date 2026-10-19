@@ -14,30 +14,32 @@ class Solution {
         }
         
         int n = creditList.size();
-        int[] memo = new int[1 << n];
-        Arrays.fill(memo, -1);
-        memo[0] = 0;
-        return n - dfs((1 << n) - 1, memo);
+        return dfs(0, n);
     }
     
     List<Integer> creditList;
-    private int dfs(int totalMask, int[] memo) {
-        if (memo[totalMask] != -1) {
-            return memo[totalMask];
+    private int dfs(int cur, int n) {
+        while (cur < n && creditList.get(cur) == 0) {
+            cur++;
         }
-        int balanceSum = 0, answer = 0;
+    
+        if (cur == n) {
+            return 0;
+        }
         
-        // Remove one person at a time in total_mask
-        for (int i = 0; i < creditList.size(); i++) {
-            int curBit = 1 << i;
-            if ((totalMask & curBit) != 0) {
-                balanceSum += creditList.get(i);
-                answer = Math.max(answer, dfs(totalMask ^ curBit, memo));
+        int cost = Integer.MAX_VALUE;
+        for (int nxt = cur + 1; nxt < n; nxt++) {
+            // If nxt is a valid recipient, do the following: 
+            // 1. add cur's balance to nxt.
+            // 2. recursively call dfs(cur + 1).
+            // 3. remove cur's balance from nxt.
+            if (creditList.get(nxt) * creditList.get(cur) < 0) {
+                creditList.set(nxt, creditList.get(nxt) + creditList.get(cur));
+                cost = Math.min(cost, 1 + dfs(cur + 1, n));
+                creditList.set(nxt, creditList.get(nxt) - creditList.get(cur));
             }
         }
-
-        // If the total balance of total_mask is 0, increment answer by 1.
-        memo[totalMask] = answer + (balanceSum == 0 ? 1 : 0);
-        return memo[totalMask];
+        
+        return cost;
     }
 }
