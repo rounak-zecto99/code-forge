@@ -1,31 +1,28 @@
+
 class Solution {
     public List<List<Integer>> generate(int numRows) {
+
         List<List<Integer>> triangle = new ArrayList<>();
-        List<Integer> row = new ArrayList<>();
 
-        row.add(1);
+        for (int i = 0; i < numRows; i++) {
 
-        triangle.add(row);
+            List<Integer> row = new ArrayList<>();
 
-        helper(triangle,numRows,1);
-        return triangle;
-    }
-    void helper(List<List<Integer>> triangle,int total,int produced){
+            for (int j = 0; j <= i; j++) {
 
-        if(produced == total)
-        return;
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    int val = triangle.get(i - 1).get(j - 1)
+                            + triangle.get(i - 1).get(j);
 
-        List<Integer> level = new ArrayList<>();
+                    row.add(val);
+                }
+            }
 
-        for(int i=0; i<=produced; i++){
-
-            int last = i - 1 == -1 ? 0 : triangle.get(produced-1).get(i-1);
-            int cur = i  == produced ? 0 : triangle.get(produced-1).get(i);
-
-            level.add(last+cur);
-
+            triangle.add(row);
         }
-        triangle.add(level);
-        helper(triangle,total,produced+1);
+
+        return triangle;
     }
 }
