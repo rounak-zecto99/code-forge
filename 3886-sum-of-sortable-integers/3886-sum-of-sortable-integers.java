@@ -1,57 +1,42 @@
-
-import java.util.*;
-
 class Solution {
+    private boolean check(int[] nums, int k) {
+        int n = nums.length, prev = 0;
+
+        for (int i = 0; i < n; i += k) {
+            int cnt = 0;
+            int mini = nums[i], maxi = nums[i];
+
+            for (int j = i; j < i + k - 1; j++) {
+                if (nums[j] > nums[j + 1])
+                    cnt++;
+
+                mini = Math.min(mini, nums[j + 1]);
+                maxi = Math.max(maxi, nums[j + 1]);
+            }
+
+            if (nums[i + k - 1] > nums[i])
+                cnt++;
+
+            if (cnt > 1 || prev > mini)
+                return false;
+
+            prev = maxi;
+        }
+
+        return true;
+    }
+
     public int sortableIntegers(int[] nums) {
-        int n = nums.length;
+        int n = nums.length, ans = 0;
 
-        int[] target = nums.clone();
-        Arrays.sort(target);
+        for (int k = 1; k * k <= n; k++) {
+            if (n % k == 0) {
+                if (check(nums, k))
+                    ans += k;
 
-        int ans = 0;
-
-        for (int k = 1; k <= n; k++) {
-            if (n % k != 0) {
-                continue;
-            }
-
-            boolean valid = true;
-
-            for (int start = 0; start < n; start += k) {
-                int descents = 0;
-
-                for (int i = start; i < start + k; i++) {
-                    int next = (i + 1 == start + k)
-                            ? start
-                            : i + 1;
-
-                    if (nums[i] > nums[next]) {
-                        descents++;
-                    }
-                }
-
-                if (descents > 1) {
-                    valid = false;
-                    break;
-                }
-
-                // The block must also contain exactly the
-                // elements of its corresponding sorted segment.
-                int[] block = Arrays.copyOfRange(
-                        nums, start, start + k);
-                int[] sortedBlock = Arrays.copyOfRange(
-                        target, start, start + k);
-
-                Arrays.sort(block);
-
-                if (!Arrays.equals(block, sortedBlock)) {
-                    valid = false;
-                    break;
-                }
-            }
-
-            if (valid) {
-                ans += k;
+                int other = n / k;
+                if (other != k && check(nums, other))
+                    ans += other;
             }
         }
 
