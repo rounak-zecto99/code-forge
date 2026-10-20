@@ -210,6 +210,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
+| [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
@@ -441,6 +442,7 @@
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0319-bulb-switcher](https://github.com/rounak-zecto99/code-forge/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
+| [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
