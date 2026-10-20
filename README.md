@@ -155,6 +155,7 @@
 | [1539-kth-missing-positive-number](https://github.com/rounak-zecto99/code-forge/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rounak-zecto99/code-forge/tree/master/1552-magnetic-force-between-two-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/rounak-zecto99/code-forge/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
