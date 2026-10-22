@@ -34,6 +34,9 @@ class Solution {
             if(effort > dist)
             continue;
 
+            if (row == m - 1 && col == n - 1)
+            return effort;
+
             for(int i=0; i<4; i++){
 
                 int nrow = row + dr[i];
