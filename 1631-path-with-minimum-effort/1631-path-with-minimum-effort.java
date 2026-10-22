@@ -1,58 +1,65 @@
-class Solution {
-    public static final int inf = Integer.MAX_VALUE;
-    public int minimumEffortPath(int[][] heights) {
 
+import java.util.*;
+
+class Solution {
+    public int minimumEffortPath(int[][] heights) {
         int m = heights.length;
         int n = heights[0].length;
 
-        int [] dr = {-1,1,0,0};
-        int [] dc = {0,0,-1,1};
+        int[][] dist = new int[m][n];
+        for (int[] row : dist) {
+            Arrays.fill(row, Integer.MAX_VALUE);
+        }
 
-        int [][] abs = new int[m][n];
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0, 0, -1, 1};
 
-        for(int []ar : abs)
-        Arrays.fill(ar,inf);
+        // {effort, row, col}
+        PriorityQueue<int[]> pq = new PriorityQueue<>(
+            (a, b) -> Integer.compare(a[0], b[0])
+        );
 
-        abs[0][0] = 0;
+        dist[0][0] = 0;
+        pq.offer(new int[]{0, 0, 0});
 
-        PriorityQueue<int[]> cell = new PriorityQueue<>((a, b) ->
-                                        Integer.compare(a[2],b[2]));
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
 
-        cell.offer(new int[]{0,0,0});
+            int effort = curr[0];
+            int row = curr[1];
+            int col = curr[2];
 
-        while(!cell.isEmpty()){
-
-            int row = cell.peek()[0];
-            int col = cell.peek()[1];
-
-            int effort = cell.peek()[2];
-
-            cell.poll();
-
-            int dist = abs[row][col];
-
-            if(effort > dist)
-            continue;
-
-            if (row == m - 1 && col == n - 1)
-            return effort;
-
-            for(int i=0; i<4; i++){
-
-                int nrow = row + dr[i];
-                int ncol = col + dc[i];
-
-                if (nrow < 0 || ncol < 0 || nrow == m || ncol == n)
+            // Skip outdated entries
+            if (effort > dist[row][col]) {
                 continue;
+            }
 
-                int Neffort = Math.max(effort,Math.abs(heights[row][col] - heights[nrow][ncol]));
+            // Destination reached optimally
+            if (row == m - 1 && col == n - 1) {
+                return effort;
+            }
 
-                if(Neffort < abs[nrow][ncol]){
-                    abs[nrow][ncol] = Neffort;
-                    cell.offer(new int[]{nrow,ncol,Neffort});
+            for (int i = 0; i < 4; i++) {
+                int nr = row + dr[i];
+                int nc = col + dc[i];
+
+                if (nr < 0 || nr >= m || nc < 0 || nc >= n) {
+                    continue;
+                }
+
+                int edgeDiff = Math.abs(
+                    heights[row][col] - heights[nr][nc]
+                );
+
+                int newEffort = Math.max(effort, edgeDiff);
+
+                if (newEffort < dist[nr][nc]) {
+                    dist[nr][nc] = newEffort;
+                    pq.offer(new int[]{newEffort, nr, nc});
                 }
             }
         }
-        return abs[m-1][n-1];        
+
+        return 0;
     }
 }
