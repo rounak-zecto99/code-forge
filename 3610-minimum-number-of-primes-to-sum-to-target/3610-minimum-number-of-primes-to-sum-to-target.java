@@ -1,49 +1,66 @@
 class Solution {
-    static ArrayList<Integer> list = new ArrayList<>();
-    int inf = (int) 1e9;
+    ArrayList<Integer> list = new ArrayList<>();
     int[][] dp;
-
-    static {
-        boolean[] prime = new boolean[8000];
-
-        for (int i = 2; i < prime.length; i++) {
-            if (!prime[i]) {
-                list.add(i);
-
-                for (int j = i * i; j < prime.length; j += i) {
-                    prime[j] = true;
-                }
-            }
-        }
-    }
+    int inf = (int) 1e9;
 
     public int minNumberOfPrimes(int target, int end) {
+        generatePrimes(end);
 
         dp = new int[target + 1][end];
 
-        for (int[] ar : dp) {
-            Arrays.fill(ar, -1);
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
 
         int ans = helper(target, end - 1);
-        return ans == inf ? -1 : ans;
+        return ans >= inf ? -1 : ans;
     }
 
-    public int helper(int target, int index) {
+    private void generatePrimes(int end) {
+        int limit = 100;
+
+        while (true) {
+            boolean[] composite = new boolean[limit];
+
+            for (int i = 2; i * i < limit; i++) {
+                if (!composite[i]) {
+                    for (int j = i * i; j < limit; j += i) {
+                        composite[j] = true;
+                    }
+                }
+            }
+
+            list.clear();
+
+            for (int i = 2; i < limit; i++) {
+                if (!composite[i]) {
+                    list.add(i);
+                }
+            }
+
+            if (list.size() >= end) {
+                list.subList(end, list.size()).clear();
+                return;
+            }
+
+            limit *= 2;
+        }
+    }
+
+    private int helper(int target, int index) {
+        if (target == 0) return 0;
 
         if (index == 0) {
-            if (target % list.get(0) == 0) {
-                return target / list.get(0);
-            } else {
-                return inf;
-            }
+            return target % list.get(0) == 0
+                    ? target / list.get(0)
+                    : inf;
         }
 
-        if (dp[target][index] != -1)
+        if (dp[target][index] != -1) {
             return dp[target][index];
+        }
 
         int noTake = helper(target, index - 1);
-
         int take = inf;
 
         if (target >= list.get(index)) {
