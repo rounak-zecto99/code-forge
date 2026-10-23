@@ -192,6 +192,7 @@
 | [3540-minimum-time-to-visit-all-houses](https://github.com/rounak-zecto99/code-forge/tree/master/3540-minimum-time-to-visit-all-houses) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/rounak-zecto99/code-forge/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
@@ -794,6 +795,7 @@
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/rounak-zecto99/code-forge/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Pigeonhole Principle
 |  |
