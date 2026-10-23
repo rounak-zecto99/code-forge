@@ -191,6 +191,7 @@
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
 | [3540-minimum-time-to-visit-all-houses](https://github.com/rounak-zecto99/code-forge/tree/master/3540-minimum-time-to-visit-all-houses) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/rounak-zecto99/code-forge/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
@@ -303,6 +304,7 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Greedy
 |  |
@@ -477,6 +479,7 @@
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/rounak-zecto99/code-forge/tree/master/3289-the-two-sneaky-numbers-of-digitville) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/rounak-zecto99/code-forge/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3870-count-commas-in-range](https://github.com/rounak-zecto99/code-forge/tree/master/3870-count-commas-in-range) |
@@ -1353,6 +1356,7 @@
 | [0204-count-primes](https://github.com/rounak-zecto99/code-forge/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0258-add-digits) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 ## Euclidean Algorithm
 |  |
 | ------- |
