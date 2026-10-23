@@ -199,6 +199,7 @@
 | [3903-smallest-stable-index-i](https://github.com/rounak-zecto99/code-forge/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3904-smallest-stable-index-ii) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3942-minimum-operations-to-sort-a-permutation) |
+| [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Binary Search
 |  |
@@ -751,6 +752,7 @@
 | [2211-count-collisions-on-a-road](https://github.com/rounak-zecto99/code-forge/tree/master/2211-count-collisions-on-a-road) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
+| [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 ## Monotonic Stack
 |  |
 | ------- |
