@@ -1,75 +1,53 @@
 class Solution {
+    ArrayList<Integer> list = new ArrayList<>();
+    int inf = (int) 1e9;
+    int[][] dp;
 
-    public int minNumberOfPrimes(int n, int m) {
-        // --- Step 1: Generate primes up to 'n' using Sieve of Eratosthenes ---
-        // 'primes' boolean array: primes[i] will be true if 'i' is prime, false otherwise.
-        // The sieve limit is 'n' because any prime larger than 'n' cannot be used to form sum 'n'.
-        boolean[] isPrimeSieve = new boolean[n + 1];
-        Arrays.fill(isPrimeSieve, true); // Assume all numbers are prime initially
+    public int minNumberOfPrimes(int target, int end) {
+        list.clear();
 
-        // 0 and 1 are not prime numbers
-        if (n >= 0) isPrimeSieve[0] = false;
-        if (n >= 1) isPrimeSieve[1] = false;
+        boolean[] prime = new boolean[target + 1];
 
-        // Apply Sieve of Eratosthenes: Mark multiples of primes as non-prime
-        for (int i = 2; i * i <= n; i++) {
-            if (isPrimeSieve[i]) { // If 'i' is prime
-                // Mark all multiples of 'i' (starting from i*i) as not prime
-                for (int j = i * i; j <= n; j += i) {
-                    isPrimeSieve[j] = false;
+        for (int i = 2; i <= target; i++) {
+            if (!prime[i]) {
+                list.add(i);
+
+                for (int j = i * i; j <= target; j += i) {
+                    prime[j] = true;
                 }
+
+                if (list.size() == end) break;
             }
         }
 
-        // --- Step 2: Collect the first 'm' prime numbers (up to 'n') ---
-        // 'reqPrimes' will store the actual prime numbers we can use as "coins".
-        Set<Integer> reqPrimes = new HashSet<>();
-        int primesFoundCount = 0; // Counter for how many primes from the first 'm' we've added
+        if (list.isEmpty()) return -1;
 
-        // Iterate from 2 up to 'n' to find primes
-        for (int i = 2; i <= n; i++) {
-            if (isPrimeSieve[i]) { // If 'i' is prime
-                primesFoundCount++; // Increment count of primes found
-                reqPrimes.add(i);   // Add the prime to our set of available primes
+        dp = new int[target + 1][list.size()];
 
-                // Optimization/Edge Case: If 'n' itself is a prime and it's among the first 'm' primes,
-                // then 1 mutation is enough.
-                if (n == i) {
-                    return 1;
-                }
-            }
-            // Stop collecting primes once we have found the first 'm' primes.
-            // Note: This correctly limits the primes to the 'first m' that are also <= n.
-            if (primesFoundCount == m) {
-                break;
-            }
+        for (int[] ar : dp) {
+            Arrays.fill(ar, -1);
         }
 
-        // --- Step 3: Dynamic Programming for Minimum Coin Change ---
-        // 'dp[i]' stores the minimum number of primes needed to sum up to 'i'.
-        int[] dp = new int[n + 1];
-        // Initialize all sums as unreachable (Integer.MAX_VALUE)
-        Arrays.fill(dp, Integer.MAX_VALUE);
-        dp[0] = 0; // Base case: 0 primes needed to sum to 0
+        int ans = helper(target, list.size() - 1);
+        return ans >= inf ? -1 : ans;
+    }
 
-        // Iterate through each available prime number (our "coin")
-        for (int prime : reqPrimes) {
-            // Iterate through possible sums from 'prime' up to 'n'.
-            // This order allows each prime to be used multiple times (unbounded knapsack).
-            for (int currentSum = prime; currentSum <= n; currentSum++) {
-                // Check if the subproblem (currentSum - prime) was reachable
-                if (dp[currentSum - prime] != Integer.MAX_VALUE) {
-                    // Update dp[currentSum] with the minimum of:
-                    // 1. Its current value (from previous primes or existing path)
-                    // 2. 1 (for using the current 'prime') + dp[currentSum - prime] (min primes for remaining sum)
-                    dp[currentSum] = Math.min(dp[currentSum], 1 + dp[currentSum - prime]);
-                }
-            }
+    public int helper(int target, int index) {
+        if (index == 0) {
+            return target % 2 == 0 ? target / 2 : inf;
         }
 
-        // --- Step 4: Return the result ---
-        // If dp[n] is still Integer.MAX_VALUE, it means 'n' cannot be formed
-        // by the given prime numbers.
-        return dp[n] == Integer.MAX_VALUE ? -1 : dp[n];
+        if (dp[target][index] != -1) {
+            return dp[target][index];
+        }
+
+        int noTake = helper(target, index - 1);
+        int take = inf;
+
+        if (target >= list.get(index)) {
+            take = 1 + helper(target - list.get(index), index);
+        }
+
+        return dp[target][index] = Math.min(take, noTake);
     }
 }
