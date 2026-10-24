@@ -1,52 +1,57 @@
 class Solution {
     public int[] fullBloomFlowers(int[][] flowers, int[] people) {
+        int n = flowers.length;
 
-        TreeMap<Integer, Integer> distance = new TreeMap<>();
-        distance.put(0, 0);
+        int[] starts = new int[n];
+        int[] ends = new int[n];
 
-        for (int[] duration : flowers) {
-            int start = duration[0];
-            int end = duration[1] + 1;
-
-            distance.put(start, distance.getOrDefault(start, 0) + 1);
-            distance.put(end, distance.getOrDefault(end, 0) - 1);
+        for (int i = 0; i < n; i++) {
+            starts[i] = flowers[i][0];
+            ends[i] = flowers[i][1];
         }
 
-        int psum = 0;
-
-        ArrayList<Integer> position = new ArrayList<>();
-        ArrayList<Integer> presum = new ArrayList<>();
-
-        for (int time : distance.keySet()) {
-            position.add(time);
-            psum += distance.get(time);
-            presum.add(psum);
-        }
+        Arrays.sort(starts);
+        Arrays.sort(ends);
 
         int[] ans = new int[people.length];
 
         for (int i = 0; i < people.length; i++) {
-            int cur = bsFloor(position, people[i]);
-            ans[i] = presum.get(cur);
+            int s = upperBound(starts, people[i]);
+            int e = lowerBound(ends, people[i]);
+
+            ans[i] = s - e;
         }
+
         return ans;
     }
 
-    int bsFloor(ArrayList<Integer> position, int target) {
-        int start = 0;
-        int end = position.size() - 1;
+    int upperBound(int[] arr, int target) {
+        int l = 0, r = arr.length;
 
-        while (start < end) {
-            int mid = start + (end - start + 1) / 2;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
 
-            if (position.get(mid) == target) {
-                return mid;
-            } else if (position.get(mid) > target) {
-                end = mid - 1;
-            } else {
-                start = mid;
-            }
+            if (arr[mid] <= target)
+                l = mid + 1;
+            else
+                r = mid;
         }
-        return start;
+
+        return l;
+    }
+
+    int lowerBound(int[] arr, int target) {
+        int l = 0, r = arr.length;
+
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+
+            if (arr[mid] < target)
+                l = mid + 1;
+            else
+                r = mid;
+        }
+
+        return l;
     }
 }
