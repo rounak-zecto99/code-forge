@@ -122,6 +122,7 @@
 | [0877-stone-game](https://github.com/rounak-zecto99/code-forge/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/rounak-zecto99/code-forge/tree/master/0907-sum-of-subarray-minimums) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 | [0930-binary-subarrays-with-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0930-binary-subarrays-with-sum) |
 | [0931-minimum-falling-path-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0931-minimum-falling-path-sum) |
 | [0977-squares-of-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0977-squares-of-a-sorted-array) |
@@ -873,6 +874,7 @@
 | [0846-hand-of-straights](https://github.com/rounak-zecto99/code-forge/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 | [0930-binary-subarrays-with-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0930-binary-subarrays-with-sum) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/rounak-zecto99/code-forge/tree/master/0992-subarrays-with-k-different-integers) |
@@ -1081,6 +1083,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 | [0968-binary-tree-cameras](https://github.com/rounak-zecto99/code-forge/tree/master/0968-binary-tree-cameras) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
@@ -1369,6 +1372,7 @@
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/rounak-zecto99/code-forge/tree/master/0785-is-graph-bipartite) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
@@ -1420,6 +1424,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
@@ -1515,6 +1520,7 @@
 | [0785-is-graph-bipartite](https://github.com/rounak-zecto99/code-forge/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
+| [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
 ## Topological Sort
 |  |
 | ------- |
