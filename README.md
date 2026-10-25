@@ -140,6 +140,7 @@
 | [1150-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/1150-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/rounak-zecto99/code-forge/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
+| [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -1006,6 +1007,7 @@
 | [0980-unique-paths-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0980-unique-paths-iii) |
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
@@ -1083,6 +1085,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
+| [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1367,6 +1370,7 @@
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/rounak-zecto99/code-forge/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 ## Number Theory
 |  |
@@ -1420,6 +1424,7 @@
 | [0994-rotting-oranges](https://github.com/rounak-zecto99/code-forge/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/rounak-zecto99/code-forge/tree/master/1020-number-of-enclaves) |
 | [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
+| [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
