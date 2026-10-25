@@ -1,5 +1,8 @@
 class Solution {
 
+     private static final int[] dr = { -1, 0, 0, 1 };
+     private static final int[] dc = { 0, -1, 1, 0 };
+
     public int closedIsland(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -24,9 +27,6 @@ class Solution {
         grid[row][col] = 1;
 
         q.offer(new int[] { row, col });
-
-        int[] dr = { -1, 0, 0, 1 };
-        int[] dc = { 0, -1, 1, 0 };
 
         boolean verdict = true;
 
