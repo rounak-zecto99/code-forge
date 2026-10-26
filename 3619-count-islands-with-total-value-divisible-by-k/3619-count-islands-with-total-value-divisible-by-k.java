@@ -14,7 +14,7 @@ class Solution {
                 if (grid[i][j] != 0) {
                     sum = dfs(grid, i, j);
 
-                    System.out.println(sum);
+                    // System.out.println(sum);
 
                     if (sum % k == 0)
                         ans++;
