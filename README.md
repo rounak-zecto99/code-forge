@@ -371,6 +371,7 @@
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rounak-zecto99/code-forge/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/rounak-zecto99/code-forge/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/rounak-zecto99/code-forge/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3540-minimum-time-to-visit-all-houses](https://github.com/rounak-zecto99/code-forge/tree/master/3540-minimum-time-to-visit-all-houses) |
 | [3903-smallest-stable-index-i](https://github.com/rounak-zecto99/code-forge/tree/master/3903-smallest-stable-index-i) |
@@ -711,6 +712,7 @@
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
 | [2409-count-days-spent-together](https://github.com/rounak-zecto99/code-forge/tree/master/2409-count-days-spent-together) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/rounak-zecto99/code-forge/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3146-permutation-difference-between-two-strings](https://github.com/rounak-zecto99/code-forge/tree/master/3146-permutation-difference-between-two-strings) |
 | [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
 ## Stack
