@@ -1,27 +1,21 @@
+
 class Solution {
     public int singleNonDuplicate(int[] nums) {
-        int start = 0;
-        int end = nums.length - 1;
+        int start = 0, end = nums.length - 1;
 
-        while (start <= end) {
+        while (start < end) {
             int mid = start + ((end - start) >> 1);
 
-            if (mid > 0 && nums[mid - 1] == nums[mid]) { //mid is second occurance
-                if ((mid & 1) == 1) {
-                    start = mid + 1;
-                } else {
-                    end = mid - 1;
-                }
-            } else if (mid < nums.length - 1 && nums[mid + 1] == nums[mid]) {//mid is first occurance
-                if ((mid & 1) == 0) {
-                    start = mid + 1;
-                } else {
-                    end = mid - 1;
-                }
+            // Make mid even using XOR
+            mid ^= (mid & 1);
+
+            if (nums[mid] == nums[mid + 1]) {
+                start = mid + 2;
             } else {
-                return nums[mid];
+                end = mid;
             }
         }
-        return -1;
+
+        return nums[start];
     }
 }
