@@ -1,61 +1,74 @@
+
+import java.util.*;
+
 class Pair {
     int distance;
     int node;
 
     Pair(int d, int nx) {
-        this.node = nx;
         this.distance = d;
+        this.node = nx;
     }
 }
 
 class Solution {
     public int[] minimumTime(int n, int[][] edges, int[] disappear) {
-
         Map<Integer, List<Pair>> graph = new HashMap<>();
 
         for (int[] edge : edges) {
             int a = edge[0];
             int b = edge[1];
+            int time = edge[2];
 
-            int stretch = edge[2];
+            graph.computeIfAbsent(a, k -> new ArrayList<>())
+                 .add(new Pair(time, b));
 
-            graph.computeIfAbsent(a, k -> new ArrayList<>()).add(new Pair(stretch, b));
-            graph.computeIfAbsent(b, k -> new ArrayList<>()).add(new Pair(stretch, a));
+            graph.computeIfAbsent(b, k -> new ArrayList<>())
+                 .add(new Pair(time, a));
         }
-        // int h = disappear.length;
 
+        int INF = (int) 1e9;
         int[] dist = new int[n];
-        Arrays.fill(dist, (int) 1e9);
+        Arrays.fill(dist, INF);
 
-        PriorityQueue<Pair> q = new PriorityQueue<>((a, b) -> Integer.compare(a.distance, b.distance));
+        PriorityQueue<Pair> pq =
+            new PriorityQueue<>((a, b) ->
+                Integer.compare(a.distance, b.distance));
 
         dist[0] = 0;
-        q.offer(new Pair(0, 0));
+        pq.offer(new Pair(0, 0));
 
-        // boolean[] vis = new boolean[n];
+        while (!pq.isEmpty()) {
+            Pair curr = pq.poll();
 
-        while (!q.isEmpty()) {
-            int dis = q.peek().distance;
-            int node = q.peek().node;
-            q.poll();
+            int dis = curr.distance;
+            int node = curr.node;
 
-            if (dis > dist[node])
+            if (dis > dist[node]) {
                 continue;
+            }
 
-            for (Pair neighbour : graph.getOrDefault(node, new ArrayList<>())) {
-                int nextDis = neighbour.distance;
+            for (Pair neighbour :
+                    graph.getOrDefault(node, Collections.emptyList())) {
+
                 int nextNode = neighbour.node;
+                int nextDis = dis + neighbour.distance;
 
-                if (dis + nextDis < dist[nextNode] && dis + nextDis < disappear[nextNode]) {
-                    dist[nextNode] = dis + nextDis;
-                    q.offer(new Pair(dist[nextNode],nextNode));
+                if (nextDis < dist[nextNode]
+                        && nextDis < disappear[nextNode]) {
+
+                    dist[nextNode] = nextDis;
+                    pq.offer(new Pair(nextDis, nextNode));
                 }
             }
         }
-        // System.out.println(Arrays.toString(dist));
-        for(int i=0; i<disappear.length; i++){
-            disappear[i] = dist[i] == (int)(1e9) ? -1 : dist[i];
+
+        for (int i = 0; i < n; i++) {
+            if (dist[i] == INF) {
+                dist[i] = -1;
+            }
         }
-        return disappear;
+
+        return dist;
     }
 }
