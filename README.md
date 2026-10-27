@@ -189,6 +189,7 @@
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/rounak-zecto99/code-forge/tree/master/3289-the-two-sneaky-numbers-of-digitville) |
@@ -984,6 +985,7 @@
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
+| [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1534,6 +1536,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 | [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
+| [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Topological Sort
 |  |
 | ------- |
@@ -1601,6 +1604,7 @@
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
+| [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Newton's Method
 |  |
 | ------- |
