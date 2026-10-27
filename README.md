@@ -96,6 +96,7 @@
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rounak-zecto99/code-forge/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -226,6 +227,7 @@
 | [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
 | [0410-split-array-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
+| [0540-single-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rounak-zecto99/code-forge/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0774-minimize-max-distance-to-gas-station](https://github.com/rounak-zecto99/code-forge/tree/master/0774-minimize-max-distance-to-gas-station) |
