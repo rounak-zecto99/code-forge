@@ -202,6 +202,7 @@
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
 | [3903-smallest-stable-index-i](https://github.com/rounak-zecto99/code-forge/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3904-smallest-stable-index-ii) |
@@ -320,6 +321,7 @@
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Greedy
 |  |
@@ -824,6 +826,7 @@
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Pigeonhole Principle
 |  |
@@ -1029,6 +1032,7 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Hamiltonian Path
 |  |
 | ------- |
