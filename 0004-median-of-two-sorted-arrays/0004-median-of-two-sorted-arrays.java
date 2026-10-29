@@ -15,38 +15,32 @@ class Solution {
         int start = 0;
         int end = n1;
 
-        int left1;
-        int right1;
-
-        int left2;
-        int right2;
-
         while (start <= end) {
             int cut = start + (end - start) / 2;
-
             int cut2 = required - cut;
 
-            left1 = cut == 0 ? ninf : nums1[cut - 1];
-            right1 = cut == n1 ? inf : nums1[cut];
+            int left1 = cut == 0 ? ninf : nums1[cut - 1];
+            int right1 = cut == n1 ? inf : nums1[cut];
 
-            left2 = cut2 == 0 ? ninf : nums2[cut2 - 1];
-            right2 = cut2 == n2 ? inf : nums2[cut2];
+            int left2 = cut2 == 0 ? ninf : nums2[cut2 - 1];
+            int right2 = cut2 == n2 ? inf : nums2[cut2];
 
-            if (left1 > right2) {
-                end = cut - 1;
-            } else if (left2 > right1) {
-                start = cut + 1;
-            } else {
+            if (left1 <= right2 && left2 <= right1) {
 
                 if (((n1 + n2) & 1) == 1) {
                     return Math.max(left1, left2);
                 } else {
                     double a = Math.max(left1, left2) + Math.min(right1, right2);
-
                     return a / 2.0;
                 }
+
+            } else if (left1 > right2) {
+                end = cut - 1;
+            } else {
+                start = cut + 1;
             }
         }
+
         return 0.0;
     }
 }
