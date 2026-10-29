@@ -483,6 +483,7 @@
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
 | [0319-bulb-switcher](https://github.com/rounak-zecto99/code-forge/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
@@ -1100,6 +1101,7 @@
 | [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0337-house-robber-iii) |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0366-find-leaves-of-binary-tree) |
 | [0437-path-sum-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0543-diameter-of-binary-tree) |
@@ -1421,10 +1423,12 @@
 ## Euclidean Algorithm
 |  |
 | ------- |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Greatest Common Divisor
 |  |
 | ------- |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Breadth-First Search
 |  |
@@ -1447,6 +1451,7 @@
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/rounak-zecto99/code-forge/tree/master/0547-number-of-provinces) |
@@ -1634,4 +1639,12 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/rounak-zecto99/code-forge/tree/master/0069-sqrtx) |
+## Bézout's Lemma
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
+## Extended Euclidean Algorithm
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 <!---LeetCode Topics End-->
