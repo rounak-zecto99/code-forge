@@ -201,6 +201,7 @@
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
@@ -398,6 +399,7 @@
 | [0324-wiggle-sort-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -723,6 +725,7 @@
 | [2483-minimum-penalty-for-a-shop](https://github.com/rounak-zecto99/code-forge/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3146-permutation-difference-between-two-strings](https://github.com/rounak-zecto99/code-forge/tree/master/3146-permutation-difference-between-two-strings) |
 | [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Stack
 |  |
 | ------- |
@@ -826,6 +829,7 @@
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Pigeonhole Principle
@@ -1043,6 +1047,7 @@
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/rounak-zecto99/code-forge/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Ordered Set
 |  |
 | ------- |
@@ -1111,6 +1116,7 @@
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Trie
 |  |
 | ------- |
@@ -1202,6 +1208,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rounak-zecto99/code-forge/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Design
 |  |
 | ------- |
@@ -1595,6 +1602,7 @@
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/rounak-zecto99/code-forge/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Bidirectional Search
 |  |
 | ------- |
