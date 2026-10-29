@@ -41,9 +41,9 @@ class Solution {
                 if (((n1 + n2) & 1) == 1) {
                     return Math.max(left1, left2);
                 } else {
-                    int a = Math.max(left1, left2) + Math.min(right1, right2);
+                    double a = Math.max(left1, left2) + Math.min(right1, right2);
 
-                    return (double) a / 2;
+                    return a / 2.0;
                 }
             }
         }
