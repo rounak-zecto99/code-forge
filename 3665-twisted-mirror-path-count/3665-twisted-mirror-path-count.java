@@ -1,49 +1,46 @@
 class Solution {
-    int[][][] dp;
-    int MOD = 1000_000_007;
+    int MOD = 1_000_000_007;
 
     public int uniquePaths(int[][] grid) {
-
         int m = grid.length;
         int n = grid[0].length;
 
-        dp = new int[m][n][2];
+        // Stores dp[i-1][j][1]
+        int[] prev = new int[n];
 
-        for (int[][] matrix : dp) {
-            for (int[] row : matrix) {
-                Arrays.fill(row, -1);
+        for (int i = 0; i < m; i++) {
+
+            // Stores dp[i][j-1][0]
+            int left = 0;
+
+            for (int j = 0; j < n; j++) {
+
+                if (i == 0 && j == 0) {
+                    prev[j] = 1;
+                    left = 1;
+                    continue;
+                }
+
+                int up = prev[j];
+
+                if (grid[i][j] == 1) {
+                    // Mirror: direction changes
+                    int downState = left;
+                    int rightState = up;
+
+                    prev[j] = downState;
+                    left = rightState;
+
+                } else {
+                    // Empty cell: both directions have same ways
+                    int ways = (up + left) % MOD;
+
+                    prev[j] = ways;
+                    left = ways;
+                }
             }
         }
 
-        return  helper(grid, m - 1, n - 1, 1);
-    }
-
-    public int helper(int[][] grid, int m, int n, int last) {
-        if (m < 0 || n < 0)
-            return 0;
-
-        if (m == 0 && n == 0)
-            return 1;
-
-        if (dp[m][n][last] != -1)
-            return dp[m][n][last];
-
-        if (grid[m][n] == 1) {
-            return dp[m][n][last] = last == 1
-                    ? helper(grid, m, n - 1, 0)
-                    : helper(grid, m - 1, n, 1);
-        }
-
-        int ways = 0;
-
-        if (m > 0) {
-            ways += helper(grid, m - 1, n, 1);
-        }
-
-        if (n > 0) {
-            ways += helper(grid, m, n - 1, 0);
-        }
-
-        return dp[m][n][last] = ways % MOD;
+        return prev[n - 1];
     }
 }
