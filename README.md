@@ -1126,6 +1126,7 @@
 | [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
@@ -1477,6 +1478,7 @@
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Knapsack Problem
@@ -1568,6 +1570,7 @@
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Topological Sort
 |  |
@@ -1576,6 +1579,7 @@
 | [0210-course-schedule-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -1585,10 +1589,12 @@
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 ## Tarjan's SCC Algorithm
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
+| [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 ## Graph Coloring
 |  |
 | ------- |
