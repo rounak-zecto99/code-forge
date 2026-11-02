@@ -89,6 +89,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0465-optimal-account-balancing](https://github.com/rounak-zecto99/code-forge/tree/master/0465-optimal-account-balancing) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
@@ -434,6 +435,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/0628-maximum-product-of-three-numbers) |
@@ -487,6 +489,7 @@
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
