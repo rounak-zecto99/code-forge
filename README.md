@@ -76,6 +76,7 @@
 | [0280-wiggle-sort](https://github.com/rounak-zecto99/code-forge/tree/master/0280-wiggle-sort) |
 | [0283-move-zeroes](https://github.com/rounak-zecto99/code-forge/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
+| [0296-best-meeting-point](https://github.com/rounak-zecto99/code-forge/tree/master/0296-best-meeting-point) |
 | [0300-longest-increasing-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/rounak-zecto99/code-forge/tree/master/0322-coin-change) |
 | [0324-wiggle-sort-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0324-wiggle-sort-ii) |
@@ -426,6 +427,7 @@
 | [0253-meeting-rooms-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/rounak-zecto99/code-forge/tree/master/0280-wiggle-sort) |
 | [0295-find-median-from-data-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0295-find-median-from-data-stream) |
+| [0296-best-meeting-point](https://github.com/rounak-zecto99/code-forge/tree/master/0296-best-meeting-point) |
 | [0324-wiggle-sort-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
@@ -485,6 +487,7 @@
 | [0264-ugly-number-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/rounak-zecto99/code-forge/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/rounak-zecto99/code-forge/tree/master/0292-nim-game) |
+| [0296-best-meeting-point](https://github.com/rounak-zecto99/code-forge/tree/master/0296-best-meeting-point) |
 | [0319-bulb-switcher](https://github.com/rounak-zecto99/code-forge/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/rounak-zecto99/code-forge/tree/master/0326-power-of-three) |
 | [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
@@ -1034,6 +1037,7 @@
 | [0200-number-of-islands](https://github.com/rounak-zecto99/code-forge/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/rounak-zecto99/code-forge/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0240-search-a-2d-matrix-ii) |
+| [0296-best-meeting-point](https://github.com/rounak-zecto99/code-forge/tree/master/0296-best-meeting-point) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/rounak-zecto99/code-forge/tree/master/0733-flood-fill) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
