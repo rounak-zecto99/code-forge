@@ -1,35 +1,46 @@
+import java.util.*;
+
 class Solution {
     public int minTotalDistance(int[][] grid) {
 
         int m = grid.length;
         int n = grid[0].length;
 
-        ArrayList<Integer> rows = new ArrayList<>();
-        ArrayList<Integer> cols = new ArrayList<>();
+        int size = 0;
+
+        for (int[] row : grid) {
+            for (int val : row) {
+                size += val;
+            }
+        }
+
+        int[] rows = new int[size];
+        int[] cols = new int[size];
+
+        int idx = 0;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
-                    rows.add(i);
-                    cols.add(j);
+                    rows[idx] = i;
+                    cols[idx] = j;
+                    idx++;
                 }
             }
         }
 
-        Collections.sort(cols);
+        Arrays.sort(cols);
 
-        int medianRow = rows.get(rows.size() >> 1);
-        int medianCol = cols.get(cols.size() >> 1);
+        int medianRow = rows[size >> 1];
+        int medianCol = cols[size >> 1];
 
-        int sumrow = 0;
-        int sumcol = 0;
+        int sum = 0;
 
-        for(int i= 0; i<rows.size(); i++){
-            sumrow += Math.abs(medianRow - rows.get(i));
-            sumcol += Math.abs(medianCol - cols.get(i));
+        for (int i = 0; i < size; i++) {
+            sum += Math.abs(medianRow - rows[i]);
+            sum += Math.abs(medianCol - cols[i]);
         }
 
-        return sumrow + sumcol;
-
+        return sum;
     }
 }
