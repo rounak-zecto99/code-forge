@@ -327,6 +327,7 @@
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3665-twisted-mirror-path-count](https://github.com/rounak-zecto99/code-forge/tree/master/3665-twisted-mirror-path-count) |
@@ -365,6 +366,7 @@
 | [2195-append-k-integers-with-minimal-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
@@ -737,6 +739,7 @@
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
 | [2409-count-days-spent-together](https://github.com/rounak-zecto99/code-forge/tree/master/2409-count-days-spent-together) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rounak-zecto99/code-forge/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [3146-permutation-difference-between-two-strings](https://github.com/rounak-zecto99/code-forge/tree/master/3146-permutation-difference-between-two-strings) |
 | [3498-reverse-degree-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/3498-reverse-degree-of-a-string) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
