@@ -99,6 +99,7 @@
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
+| [0531-lonely-pixel-i](https://github.com/rounak-zecto99/code-forge/tree/master/0531-lonely-pixel-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/rounak-zecto99/code-forge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/rounak-zecto99/code-forge/tree/master/0560-subarray-sum-equals-k) |
@@ -904,6 +905,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
+| [0531-lonely-pixel-i](https://github.com/rounak-zecto99/code-forge/tree/master/0531-lonely-pixel-i) |
 | [0560-subarray-sum-equals-k](https://github.com/rounak-zecto99/code-forge/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rounak-zecto99/code-forge/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -1041,6 +1043,7 @@
 | [0221-maximal-square](https://github.com/rounak-zecto99/code-forge/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0240-search-a-2d-matrix-ii) |
 | [0296-best-meeting-point](https://github.com/rounak-zecto99/code-forge/tree/master/0296-best-meeting-point) |
+| [0531-lonely-pixel-i](https://github.com/rounak-zecto99/code-forge/tree/master/0531-lonely-pixel-i) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/rounak-zecto99/code-forge/tree/master/0733-flood-fill) |
 | [0766-toeplitz-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0766-toeplitz-matrix) |
