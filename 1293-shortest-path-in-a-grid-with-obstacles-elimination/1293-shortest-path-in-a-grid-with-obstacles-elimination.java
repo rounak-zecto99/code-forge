@@ -20,6 +20,9 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
+        if (k >= m + n - 3)
+            return m + n - 2;
+
         int [][] vis = new int[m][n];
 
         // for(int [] ar : vis){
@@ -59,7 +62,7 @@ class Solution {
                     if (nr < 0 || nc < 0 || nr >= m || nc >= n) {
                         continue;
                     }
-                    
+
                     int nObs = obstacles + grid[nr][nc];
                     int encoded = nObs + 1;
 
@@ -74,3 +77,8 @@ class Solution {
         return -1;
     }
 }
+
+// 0	Never visited
+// 1	Visited using 0 obstacles
+// 2	Visited using 1 obstacle
+// 3	Visited using 2 obstacles
