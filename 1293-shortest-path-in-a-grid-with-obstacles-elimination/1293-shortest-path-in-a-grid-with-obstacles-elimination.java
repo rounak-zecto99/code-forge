@@ -31,8 +31,6 @@ class Solution {
 
         while (!q.isEmpty()) {
             int size = q.size();
-            
-            // Set<Integer> levelWise = new HashSet<>(); 
 
             for (int i = 0; i < size; i++) {
 
@@ -71,10 +69,6 @@ class Solution {
                         int [] info = vis.get((nr << 6)|nc);
 
                         if(nObs < info[0]){
-                            vis.put((nr << 6)|nc, new int[]{nObs,dis});
-                            q.offer(new Pair(nr, nc, nObs));
-                        }
-                        else if(dis < info[1]){
                             vis.put((nr << 6)|nc, new int[]{nObs,dis});
                             q.offer(new Pair(nr, nc, nObs));
                         }
