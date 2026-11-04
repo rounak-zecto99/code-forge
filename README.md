@@ -613,6 +613,7 @@
 | [0287-find-the-duplicate-number](https://github.com/rounak-zecto99/code-forge/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/0349-intersection-of-two-arrays) |
+| [0408-valid-word-abbreviation](https://github.com/rounak-zecto99/code-forge/tree/master/0408-valid-word-abbreviation) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/rounak-zecto99/code-forge/tree/master/0556-next-greater-element-iii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -708,6 +709,7 @@
 | [0394-decode-string](https://github.com/rounak-zecto99/code-forge/tree/master/0394-decode-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/rounak-zecto99/code-forge/tree/master/0402-remove-k-digits) |
+| [0408-valid-word-abbreviation](https://github.com/rounak-zecto99/code-forge/tree/master/0408-valid-word-abbreviation) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/rounak-zecto99/code-forge/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
