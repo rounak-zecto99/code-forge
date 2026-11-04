@@ -330,6 +330,7 @@
 | [1463-cherry-pickup-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1463-cherry-pickup-ii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rounak-zecto99/code-forge/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rounak-zecto99/code-forge/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
 | [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
@@ -1595,6 +1596,7 @@
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0924-minimize-malware-spread](https://github.com/rounak-zecto99/code-forge/tree/master/0924-minimize-malware-spread) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Topological Sort
@@ -1604,6 +1606,7 @@
 | [0210-course-schedule-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/rounak-zecto99/code-forge/tree/master/0269-alien-dictionary) |
 | [0802-find-eventual-safe-states](https://github.com/rounak-zecto99/code-forge/tree/master/0802-find-eventual-safe-states) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 ## Directed Acyclic Graph
 |  |
@@ -1664,10 +1667,12 @@
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 ## Newton's Method
 |  |
