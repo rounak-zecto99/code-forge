@@ -22,12 +22,13 @@ class Solution {
 
         int [][] vis = new int[m][n];
 
-        for(int [] ar : vis){
-            Arrays.fill(ar,(int) 1e9);
-        }
+        // for(int [] ar : vis){
+        //     Arrays.fill(ar,(int) 1e9);
+        // }
 
         Queue<Pair> q = new ArrayDeque<>();
         q.offer(new Pair(m - 1, n - 1, 0));
+        vis[m - 1][n - 1] = 1;
 
         int dis = 0;
 
@@ -54,17 +55,16 @@ class Solution {
                     int nr = cr + dr[l];
                     int nc = cc + dc[l];
 
-                    int nObs = obstacles;
 
                     if (nr < 0 || nc < 0 || nr >= m || nc >= n) {
                         continue;
                     }
+                    
+                    int nObs = obstacles + grid[nr][nc];
+                    int encoded = nObs + 1;
 
-                    if (grid[nr][nc] == 1)
-                        nObs++;
-
-                    if (nObs < vis[nr][nc]) {
-                        vis[nr][nc] = nObs;
+                    if (encoded < vis[nr][nc] || vis[nr][nc] == 0) {
+                        vis[nr][nc] = encoded;
                         q.offer(new Pair(nr, nc, nObs));
                     }
                 }
