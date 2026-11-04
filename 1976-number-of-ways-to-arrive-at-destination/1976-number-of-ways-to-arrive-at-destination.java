@@ -9,76 +9,65 @@ class Pair {
 }
 
 class Solution {
-
-    int mod = 1_000_000_007;
+    int mod = 1000_000_007;
 
     public int countPaths(int n, int[][] roads) {
 
-        List<List<Pair>> graph = new ArrayList<>();
+        int len = roads.length;
 
-        for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+        Map<Integer, List<Pair>> graph = new HashMap<>();
+
+        for (int[] i : roads) {
+            int a = i[0];
+            int b = i[1];
+
+            int time = i[2];
+
+            graph.computeIfAbsent(a, k -> new ArrayList<>()).add(new Pair(b, time));
+            graph.computeIfAbsent(b, k -> new ArrayList<>()).add(new Pair(a, time));
         }
 
-        for (int[] road : roads) {
-            int a = road[0];
-            int b = road[1];
-            int time = road[2];
-
-            graph.get(a).add(new Pair(b, time));
-            graph.get(b).add(new Pair(a, time));
-        }
-
-        long[] dist = new long[n];
-        Arrays.fill(dist, Long.MAX_VALUE);
+        long[] timeStamp = new long[n];
+        Arrays.fill(timeStamp, Long.MAX_VALUE);
 
         int[] ways = new int[n];
-
-        PriorityQueue<Pair> pq =
-            new PriorityQueue<>((a, b) ->
-                Long.compare(a.time, b.time));
-
-        dist[0] = 0;
         ways[0] = 1;
 
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Long.compare(a.time, b.time));
+
         pq.offer(new Pair(0, 0));
+        timeStamp[0] = 0;
 
         while (!pq.isEmpty()) {
 
-            Pair curr = pq.poll();
+            int node = pq.peek().node;
+            long timeTaken = pq.peek().time;
 
-            int node = curr.node;
-            long time = curr.time;
+            pq.poll();
 
-            // Ignore outdated entries
-            if (time > dist[node]) {
+            if (timeStamp[node] < timeTaken)
                 continue;
-            }
 
-            for (Pair neighbour : graph.get(node)) {
+            for (Pair neighbour : graph.getOrDefault(node, Collections.emptyList())) {
 
                 int nextNode = neighbour.node;
-                long newTime = time + neighbour.time;
+                long nextTime = neighbour.time + timeTaken;
 
-                // Found a shorter path
-                if (newTime < dist[nextNode]) {
+                if (nextTime < timeStamp[nextNode]) {
 
-                    dist[nextNode] = newTime;
+                    timeStamp[nextNode] = nextTime;
 
                     ways[nextNode] = ways[node];
 
-                    pq.offer(new Pair(nextNode, newTime));
-                }
+                    pq.offer(new Pair(nextNode, nextTime));
 
-                // Found another shortest path
-                else if (newTime == dist[nextNode]) {
-
-                    ways[nextNode] =
-                        (ways[nextNode] + ways[node]) % mod;
+                } 
+                else if (nextTime == timeStamp[nextNode]) {
+                   ways[nextNode] = (ways[nextNode] + ways[node]) % mod;
                 }
             }
-        }
 
+        }
         return ways[n - 1];
     }
 }
