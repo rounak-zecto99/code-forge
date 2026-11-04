@@ -20,12 +20,14 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        Map<Integer,int[]> vis = new HashMap<>(); 
+        int [][] vis = new int[m][n];
+
+        for(int [] ar : vis){
+            Arrays.fill(ar,(int) 1e9);
+        }
 
         Queue<Pair> q = new ArrayDeque<>();
         q.offer(new Pair(m - 1, n - 1, 0));
-
-        vis.put( ((m-1) << 6) | n-1 , new int[]{0,0});
 
         int dis = 0;
 
@@ -61,17 +63,9 @@ class Solution {
                     if (grid[nr][nc] == 1)
                         nObs++;
 
-                    if (!vis.containsKey((nr << 6) | nc)) {
-                        vis.put((nr << 6)|nc, new int[]{nObs,dis});
+                    if (nObs < vis[nr][nc]) {
+                        vis[nr][nc] = nObs;
                         q.offer(new Pair(nr, nc, nObs));
-                    }
-                    else{
-                        int [] info = vis.get((nr << 6)|nc);
-
-                        if(nObs < info[0]){
-                            vis.put((nr << 6)|nc, new int[]{nObs,dis});
-                            q.offer(new Pair(nr, nc, nObs));
-                        }
                     }
                 }
             }
