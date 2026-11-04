@@ -93,6 +93,7 @@
 | [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0465-optimal-account-balancing](https://github.com/rounak-zecto99/code-forge/tree/master/0465-optimal-account-balancing) |
+| [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
@@ -637,6 +638,7 @@
 | [0413-arithmetic-slices](https://github.com/rounak-zecto99/code-forge/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/rounak-zecto99/code-forge/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
@@ -907,6 +909,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
+| [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/rounak-zecto99/code-forge/tree/master/0525-contiguous-array) |
 | [0531-lonely-pixel-i](https://github.com/rounak-zecto99/code-forge/tree/master/0531-lonely-pixel-i) |
@@ -1007,6 +1010,7 @@
 | [0295-find-median-from-data-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/0451-sort-characters-by-frequency) |
+| [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/rounak-zecto99/code-forge/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -1675,4 +1679,8 @@
 |  |
 | ------- |
 | [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
+## Treap
+|  |
+| ------- |
+| [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 <!---LeetCode Topics End-->
