@@ -182,6 +182,7 @@
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2104-sum-of-subarray-ranges](https://github.com/rounak-zecto99/code-forge/tree/master/2104-sum-of-subarray-ranges) |
 | [2137-pour-water-between-buckets-to-make-water-levels-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2137-pour-water-between-buckets-to-make-water-levels-equal) |
+| [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rounak-zecto99/code-forge/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2187-minimum-time-to-complete-trips](https://github.com/rounak-zecto99/code-forge/tree/master/2187-minimum-time-to-complete-trips) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2195-append-k-integers-with-minimal-sum) |
@@ -471,6 +472,7 @@
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/rounak-zecto99/code-forge/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/rounak-zecto99/code-forge/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -1194,6 +1196,7 @@
 | [1704-determine-if-string-halves-are-alike](https://github.com/rounak-zecto99/code-forge/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2068-check-whether-two-strings-are-almost-equivalent](https://github.com/rounak-zecto99/code-forge/tree/master/2068-check-whether-two-strings-are-almost-equivalent) |
+| [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rounak-zecto99/code-forge/tree/master/2283-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2351-first-letter-to-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/2351-first-letter-to-appear-twice) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
