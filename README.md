@@ -96,6 +96,7 @@
 | [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
+| [0487-max-consecutive-ones-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0487-max-consecutive-ones-ii) |
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/rounak-zecto99/code-forge/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0503-next-greater-element-ii) |
@@ -310,6 +311,7 @@
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0465-optimal-account-balancing](https://github.com/rounak-zecto99/code-forge/tree/master/0465-optimal-account-balancing) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
+| [0487-max-consecutive-ones-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0487-max-consecutive-ones-ii) |
 | [0494-target-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0516-longest-palindromic-subsequence) |
@@ -646,6 +648,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rounak-zecto99/code-forge/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
+| [0487-max-consecutive-ones-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0487-max-consecutive-ones-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/rounak-zecto99/code-forge/tree/master/0713-subarray-product-less-than-k) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/rounak-zecto99/code-forge/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/rounak-zecto99/code-forge/tree/master/0904-fruit-into-baskets) |
