@@ -1,17 +1,20 @@
 class Solution {
     public int countElements(int[] nums) {
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length; ++i) {
-            min = Math.min(min, nums[i]);
-            max = Math.max(max, nums[i]);
-        }
-        int count = 0;
-        for (int i = 0; i < nums.length; ++i) {
-            if (nums[i] > min && nums[i] < max) {
-                count++;
+        int max = -100001, min = 100001, n = nums.length, max_duplicate = 0, min_duplicate = 0;
+        if( n <= 1) return 0; 
+        for(int i:nums){
+            if( i == max ) max_duplicate++;
+            if( i == min ) min_duplicate++;
+            if( i > max) {
+                max = i;
+                max_duplicate = 0;
+            }
+            if(i < min){
+                min = i;
+                min_duplicate = 0;
             }
         }
-        return count;
+        int res = (n - 2) - max_duplicate - min_duplicate; // If no duplicates are present, answer will be length of nums - 2
+        return res < 0 ? 0: res; // In case adding duplicates lead to negative sum 
     }
 }
