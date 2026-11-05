@@ -3,8 +3,8 @@ class Solution {
 
         HashMap<Character, Integer> map = new HashMap<>();
 
-        // if(s.length() < 2)
-        // return 1;
+        if(s.length() < 2)
+        return s.length();
 
         int left = 0;
         int best = 0;
@@ -12,17 +12,22 @@ class Solution {
         for (int right = 0; right < s.length(); right++) {
 
             char cur = s.charAt(right);
+            map.put(cur, right);
 
-            map.put(cur, map.getOrDefault(cur, 0) + 1);
+            if (map.size() > 2) {
 
-            while (map.size() > 2) {
-                char back = s.charAt(left++);
+                int minIndex = Integer.MAX_VALUE;
+                char remove = ' ';
 
-                map.put(back, map.get(back) - 1);
-
-                if (map.get(back) == 0) {
-                    map.remove(back);
+                for (char key : map.keySet()) {
+                    if (map.get(key) < minIndex) {
+                        minIndex = map.get(key);
+                        remove = key;
+                    }
                 }
+
+                left = minIndex + 1;
+                map.remove(remove);
             }
 
                 best = Math.max(best, right - left + 1);
