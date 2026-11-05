@@ -9,7 +9,7 @@ class Solution {
             for (int j = 0; j < arr2.length; j++) {
                 if (Math.abs(arr2[j] - element) <= d) {
                     g = false;
-                    // break;
+                    break;
                 }
             }
             if (g)
