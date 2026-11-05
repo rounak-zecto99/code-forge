@@ -1,24 +1,17 @@
 class Solution {
     public int countElements(int[] nums) {
-        Arrays.sort(nums);
-
-        int c = 0;
-        int n = nums.length;
-
-        int s = 1;
-        int e = n-2;
-
-        while(s < n && nums[s] == nums[s-1]){
-            s++;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < nums.length; ++i) {
+            min = Math.min(min, nums[i]);
+            max = Math.max(max, nums[i]);
         }
-
-        while(e > 0 && nums[e] == nums[e+1]){
-            e--;
+        int count = 0;
+        for (int i = 0; i < nums.length; ++i) {
+            if (nums[i] > min && nums[i] < max) {
+                count++;
+            }
         }
-
-        System.out.println(s);
-        System.out.println(e);
-
-        return Math.max(0,e-s+1);
+        return count;
     }
 }
