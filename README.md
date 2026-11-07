@@ -174,6 +174,7 @@
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
 | [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rounak-zecto99/code-forge/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1882-process-tasks-using-servers](https://github.com/rounak-zecto99/code-forge/tree/master/1882-process-tasks-using-servers) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rounak-zecto99/code-forge/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -1039,6 +1040,7 @@
 | [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
+| [1882-process-tasks-using-servers](https://github.com/rounak-zecto99/code-forge/tree/master/1882-process-tasks-using-servers) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/rounak-zecto99/code-forge/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
