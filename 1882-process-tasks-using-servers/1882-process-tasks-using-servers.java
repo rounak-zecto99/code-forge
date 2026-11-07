@@ -18,7 +18,7 @@ class Solution {
         int time = 0;
         int i = 0;
 
-        PriorityQueue<int[]> processingQueue = new PriorityQueue<>((a, b) -> Integer.compare(a[1], b[1]));
+        PriorityQueue<int[]> processingQueue = new PriorityQueue<>((a,b) -> Integer.compare(a[1],b[1]));
 
         while (i < n) {
             time = Math.max(time, i);
