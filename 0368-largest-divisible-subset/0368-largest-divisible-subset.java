@@ -1,33 +1,46 @@
 class Solution {
-    List<Integer>[][] dp;
-
     public List<Integer> largestDivisibleSubset(int[] nums) {
-        int n = nums.length;
-        dp = new ArrayList[n][n + 1];
+
         Arrays.sort(nums);
-        return helper(nums, 0, -1);
+
+        int n = nums.length;
+
+        int[] dp = new int[n];
+        int[] parent = new int[n];
+
+        Arrays.fill(dp, 1);
+        Arrays.fill(parent, -1);
+
+        int maxLen = 1;
+        int lastIndex = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = 0; j < i; j++) {
+
+                if (nums[i] % nums[j] == 0) {
+
+                    if (dp[j] + 1 > dp[i]) {
+
+                        dp[i] = dp[j] + 1;
+                        parent[i] = j;
+                    }
+                }
+            }
+
+            if (dp[i] > maxLen) {
+                maxLen = dp[i];
+                lastIndex = i;
+            }
+        }
+
+        List<Integer> ans = new ArrayList<>();
+
+        while (lastIndex != -1) {
+            ans.add(nums[lastIndex]);
+            lastIndex = parent[lastIndex];
+        }
+
+        return ans;
     }
-
-    public List<Integer> helper(int[] nums, int index, int prev) {
-
-        if (index == nums.length) {
-            return new ArrayList<>();
-        }
-
-        if (dp[index][prev + 1] != null) {
-            return dp[index][prev + 1];
-        }
-
-        List<Integer> a = helper(nums, index + 1, prev);
-
-        List<Integer> b = new ArrayList<>();
-
-        if (prev == -1 || nums[index] % nums[prev] == 0) {
-            b.add(nums[index]);
-
-            b.addAll(helper(nums, index + 1, index));
-        }
-        return dp[index][prev + 1] = a.size() > b.size() ? a : b;
-    }
-
 }
