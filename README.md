@@ -218,6 +218,7 @@
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/rounak-zecto99/code-forge/tree/master/3665-twisted-mirror-path-count) |
+| [3693-climbing-stairs-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3693-climbing-stairs-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
@@ -350,6 +351,7 @@
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3665-twisted-mirror-path-count](https://github.com/rounak-zecto99/code-forge/tree/master/3665-twisted-mirror-path-count) |
+| [3693-climbing-stairs-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 ## Greedy
