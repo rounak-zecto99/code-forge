@@ -1,16 +1,30 @@
 class Solution {
+    int inf = (int) 1e9;
+    int[] dp;
+
     public int climbStairs(int n, int[] costs) {
-        int[] dp = new int[n + 1];
+        dp = new int[costs.length + 1];
+        Arrays.fill(dp, -1);
 
-        for (int i = 1; i <= n; i++) {
-            dp[i] = Integer.MAX_VALUE;
+        return helper(costs, 0);
+    }
 
-            for (int jump = 1; jump <= 3; jump++) {
-                if (i - jump >= 0) {
-                    dp[i] = Math.min(dp[i], dp[i - jump] + costs[i - 1] + jump * jump);
-                }
+    public int helper(int[] costs, int index) {
+
+        if (index == costs.length) return 0;
+
+        if (dp[index] != -1) return dp[index];
+
+        int ans = inf;
+
+        for (int i = 1; i <= 3; i++) {
+            if (index + i <= costs.length) {
+                ans = Math.min(ans,
+                    costs[index + i - 1] + i * i
+                    + helper(costs, index + i));
             }
         }
-        return dp[n];
+
+        return dp[index] = ans;
     }
 }
