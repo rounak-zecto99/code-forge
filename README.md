@@ -395,6 +395,7 @@
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/rounak-zecto99/code-forge/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -555,6 +556,7 @@
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/rounak-zecto99/code-forge/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3870-count-commas-in-range](https://github.com/rounak-zecto99/code-forge/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3871-count-commas-in-range-ii) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
