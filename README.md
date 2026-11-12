@@ -207,6 +207,7 @@
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
 | [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/rounak-zecto99/code-forge/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
