@@ -92,6 +92,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/rounak-zecto99/code-forge/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rounak-zecto99/code-forge/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/rounak-zecto99/code-forge/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0455-assign-cookies](https://github.com/rounak-zecto99/code-forge/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/rounak-zecto99/code-forge/tree/master/0456-132-pattern) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -526,6 +527,7 @@
 | [0365-water-and-jug-problem](https://github.com/rounak-zecto99/code-forge/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/rounak-zecto99/code-forge/tree/master/0368-largest-divisible-subset) |
 | [0400-nth-digit](https://github.com/rounak-zecto99/code-forge/tree/master/0400-nth-digit) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/rounak-zecto99/code-forge/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/0509-fibonacci-number) |
