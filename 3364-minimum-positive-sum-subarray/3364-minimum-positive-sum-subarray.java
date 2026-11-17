@@ -9,22 +9,37 @@ class Solution {
             prefix[i] = prefix[i - 1] + nums.get(i - 1);
         }
 
-        int min = Integer.MAX_VALUE;
+        TreeMap<Integer, Integer> map = new TreeMap<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = l; j <= r; j++) {
-                int end = j + i;
+        int ans = Integer.MAX_VALUE;
 
-                if (end > n) {
-                    break;
-                }
-                int sum = prefix[end] - prefix[i];
+        for (int end = l; end <= n; end++) {
 
-                if (sum > 0) {
-                    min = Math.min(min, sum);
+            // Add the newly eligible starting index
+            int add = prefix[end - l];
+            map.merge(add, 1, Integer::sum);
+
+            // Remove the starting index that is now too far away
+            int removeIndex = end - r - 1;
+
+            if (removeIndex >= 0) {
+                int val = prefix[removeIndex];
+
+                if (map.get(val) == 1) {
+                    map.remove(val);
+                } else {
+                    map.put(val, map.get(val) - 1);
                 }
             }
+
+            // Largest prefix sum strictly smaller than prefix[end]
+            Integer best = map.lowerKey(prefix[end]);
+
+            if (best != null) {
+                ans = Math.min(ans, prefix[end] - best);
+            }
         }
-        return min == Integer.MAX_VALUE ? -1 : min;
+
+        return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
