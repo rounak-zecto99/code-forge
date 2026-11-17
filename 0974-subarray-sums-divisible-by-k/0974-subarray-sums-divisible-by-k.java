@@ -8,7 +8,11 @@ class Solution {
 
         for(int i=0; i<nums.length; i++){
             presum += nums[i];
-            int rem = Math.floorMod(presum, k);
+            int rem = presum % k;
+
+            if (rem < 0) {   //handle the negative like -2 mod 5 should be 3 not -2
+                rem += k;
+            }
 
             if(map.containsKey(rem)){
                 count+=map.get(rem);
