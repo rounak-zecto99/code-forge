@@ -219,6 +219,7 @@
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rounak-zecto99/code-forge/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
+| [3524-find-x-value-of-array-i](https://github.com/rounak-zecto99/code-forge/tree/master/3524-find-x-value-of-array-i) |
 | [3540-minimum-time-to-visit-all-houses](https://github.com/rounak-zecto99/code-forge/tree/master/3540-minimum-time-to-visit-all-houses) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/rounak-zecto99/code-forge/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
@@ -358,6 +359,7 @@
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
 | [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [2919-minimum-increment-operations-to-make-array-beautiful](https://github.com/rounak-zecto99/code-forge/tree/master/2919-minimum-increment-operations-to-make-array-beautiful) |
+| [3524-find-x-value-of-array-i](https://github.com/rounak-zecto99/code-forge/tree/master/3524-find-x-value-of-array-i) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3665-twisted-mirror-path-count](https://github.com/rounak-zecto99/code-forge/tree/master/3665-twisted-mirror-path-count) |
 | [3693-climbing-stairs-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3693-climbing-stairs-ii) |
@@ -565,6 +567,7 @@
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rounak-zecto99/code-forge/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/rounak-zecto99/code-forge/tree/master/3289-the-two-sneaky-numbers-of-digitville) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/rounak-zecto99/code-forge/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3524-find-x-value-of-array-i](https://github.com/rounak-zecto99/code-forge/tree/master/3524-find-x-value-of-array-i) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
