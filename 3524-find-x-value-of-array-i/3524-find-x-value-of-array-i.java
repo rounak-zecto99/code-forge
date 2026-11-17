@@ -1,23 +1,33 @@
+
 class Solution {
-
     public long[] resultArray(int[] nums, int k) {
-        int n = nums.length;
-        long[] result = new long[k];
-        long[] dp = new long[k]; // Initial state: no elements have been processed, so no non-empty subarray exists.
 
-        for (int i = 0; i < n; i++) {
-            long[] ndp = new long[k]; // Current-layer state (rolling array).
-            ndp[nums[i] % k]++;
+        long[] ans = new long[k];
+        long[] dp = new long[k];
+
+        for (int num : nums) {
+
+            long[] next = new long[k];
+
+            // Start a new subarray
+            next[num % k]++;
+
+            // Extend previous subarrays
             for (int r = 0; r < k; r++) {
-                ndp[(int) (((long) r * nums[i]) % k)] += dp[r];
+
+                int newR = (int)((r * (long)num) % k);
+
+                next[newR] += dp[r];
             }
-            dp = ndp; // Update the state.
-            // Accumulate the answer.
+
+            // Add counts of subarrays ending here
             for (int r = 0; r < k; r++) {
-                result[r] += dp[r];
+                ans[r] += next[r];
             }
+
+            dp = next;
         }
 
-        return result;
+        return ans;
     }
 }
