@@ -8,18 +8,18 @@ class Solution {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < s.length(); i += k) {
-            long cur = 0L;
+            int cur = 0;
 
             for (int j = 0; j < k; j++) {
                 if (i + j >= s.length()) {
 
-                    sb.append(Long.toString(cur));
+                    sb.append(Integer.toString(cur));
 
                     return digitSum(sb.toString(), k);
                 }
                 cur += (s.charAt(i + j) - '0');
             }
-            sb.append(Long.toString(cur));
+            sb.append(Integer.toString(cur));
         }
         return digitSum(sb.toString(), k);
 
