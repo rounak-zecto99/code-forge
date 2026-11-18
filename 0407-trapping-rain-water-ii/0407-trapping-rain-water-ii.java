@@ -1,85 +1,113 @@
-class Cell {
-    int height;
-    int row;
-    int col;
-
-    Cell(int h, int r, int c) {
-        this.height = h;
-        this.row = r;
-        this.col = c;
-    }
-}
+import java.util.Arrays;
 
 class Solution {
-    int[] dr = { 0, 0, 1, -1 };
-    int[] dc = { 1, -1, 0, 0 };
+
+    private static final int MAX_HEIGHT = 20000;
+
+    private static final int[] dr = {0, 0, 1, -1};
+    private static final int[] dc = {1, -1, 0, 0};
 
     public int trapRainWater(int[][] heightMap) {
-        PriorityQueue<Cell> queue = new PriorityQueue<>((a, b) -> Integer.compare(a.height, b.height));
 
         int m = heightMap.length;
         int n = heightMap[0].length;
 
-        int top = 0;
-        int bottom = m - 1;
-        int left = 0;
-        int right = n - 1;
+        if (m < 3 || n < 3) return 0;
 
-        boolean[][] vis = new boolean[m][n];
+        int total = m * n;
 
-        for (int j = left; j <= right; j++) {
-            vis[top][j] = true;
-            queue.offer(new Cell(heightMap[top][j], top, j));
+        // Bucket heads: head[h] stores the first cell with effective height h.
+        int[] head = new int[MAX_HEIGHT + 1];
+        Arrays.fill(head, -1);
+
+        // Linked-list pointer for each cell.
+        int[] next = new int[total];
+
+        boolean[] visited = new boolean[total];
+
+        // Insert top and bottom boundaries.
+        for (int c = 0; c < n; c++) {
+
+            int topIdx = c;
+            int topHeight = heightMap[0][c];
+
+            visited[topIdx] = true;
+            next[topIdx] = head[topHeight];
+            head[topHeight] = topIdx;
+
+            int bottomIdx = (m - 1) * n + c;
+            int bottomHeight = heightMap[m - 1][c];
+
+            visited[bottomIdx] = true;
+            next[bottomIdx] = head[bottomHeight];
+            head[bottomHeight] = bottomIdx;
         }
-        top++;
 
-        for (int j = top; j <= bottom; j++) {
-            vis[j][right] = true;
-            queue.offer(new Cell(heightMap[j][right], j, right));
+        // Insert left and right boundaries, excluding corners.
+        for (int r = 1; r < m - 1; r++) {
+
+            int leftIdx = r * n;
+            int leftHeight = heightMap[r][0];
+
+            visited[leftIdx] = true;
+            next[leftIdx] = head[leftHeight];
+            head[leftHeight] = leftIdx;
+
+            int rightIdx = r * n + n - 1;
+            int rightHeight = heightMap[r][n - 1];
+
+            visited[rightIdx] = true;
+            next[rightIdx] = head[rightHeight];
+            head[rightHeight] = rightIdx;
         }
-        right--;
 
-        for (int j = right; j >= left; j--) {
-            vis[bottom][j] = true;
-            queue.offer(new Cell(heightMap[bottom][j], bottom, j));
-        }
-        bottom--;
-        for (int i = bottom; i >= top; i--) {
-            vis[i][left] = true;
-            queue.offer(new Cell(heightMap[i][left], i, left));
-        }
-        left++;
+        int water = 0;
+        int level = 0;
 
-        int cost = 0;
+        while (level <= MAX_HEIGHT) {
 
-        while (!queue.isEmpty()) {
-            int h = queue.peek().height;
-            int r = queue.peek().row;
-            int c = queue.peek().col;
+            // Find the smallest available effective height.
+            while (level <= MAX_HEIGHT && head[level] == -1) {
+                level++;
+            }
 
-            queue.poll();
+            if (level > MAX_HEIGHT) break;
 
-            for (int i = 0; i < 4; i++) {
-                int nr = r + dr[i];
-                int nc = c + dc[i];
+            // Remove one cell from this bucket.
+            int idx = head[level];
+            head[level] = next[idx];
+
+            int r = idx / n;
+            int c = idx % n;
+
+            // Explore its four neighbours.
+            for (int d = 0; d < 4; d++) {
+
+                int nr = r + dr[d];
+                int nc = c + dc[d];
 
                 if (nr < 0 || nc < 0 || nr >= m || nc >= n) {
                     continue;
                 }
 
-                if (vis[nr][nc])
-                    continue;
+                int ni = nr * n + nc;
 
-                vis[nr][nc] = true;
+                if (visited[ni]) continue;
 
-                int nHeight = heightMap[nr][nc];
-                int newHeight = Math.max(h, nHeight);
+                visited[ni] = true;
 
-                cost += newHeight - nHeight;
+                int terrainHeight = heightMap[nr][nc];
 
-                queue.offer(new Cell(newHeight, nr, nc));
+                int effectiveHeight = Math.max(level, terrainHeight);
+
+                water += effectiveHeight - terrainHeight;
+
+                // Insert into the bucket for its effective height.
+                next[ni] = head[effectiveHeight];
+                head[effectiveHeight] = ni;
             }
         }
-        return cost;
+
+        return water;
     }
 }
