@@ -204,6 +204,7 @@
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/rounak-zecto99/code-forge/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2518-number-of-great-partitions](https://github.com/rounak-zecto99/code-forge/tree/master/2518-number-of-great-partitions) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2747-count-zero-request-servers](https://github.com/rounak-zecto99/code-forge/tree/master/2747-count-zero-request-servers) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2855-minimum-right-shifts-to-sort-the-array](https://github.com/rounak-zecto99/code-forge/tree/master/2855-minimum-right-shifts-to-sort-the-array) |
@@ -400,6 +401,7 @@
 | [2195-append-k-integers-with-minimal-sum](https://github.com/rounak-zecto99/code-forge/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2384-largest-palindromic-number](https://github.com/rounak-zecto99/code-forge/tree/master/2384-largest-palindromic-number) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2712-minimum-cost-to-make-all-characters-equal](https://github.com/rounak-zecto99/code-forge/tree/master/2712-minimum-cost-to-make-all-characters-equal) |
 | [3282-reach-end-of-array-with-max-score](https://github.com/rounak-zecto99/code-forge/tree/master/3282-reach-end-of-array-with-max-score) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
@@ -501,6 +503,7 @@
 | [2251-number-of-flowers-in-full-bloom](https://github.com/rounak-zecto99/code-forge/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/rounak-zecto99/code-forge/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rounak-zecto99/code-forge/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2747-count-zero-request-servers](https://github.com/rounak-zecto99/code-forge/tree/master/2747-count-zero-request-servers) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/rounak-zecto99/code-forge/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
