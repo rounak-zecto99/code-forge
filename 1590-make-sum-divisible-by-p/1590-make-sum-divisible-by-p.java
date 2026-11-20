@@ -1,54 +1,38 @@
-
 class Solution {
     public int minSubarray(int[] nums, int p) {
 
-        HashMap<Integer, Deque<Integer>> map = new HashMap<>();
-        map.computeIfAbsent(0, k -> new ArrayDeque<>()).offerLast(0);
-
-        int preSum = 0;
-        int taken = 0;
         int n = nums.length;
+        int total = 0;
 
-        // Build prefix remainder map
+        for (int num : nums) {
+            total = (total + num) % p;
+        }
+
+        int target = total;
+
+        if (target == 0)
+            return 0;
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
+
+        int prefix = 0;
+        int ans = n;
+
         for (int i = 0; i < n; i++) {
-            preSum = (preSum + nums[i]) % p;
 
-            if (preSum == 0)
-                taken = i + 1;
+            prefix = (prefix + nums[i]) % p;
 
-            map.computeIfAbsent(preSum, k -> new ArrayDeque<>())
-               .offerLast(i + 1);
-        }
+            int needed = (prefix - target + p) % p;
 
-        int sufsum = 0;
-
-        // Traverse suffixes backwards
-        for (int i = n - 1; i >= 0; i--) {
-
-            sufsum = (sufsum + nums[i]) % p;
-
-            int rem = (p - sufsum) % p;
-
-            if (map.containsKey(rem)) {
-
-                Deque<Integer> deque = map.get(rem);
-
-                while (!deque.isEmpty() && deque.peekLast() > i) {
-                    deque.pollLast();
-                }
-
-                if (!deque.isEmpty()) {
-
-                    int nu = deque.peekLast() + n - i;
-
-                    if (nu == n)
-                        return 0;
-
-                    taken = Math.max(taken, nu);
-                }
+            if (map.containsKey(needed)) {
+                ans = Math.min(ans, i - map.get(needed));
             }
+
+            // Store the latest index for this remainder
+            map.put(prefix, i);
         }
 
-        return taken == 0 ? -1 : n - taken;
+        return ans == n ? -1 : ans;
     }
 }
