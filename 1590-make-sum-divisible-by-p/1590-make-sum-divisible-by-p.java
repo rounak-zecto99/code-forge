@@ -1,8 +1,8 @@
 class Solution {
     public int minSubarray(int[] nums, int p) {
 
-        HashMap<Integer, PriorityQueue<Integer>> map = new HashMap<>();
-        map.computeIfAbsent(0, k -> new PriorityQueue<>(Collections.reverseOrder())).offer(0);
+        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+        map.computeIfAbsent(0, k -> new ArrayList<>()).add(0);
 
         //0 for suffix only divisibility
 
@@ -17,27 +17,29 @@ class Solution {
             if (preSum % p == 0)
                 taken = i + 1;
 
-            map.computeIfAbsent(preSum, k -> new PriorityQueue<>(Collections.reverseOrder())).offer(i + 1);
+            map.computeIfAbsent(preSum, k -> new ArrayList<>()).add(i + 1);
         }
 
         int sufsum = 0;
 
         for (int i = n - 1; i >= 0; i--) {
 
-            sufsum = (sufsum + nums[i]) %p;
+            sufsum = (sufsum + nums[i]) % p;
 
-            int rem = (p - sufsum) %p;
+            int rem = (p - sufsum) % p;
 
             if (map.containsKey(rem)) {
 
-                PriorityQueue<Integer> heap = map.get(rem);
+                ArrayList<Integer> list = map.get(rem);
+                int last = list.size() - 1;
 
-                while (!heap.isEmpty() && heap.peek() + n - i > n) {
-                    heap.poll(); //pulls out all the stale element
+                while (last >= 0 && list.get(last) + n - i > n) {
+                    list.remove(last); //pulls out all the stale element
+                    last--;
                 }
 
-                if (!heap.isEmpty()) {
-                    int nu = heap.peek() + n - i;
+                if (last >= 0) {
+                    int nu = list.get(last) + n - i;
 
                     if (nu == n)
                         return 0;
