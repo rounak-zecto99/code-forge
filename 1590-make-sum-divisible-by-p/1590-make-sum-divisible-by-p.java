@@ -33,7 +33,7 @@ class Solution {
                 ArrayList<Integer> list = map.get(rem);
                 int last = list.size() - 1;
 
-                while (last >= 0 && list.get(last) + n - i > n) {
+                while (last >= 0 && list.get(last) > i) { //list.get(last) + n - i > n
                     list.remove(last); //pulls out all the stale element
                     last--;
                 }
