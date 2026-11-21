@@ -577,6 +577,7 @@
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rounak-zecto99/code-forge/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/rounak-zecto99/code-forge/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/rounak-zecto99/code-forge/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3870-count-commas-in-range](https://github.com/rounak-zecto99/code-forge/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3871-count-commas-in-range-ii) |
