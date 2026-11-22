@@ -798,6 +798,7 @@
 | [1927-sum-game](https://github.com/rounak-zecto99/code-forge/tree/master/1927-sum-game) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2068-check-whether-two-strings-are-almost-equivalent](https://github.com/rounak-zecto99/code-forge/tree/master/2068-check-whether-two-strings-are-almost-equivalent) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/rounak-zecto99/code-forge/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2211-count-collisions-on-a-road](https://github.com/rounak-zecto99/code-forge/tree/master/2211-count-collisions-on-a-road) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rounak-zecto99/code-forge/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/rounak-zecto99/code-forge/tree/master/2243-calculate-digit-sum-of-a-string) |
