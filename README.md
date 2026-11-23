@@ -233,6 +233,7 @@
 | [3665-twisted-mirror-path-count](https://github.com/rounak-zecto99/code-forge/tree/master/3665-twisted-mirror-path-count) |
 | [3693-climbing-stairs-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3693-climbing-stairs-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3824-minimum-k-to-reduce-array-within-limit](https://github.com/rounak-zecto99/code-forge/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
@@ -292,6 +293,7 @@
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
+| [3824-minimum-k-to-reduce-array-within-limit](https://github.com/rounak-zecto99/code-forge/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
 ## Dynamic Programming
 |  |
 | ------- |
