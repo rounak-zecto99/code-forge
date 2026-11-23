@@ -160,6 +160,7 @@
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rounak-zecto99/code-forge/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/rounak-zecto99/code-forge/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -425,6 +426,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
+| [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/rounak-zecto99/code-forge/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/rounak-zecto99/code-forge/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1590-make-sum-divisible-by-p](https://github.com/rounak-zecto99/code-forge/tree/master/1590-make-sum-divisible-by-p) |
@@ -559,6 +561,7 @@
 | [1137-n-th-tribonacci-number](https://github.com/rounak-zecto99/code-forge/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/rounak-zecto99/code-forge/tree/master/1248-count-number-of-nice-subarrays) |
+| [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 | [1512-number-of-good-pairs](https://github.com/rounak-zecto99/code-forge/tree/master/1512-number-of-good-pairs) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/rounak-zecto99/code-forge/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1776-car-fleet-ii](https://github.com/rounak-zecto99/code-forge/tree/master/1776-car-fleet-ii) |
@@ -1342,6 +1345,7 @@
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
+| [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1411,6 +1415,7 @@
 | [0703-kth-largest-element-in-a-stream](https://github.com/rounak-zecto99/code-forge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/rounak-zecto99/code-forge/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/rounak-zecto99/code-forge/tree/master/0933-number-of-recent-calls) |
+| [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 ## Bitmask
 |  |
 | ------- |
