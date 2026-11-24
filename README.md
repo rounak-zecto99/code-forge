@@ -241,6 +241,7 @@
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
 | [3903-smallest-stable-index-i](https://github.com/rounak-zecto99/code-forge/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3904-smallest-stable-index-ii) |
+| [3928-minimum-cost-to-buy-apples-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3928-minimum-cost-to-buy-apples-ii) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 | [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
@@ -1108,6 +1109,7 @@
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/rounak-zecto99/code-forge/tree/master/2231-largest-number-after-digit-swaps-by-parity) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rounak-zecto99/code-forge/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
+| [3928-minimum-cost-to-buy-apples-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3928-minimum-cost-to-buy-apples-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1699,6 +1701,7 @@
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
+| [3928-minimum-cost-to-buy-apples-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3928-minimum-cost-to-buy-apples-ii) |
 ## Topological Sort
 |  |
 | ------- |
@@ -1774,6 +1777,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rounak-zecto99/code-forge/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [3112-minimum-time-to-visit-disappearing-nodes](https://github.com/rounak-zecto99/code-forge/tree/master/3112-minimum-time-to-visit-disappearing-nodes) |
+| [3928-minimum-cost-to-buy-apples-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3928-minimum-cost-to-buy-apples-ii) |
 ## Newton's Method
 |  |
 | ------- |
