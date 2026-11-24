@@ -160,6 +160,7 @@
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/rounak-zecto99/code-forge/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rounak-zecto99/code-forge/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/rounak-zecto99/code-forge/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1306-jump-game-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1306-jump-game-iii) |
 | [1352-product-of-the-last-k-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/1352-product-of-the-last-k-numbers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rounak-zecto99/code-forge/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1383-maximum-performance-of-a-team](https://github.com/rounak-zecto99/code-forge/tree/master/1383-maximum-performance-of-a-team) |
@@ -1238,6 +1239,7 @@
 | [1236-web-crawler](https://github.com/rounak-zecto99/code-forge/tree/master/1236-web-crawler) |
 | [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/rounak-zecto99/code-forge/tree/master/1267-count-servers-that-communicate) |
+| [1306-jump-game-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1306-jump-game-iii) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [2360-longest-cycle-in-a-graph](https://github.com/rounak-zecto99/code-forge/tree/master/2360-longest-cycle-in-a-graph) |
@@ -1603,6 +1605,7 @@
 | [1254-number-of-closed-islands](https://github.com/rounak-zecto99/code-forge/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/rounak-zecto99/code-forge/tree/master/1267-count-servers-that-communicate) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rounak-zecto99/code-forge/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1306-jump-game-iii](https://github.com/rounak-zecto99/code-forge/tree/master/1306-jump-game-iii) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rounak-zecto99/code-forge/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rounak-zecto99/code-forge/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/rounak-zecto99/code-forge/tree/master/1765-map-of-highest-peak) |
