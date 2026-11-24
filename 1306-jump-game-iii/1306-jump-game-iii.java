@@ -13,7 +13,12 @@ class Solution {
 
         visited[start] = true;
 
-        return dfs(arr, start + arr[start], visited)
-            || dfs(arr, start - arr[start], visited);
+        if (dfs(arr, start + arr[start], visited))
+            return true;
+
+        if (dfs(arr, start - arr[start], visited))
+            return true;
+
+        return false;
     }
 }
