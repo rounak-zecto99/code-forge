@@ -69,14 +69,14 @@ class Solution {
 
             pq.poll();
 
-            if (dis[node] < distance)
+            if (dis[node] < distance || distance > limit)
                 continue;
 
             for (Tuple neigh : graph.getOrDefault(node, Collections.emptyList())) {
                 int nextNode = neigh.node;
                 long nextDis = neigh.distance;
 
-                if (nextDis + distance < dis[nextNode] && nextDis <= limit) {
+                if (nextDis + distance < dis[nextNode]) {
                     dis[nextNode] = nextDis + distance;
                     pq.offer(new Tuple(dis[nextNode], nextNode));
                 }
