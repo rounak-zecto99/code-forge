@@ -1,3 +1,4 @@
+
 class Tuple {
     long distance;
     int node;
@@ -8,79 +9,110 @@ class Tuple {
     }
 }
 
+class Edge {
+    int node;
+    long forwardCost;
+    long backwardCost;
+
+    Edge(int node, long forwardCost, long backwardCost) {
+        this.node = node;
+        this.forwardCost = forwardCost;
+        this.backwardCost = backwardCost;
+    }
+}
+
 class Solution {
 
-    long inf = (long) Integer.MAX_VALUE;
+    long inf = Long.MAX_VALUE;
 
     public int[] minCost(int n, int[] prices, int[][] roads) {
 
-        Map<Integer, List<Tuple>> travel = new HashMap<>();
-        Map<Integer, List<Tuple>> returning = new HashMap<>();
-
-        for (int[] cur : roads) {
-            int node1 = cur[0];
-            int node2 = cur[1];
-
-            int cost = cur[2];
-            long tax = (long) cost * cur[3];
-
-            travel.computeIfAbsent(node1, k -> new ArrayList<>()).add(new Tuple(cost,node2));
-            travel.computeIfAbsent(node2, k -> new ArrayList<>()).add(new Tuple(cost,node1));
-
-            returning.computeIfAbsent(node1, k -> new ArrayList<>()).add(new Tuple(tax,node2));
-            returning.computeIfAbsent(node2, k -> new ArrayList<>()).add(new Tuple(tax,node1));
-        }
-
-        int[] ans = new int[n];
+        List<List<Edge>> graph = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
-            long[] forward = new long[n];
-            long[] backward = new long[n];
+            graph.add(new ArrayList<>());
+        }
 
-            for (int index = 0; index < n; index++) {
-                forward[index] = inf;
-                backward[index] = inf;
-            }
+        for (int[] cur : roads) {
+            int u = cur[0];
+            int v = cur[1];
 
-            long best = prices[i];
+            long cost = cur[2];
+            long tax = cost * cur[3];
 
-            dijkstra(travel, forward, i, best);
-            dijkstra(returning, backward, i, best);
+            graph.get(u).add(new Edge(v, cost, tax));
+            graph.get(v).add(new Edge(u, cost, tax));
+        }
+
+        int[] ans = Arrays.copyOf(prices, n);
+
+        for (int i = 0; i < n; i++) {
+
+            long limit = prices[i];
+
+            long[] forward = dijkstra(graph, i, limit, false);
+            long[] backward = dijkstra(graph, i, limit, true);
 
             for (int j = 0; j < n; j++) {
-                best = Math.min(best,(long) prices[j] + forward[j] + backward[j]);
+
+                if (forward[j] == inf || backward[j] == inf)
+                    continue;
+
+                long total = (long) prices[j] + forward[j] + backward[j];
+
+                if (total < ans[i])
+                    ans[i] = (int) total;
             }
-            ans[i] = (int) best;
         }
+
         return ans;
     }
 
-    public void dijkstra(Map<Integer, List<Tuple>> graph, long[] dis, int start, long limit) {
+    public long[] dijkstra(List<List<Edge>> graph, int start,
+                           long limit, boolean carrying) {
 
-        PriorityQueue<Tuple> pq = 
-                            new PriorityQueue<>((a, b) -> Long.compare(a.distance, b.distance));
+        int n = graph.size();
+
+        long[] dis = new long[n];
+        Arrays.fill(dis, inf);
+
+        PriorityQueue<Tuple> pq =
+            new PriorityQueue<>((a, b) ->
+                Long.compare(a.distance, b.distance));
 
         pq.offer(new Tuple(0, start));
         dis[start] = 0;
 
         while (!pq.isEmpty()) {
-            long distance = pq.peek().distance;
-            int node = pq.peek().node;
 
-            pq.poll();
+            Tuple cur = pq.poll();
 
-            if (dis[node] < distance || distance > limit)
+            long distance = cur.distance;
+            int node = cur.node;
+
+            if (distance > dis[node])
                 continue;
 
-            for (Tuple neigh : graph.getOrDefault(node, Collections.emptyList())) {
-                int nextNode = neigh.node;
-                long nextDis = neigh.distance;
+            for (Edge edge : graph.get(node)) {
 
-                if (nextDis + distance < dis[nextNode]) {
-                    dis[nextNode] = nextDis + distance;
-                    pq.offer(new Tuple(dis[nextNode], nextNode));
+                int nextNode = edge.node;
+
+                long weight = carrying
+                    ? edge.backwardCost
+                    : edge.forwardCost;
+
+                long nextDistance = distance + weight;
+
+                if (nextDistance < dis[nextNode]
+                        && nextDistance <= limit) {
+
+                    dis[nextNode] = nextDistance;
+
+                    pq.offer(new Tuple(nextDistance, nextNode));
                 }
             }
         }
+
+        return dis;
     }
 }
