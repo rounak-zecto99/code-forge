@@ -1,13 +1,20 @@
-import java.util.*;
+class Tweet {
+    int id;
+    int time;
+    Tweet next;
+
+    Tweet(int id, int time) {
+        this.id = id;
+        this.time = time;
+    }
+}
 
 class Twitter {
 
-    private int timestamp = 0;
+    private int time = 0;
 
-    // userId -> list of tweets posted by that user
-    private Map<Integer, List<Tweet>> tweets;
+    private Map<Integer, Tweet> tweets;
 
-    // userId -> set of users they follow
     private Map<Integer, Set<Integer>> following;
 
     public Twitter() {
@@ -15,75 +22,68 @@ class Twitter {
         following = new HashMap<>();
     }
 
-    private static class Tweet {
-        int id;
-        int time;
-
-        Tweet(int id, int time) {
-            this.id = id;
-            this.time = time;
-        }
-    }
-
     public void postTweet(int userId, int tweetId) {
-        tweets.putIfAbsent(userId, new ArrayList<>());
 
-        tweets.get(userId).add(new Tweet(tweetId, timestamp++));
+        Tweet head = tweets.get(userId);
+
+        Tweet newTweet = new Tweet(tweetId, time++);
+
+        newTweet.next = head;
+
+        tweets.put(userId, newTweet);
     }
 
     public List<Integer> getNewsFeed(int userId) {
 
-        PriorityQueue<Tweet> pq = new PriorityQueue<>(
-            (a, b) -> Integer.compare(b.time, a.time)
-        );
-
-        // Include the user's own tweets
-        addTweets(userId, pq);
-
-        // Include tweets from followed users
-        Set<Integer> users = following.getOrDefault(
-            userId, Collections.emptySet()
-        );
-
-        for (int followee : users) {
-            addTweets(followee, pq);
-        }
-
         List<Integer> result = new ArrayList<>();
 
+        PriorityQueue<Tweet> pq = new PriorityQueue<>((a, b) -> Integer.compare(b.time, a.time));
+
+        if (tweets.containsKey(userId)) {
+            pq.offer(tweets.get(userId));
+        }
+
+        Set<Integer> followees = following.getOrDefault(userId, Collections.emptySet());
+
+        for (int followee : followees) {
+
+            Tweet head = tweets.get(followee);
+
+            if (head != null) {
+                pq.offer(head);
+            }
+        }
+
         while (!pq.isEmpty() && result.size() < 10) {
-            result.add(pq.poll().id);
+
+            Tweet current = pq.poll();
+
+            result.add(current.id);
+
+            if (current.next != null) {
+                pq.offer(current.next);
+            }
         }
 
         return result;
     }
 
-    private void addTweets(int userId, PriorityQueue<Tweet> pq) {
+    public void follow(int followerId, int followeeId) {
 
-        List<Tweet> userTweets = tweets.get(userId);
-
-        if (userTweets == null) {
+        if (followerId == followeeId) {
             return;
         }
 
-        for (Tweet tweet : userTweets) {
-            pq.offer(tweet);
-        }
-    }
+        following.computeIfAbsent(followerId,k -> new HashSet<>()).add(followeeId);
 
-    public void follow(int followerId, int followeeId) {
-
-        following.putIfAbsent(followerId, new HashSet<>());
-
-        following.get(followerId).add(followeeId);
     }
 
     public void unfollow(int followerId, int followeeId) {
 
-        Set<Integer> users = following.get(followerId);
+        Set<Integer> followees = following.get(followerId);
 
-        if (users != null) {
-            users.remove(followeeId);
+        if (followees != null) {
+            followees.remove(followeeId);
         }
     }
 }
