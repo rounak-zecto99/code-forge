@@ -244,6 +244,7 @@
 | [3903-smallest-stable-index-i](https://github.com/rounak-zecto99/code-forge/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3904-smallest-stable-index-ii) |
 | [3928-minimum-cost-to-buy-apples-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3928-minimum-cost-to-buy-apples-ii) |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 | [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
@@ -298,6 +299,7 @@
 | [2540-minimum-common-value](https://github.com/rounak-zecto99/code-forge/tree/master/2540-minimum-common-value) |
 | [3413-maximum-coins-from-k-consecutive-bags](https://github.com/rounak-zecto99/code-forge/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3824-minimum-k-to-reduce-array-within-limit](https://github.com/rounak-zecto99/code-forge/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1038,6 +1040,7 @@
 | [3483-unique-3-digit-even-numbers](https://github.com/rounak-zecto99/code-forge/tree/master/3483-unique-3-digit-even-numbers) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/rounak-zecto99/code-forge/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3843-first-element-with-unique-frequency](https://github.com/rounak-zecto99/code-forge/tree/master/3843-first-element-with-unique-frequency) |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 ## Backtracking
 |  |
 | ------- |
@@ -1639,11 +1642,13 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 ## Hash Function
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rounak-zecto99/code-forge/tree/master/0187-repeated-dna-sequences) |
 | [0705-design-hashset](https://github.com/rounak-zecto99/code-forge/tree/master/0705-design-hashset) |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 ## Z Algorithm
 |  |
 | ------- |
@@ -1806,4 +1811,8 @@
 |  |
 | ------- |
 | [0480-sliding-window-median](https://github.com/rounak-zecto99/code-forge/tree/master/0480-sliding-window-median) |
+## Suffix Array
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/rounak-zecto99/code-forge/tree/master/3934-smallest-unique-subarray) |
 <!---LeetCode Topics End-->
