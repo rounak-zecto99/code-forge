@@ -248,6 +248,7 @@
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rounak-zecto99/code-forge/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 | [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Binary Search
 |  |
 | ------- |
@@ -420,6 +421,7 @@
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/rounak-zecto99/code-forge/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [4098-minimize-the-maximum-value-of-gcd-connected-array](https://github.com/rounak-zecto99/code-forge/tree/master/4098-minimize-the-maximum-value-of-gcd-connected-array) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -464,6 +466,7 @@
 | [0347-top-k-frequent-elements](https://github.com/rounak-zecto99/code-forge/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/rounak-zecto99/code-forge/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Sorting
 |  |
 | ------- |
@@ -524,6 +527,7 @@
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Math
 |  |
 | ------- |
@@ -1183,6 +1187,7 @@
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rounak-zecto99/code-forge/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Ordered Set
 |  |
 | ------- |
@@ -1299,6 +1304,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rounak-zecto99/code-forge/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/rounak-zecto99/code-forge/tree/master/0148-sort-list) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Tournament Sort
 |  |
 | ------- |
@@ -1776,6 +1782,7 @@
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/rounak-zecto99/code-forge/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rounak-zecto99/code-forge/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
 ## Bidirectional Search
 |  |
 | ------- |
