@@ -1,28 +1,37 @@
 class Solution {
     public int minOperations(int[] nums, int[] locked, int k) {
-        int count=0;
-        for(int i=0;i<nums.length;i++){
-            for(int j=i+1;j<nums.length;j++){
-                if(nums[i]>nums[j]){
-                    count++;
-                }
-            }
-        }
-        int maxx=0 ,st=0,val=0;
-        for(int i=0;i<nums.length;i++){
-            maxx=Math.max(maxx,nums[i]);
-            if(maxx==i+1){
-                if(i>st){
-                    for(int j=st;j<=i;j++){
-                        if(locked[j]==1){
-                            val++;
-                        }
+        int n = nums.length;
+
+        int ops = 0, reqK = 0;
+
+        // Bubble sort
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - 1; j++) {
+                if (nums[j] > nums[j + 1]) {
+
+                    if (locked[j] == 1) {
+                        locked[j] = 0;
+                        reqK++;
                     }
+
+                    if (locked[j + 1] == 1) {
+                        locked[j + 1] = 0;
+                        reqK++;
+                    }
+
+                    int temp = nums[j];
+                    nums[j] = nums[j + 1];
+                    nums[j + 1] = temp;
+
+                    ops++;
                 }
-                st=i+1;
             }
         }
-        if(val>k) return -1;
-        return count+val;
+
+        if (reqK > k) {
+            return -1;
+        }
+
+        return ops + reqK;
     }
 }
