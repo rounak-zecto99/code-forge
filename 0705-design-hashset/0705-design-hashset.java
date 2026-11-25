@@ -1,26 +1,16 @@
 class MyHashSet {
-    boolean [] hash;
-    public MyHashSet() {
-        hash = new boolean[1000_001];
-    }
-    
+
+    private final int[] bits = new int[31251];
+
     public void add(int key) {
-        hash[key] = true;
+        bits[key / 32] |= (1 << (key % 32));
     }
-    
+
     public void remove(int key) {
-        hash[key] = false;
+        bits[key / 32] &= ~(1 << (key % 32));
     }
-    
+
     public boolean contains(int key) {
-        return hash[key];
+        return (bits[key / 32] & (1 << (key % 32))) != 0;
     }
 }
-
-/**
- * Your MyHashSet object will be instantiated and called as such:
- * MyHashSet obj = new MyHashSet();
- * obj.add(key);
- * obj.remove(key);
- * boolean param_3 = obj.contains(key);
- */
