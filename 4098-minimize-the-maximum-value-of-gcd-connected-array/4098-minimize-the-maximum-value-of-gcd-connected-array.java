@@ -1,4 +1,3 @@
-
 class Solution {
     public long minimumMaxValue(int n, int index, int value) {
 
