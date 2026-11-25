@@ -7,7 +7,7 @@ class MyHashSet {
     }
 
     public void remove(int key) {
-        bits[key / 32] &= ~(1 << (key % 32));
+        bits[key / 32] =  bits[key / 32] & ~(1 << (key % 32));
     }
 
     public boolean contains(int key) {
