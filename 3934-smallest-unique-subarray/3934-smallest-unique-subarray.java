@@ -1,48 +1,64 @@
 class Solution {
 
     public int smallestUniqueSubarray(int[] nums) {
-        final long MOD = 1000000007L;
-        final long BASE = 911382323L;
+        final long modulus = 1000000007L;
+        final long base = 911382323L;
 
         int n = nums.length;
-        long[] h = new long[n + 1];
-        long[] p = new long[n + 1];
-        p[0] = 1;
 
-        // Compute prefix hashes and powers of BASE
-        for (int i = 0; i < n; ++i) {
-            h[i + 1] = (h[i] * BASE + nums[i]) % MOD;
-            p[i + 1] = (p[i] * BASE) % MOD;
+        long[] prefixHash = new long[n + 1];
+        long[] basePowers = new long[n + 1];
+
+        basePowers[0] = 1;
+
+        // Precompute prefix hashes and powers of base
+        for (int i = 0; i < n; i++) {
+            prefixHash[i + 1] =
+                (prefixHash[i] * base + nums[i]) % modulus;
+
+            basePowers[i + 1] =
+                (basePowers[i] * base) % modulus;
         }
 
-        int lo = 1,
-            hi = n;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (check(mid, n, h, p, MOD)) {
-                hi = mid;
+        int leftLength = 1;
+        int rightLength = n;
+
+        while (leftLength < rightLength) {
+            int mid = leftLength + (rightLength - leftLength) / 2;
+
+            if (hasUniqueWindow(mid, n, prefixHash, basePowers, modulus)) {
+                rightLength = mid;
             } else {
-                lo = mid + 1;
+                leftLength = mid + 1;
             }
         }
 
-        return hi;
+        return leftLength;
     }
 
-    private boolean check(int len, int n, long[] h, long[] p, long MOD) {
-        Map<Long, Integer> cnt = new HashMap<>();
+    private boolean hasUniqueWindow(
+        int len,
+        int n,
+        long[] prefixHash,
+        long[] basePowers,
+        long modulus
+    ) {
+        Map<Long, Integer> windowFrequency = new HashMap<>();
 
-        for (int l = 0; l + len <= n; ++l) {
-            int r = l + len;
-            long key = (h[r] - ((h[l] * p[len]) % MOD) + MOD) % MOD;
-            cnt.merge(key, 1, Integer::sum);
+        for (int start = 0; start + len <= n; start++) {
+            int end = start + len;
+
+            long windowHash =(prefixHash[end] - (prefixHash[start] * basePowers[len]) % modulus + modulus) % modulus;
+
+            windowFrequency.merge(windowHash, 1, Integer::sum);
         }
 
-        for (int times : cnt.values()) {
-            if (times == 1) {
+        for (int frequency : windowFrequency.values()) {
+            if (frequency == 1) {
                 return true;
             }
         }
+
         return false;
     }
 }
