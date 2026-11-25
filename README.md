@@ -419,6 +419,7 @@
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/rounak-zecto99/code-forge/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/rounak-zecto99/code-forge/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/rounak-zecto99/code-forge/tree/master/3789-minimum-cost-to-acquire-required-items) |
+| [4098-minimize-the-maximum-value-of-gcd-connected-array](https://github.com/rounak-zecto99/code-forge/tree/master/4098-minimize-the-maximum-value-of-gcd-connected-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -595,6 +596,7 @@
 | [3870-count-commas-in-range](https://github.com/rounak-zecto99/code-forge/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3871-count-commas-in-range-ii) |
 | [3886-sum-of-sortable-integers](https://github.com/rounak-zecto99/code-forge/tree/master/3886-sum-of-sortable-integers) |
+| [4098-minimize-the-maximum-value-of-gcd-connected-array](https://github.com/rounak-zecto99/code-forge/tree/master/4098-minimize-the-maximum-value-of-gcd-connected-array) |
 ## Recursion
 |  |
 | ------- |
@@ -1560,6 +1562,7 @@
 | [1979-find-greatest-common-divisor-of-array](https://github.com/rounak-zecto99/code-forge/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/rounak-zecto99/code-forge/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/rounak-zecto99/code-forge/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
+| [4098-minimize-the-maximum-value-of-gcd-connected-array](https://github.com/rounak-zecto99/code-forge/tree/master/4098-minimize-the-maximum-value-of-gcd-connected-array) |
 ## Euclidean Algorithm
 |  |
 | ------- |
