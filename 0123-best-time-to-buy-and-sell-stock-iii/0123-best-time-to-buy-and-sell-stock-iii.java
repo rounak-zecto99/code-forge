@@ -1,34 +1,18 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int length = prices.length;
-        if (length <= 1)
-            return 0;
+        int t1cost = Integer.MAX_VALUE;
+        int t2cost = Integer.MAX_VALUE;
 
-        int leftMin = prices[0];
-        int rightMax = prices[length - 1];
+        int t1Profit = 0;
+        int t2Profit = 0;
 
-        int[] leftProfits = new int[length];
-        // pad the right DP array with an additional zero for convenience.
-        int[] rightProfits = new int[length + 1];
+        for(int price : prices){
+            t1cost = Math.min(t1cost,price);
+            t1Profit = Math.max(t1Profit, price - t1cost);
 
-        // construct the bidirectional DP array
-        for (int l = 1; l < length; ++l) {
-            leftProfits[l] = Math.max(leftProfits[l - 1], prices[l] - leftMin);
-            leftMin = Math.min(leftMin, prices[l]);
-
-            int r = length - 1 - l;
-            rightProfits[r] = Math.max(
-                    rightProfits[r + 1],
-                    rightMax - prices[r]);
-            rightMax = Math.max(rightMax, prices[r]);
+            t2cost = Math.min(t2cost,price - t1Profit);
+            t2Profit = Math.max(t2Profit, price - t2cost);
         }
-
-        int maxProfit = 0;
-        for (int i = 0; i < length; ++i) {
-            maxProfit = Math.max(
-                    maxProfit,
-                    leftProfits[i] + rightProfits[i + 1]);
-        }
-        return maxProfit;
+        return t2Profit;        
     }
 }
