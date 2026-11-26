@@ -2,7 +2,7 @@ class Solution {
 
     public int smallestUniqueSubarray(int[] nums) {
         final long modulus = 1000000007L;
-        final long base = 911382323L;
+        final long base = 321L;
 
         int n = nums.length;
 
