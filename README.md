@@ -351,6 +351,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/rounak-zecto99/code-forge/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/rounak-zecto99/code-forge/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rounak-zecto99/code-forge/tree/master/0542-01-matrix) |
+| [0600-non-negative-integers-without-consecutive-ones](https://github.com/rounak-zecto99/code-forge/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0647-palindromic-substrings](https://github.com/rounak-zecto99/code-forge/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rounak-zecto99/code-forge/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rounak-zecto99/code-forge/tree/master/0787-cheapest-flights-within-k-stops) |
