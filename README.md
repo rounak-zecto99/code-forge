@@ -249,6 +249,7 @@
 | [4020-elevator-requests-i](https://github.com/rounak-zecto99/code-forge/tree/master/4020-elevator-requests-i) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
 | [4099-minimum-operations-to-sort-with-locked-indices](https://github.com/rounak-zecto99/code-forge/tree/master/4099-minimum-operations-to-sort-with-locked-indices) |
+| [4100-minimum-cost-path-with-even-xor-parity](https://github.com/rounak-zecto99/code-forge/tree/master/4100-minimum-cost-path-with-even-xor-parity) |
 ## Binary Search
 |  |
 | ------- |
@@ -379,6 +380,7 @@
 | [3693-climbing-stairs-ii](https://github.com/rounak-zecto99/code-forge/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
+| [4100-minimum-cost-path-with-even-xor-parity](https://github.com/rounak-zecto99/code-forge/tree/master/4100-minimum-cost-path-with-even-xor-parity) |
 ## Greedy
 |  |
 | ------- |
@@ -948,6 +950,7 @@
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rounak-zecto99/code-forge/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [4027-elevator-requests-iii](https://github.com/rounak-zecto99/code-forge/tree/master/4027-elevator-requests-iii) |
+| [4100-minimum-cost-path-with-even-xor-parity](https://github.com/rounak-zecto99/code-forge/tree/master/4100-minimum-cost-path-with-even-xor-parity) |
 ## Pigeonhole Principle
 |  |
 | ------- |
@@ -1265,6 +1268,7 @@
 | [3331-find-subtree-sizes-after-changes](https://github.com/rounak-zecto99/code-forge/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rounak-zecto99/code-forge/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [4100-minimum-cost-path-with-even-xor-parity](https://github.com/rounak-zecto99/code-forge/tree/master/4100-minimum-cost-path-with-even-xor-parity) |
 ## Trie
 |  |
 | ------- |
@@ -1361,6 +1365,7 @@
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rounak-zecto99/code-forge/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3331-find-subtree-sizes-after-changes](https://github.com/rounak-zecto99/code-forge/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rounak-zecto99/code-forge/tree/master/3841-palindromic-path-queries-in-a-tree) |
+| [4100-minimum-cost-path-with-even-xor-parity](https://github.com/rounak-zecto99/code-forge/tree/master/4100-minimum-cost-path-with-even-xor-parity) |
 ## Design
 |  |
 | ------- |
